@@ -1,0 +1,23 @@
+h1. Usage
+
+In your home directory (Linux or Mac), run:
+
+<pre><code>mv ~/.vim ~/vim_old # backup your old .vim folder
+git clone git://github.com/lucascaton/vimfiles.git ~/.vim
+
+mv ~/.vimrc ~/vimrc_old
+mv ~/.vim/vimrc ~/.vimrc
+</code></pre>
+
+h1. Fonts
+
+Monaco is for Mac, Consolas is for Windows. Under Linux better try "Bitstream Vera Sans Mono".
+
+h1. References
+
+* MacVim - http://code.google.com/p/macvim/
+* gVim - http://www.vim.org/download.php#pc
+* Using Vim as a Complete Ruby on Rails IDE - http://biodegradablegeek.com/2007/12/using-vim-as-a-complete-ruby-on-rails-ide/
+* Why, oh WHY, do those #?@! nutheads use vi? - http://www.viemu.com/a-why-vi-vim.html
+* Efficient Editing With vim - http://jmcpherson.org/editing.html
+* Byte of Vim - http://www.swaroopch.com/notes/Vim
