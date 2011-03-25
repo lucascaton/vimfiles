@@ -1,19 +1,62 @@
+h1. Vim
+
+It is recommended that you use gVim in either Windows or Linux and MacVim for Mac. Download from:
+
+* (Windows) http://www.vim.org/download.php#pc (gvim72.exe)
+* (Mac) http://code.google.com/p/macvim/downloads/list (snapshot-52)
+
 h1. Usage
 
-In your home directory (Linux or Mac), run:
+Troubleshoot: Because of the large amount of submodules, if you ever have any trouble after pulling from the repository, it will be easier to just back up your old .vim folder and just git clone a new version.
 
-<pre><code>mv ~/.vim ~/vim_old # backup your old .vim folder
-git clone git@github.com:lucascaton/vimfiles.git ~/.vim
+Clone this repo into your home directory either as .vim (linux/mac) or vimfiles (Windows). Such as:
 
-mv ~/.vimrc ~/vimrc_old
-mv ~/.vim/vimrc ~/.vimrc
+<pre><code>
+git clone git://github.com/lucascaton/vimfiles.git ~/.vim
+</pre></code>
+
+Then 'cd' into the repo and run this to get the snippets submodule:
+
+<pre><code>
+git submodule init
+git submodule update
 </code></pre>
 
-h1. Fonts
+Now just copy (or symlink) the .vim/vimrc file as .vimrc (Mac/Linux) or copy as _vimrc (Windows) in your home directory. In Mac and Linux, the 
+easiest thing to do is:
+
+<pre><code>
+ln -s ~/.vim/vimrc ~/.vimrc
+</pre></code>
+
+If you already have a custom .vimrc file, append the following lines to load everything else along with your personal hacks:
+
+<pre><code>
+source ~/.vim/vimrc      "linux
+source ~/vimfiles/vimrc  "windows
+</code></pre>
+
+h2. Help Tags
+
+At first usage of vim, type ":" while in command mode and execute:
+
+  call pathogen#helptags()
+
+This will make the plugins documentations available upon :help
+
+h2. Fonts
 
 Monaco is for Mac, Consolas is for Windows. Under Linux better try "Bitstream Vera Sans Mono".
 
-h1. References
+h2. Learn Vim
+
+Visit the following sites to learn more about Vim:
+
+* http://vimcasts.org
+
+There are many sites teaching Vim, if you know of any other that are easy to follow for newcomers, let me know.
+
+h2. References
 
 * MacVim - http://code.google.com/p/macvim/
 * gVim - http://www.vim.org/download.php#pc
@@ -21,3 +64,9 @@ h1. References
 * Why, oh WHY, do those #?@! nutheads use vi? - http://www.viemu.com/a-why-vi-vim.html
 * Efficient Editing With vim - http://jmcpherson.org/editing.html
 * Byte of Vim - http://www.swaroopch.com/notes/Vim
+
+h2. Credits
+
+Lucas Caton.
+* http://blog.lucascaton.com.br/
+* http://twitter.com/lucascaton
