@@ -84,6 +84,18 @@ colorscheme ir_black
 " Fonts for Mac
 set guifont=Monaco:h12
 
+" Don't show the top bar
+set guioptions-=T
+
+if has("gui_running")
+  set t_Co=256
+  set lines=57
+  set columns=237
+else
+  let g:CSApprox_loaded = 0
+  syntax on
+endif
+
 " ---------------------------------
 " Functions
 " ---------------------------------
