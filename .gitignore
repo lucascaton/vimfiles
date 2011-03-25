@@ -1,1 +1,6 @@
+tags
+*~
 *.swp
+.DS_Store
+.session
+.netrwhist
