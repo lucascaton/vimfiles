@@ -1,10 +1,19 @@
 " --------- plugins ---------
 
+" Pathogen
 call pathogen#runtime_append_all_bundles()
 
 " --------- theme -----------
 
+" Color Scheme
 colorscheme ir_black
+
+" Fonts for Linux
+"set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
+"set guifont=Monaco\ 10
+
+" Fonts for Mac
+set guifont=Monaco:h12
 
 " ------- shourtcuts --------
 
