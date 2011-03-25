@@ -28,6 +28,10 @@ If you already have a custom .vimrc file, append the following lines to load eve
 <pre><code>source ~/.vim/vimrc      "linux
 source ~/vimfiles/vimrc  "windows</code></pre>
 
+h2. About MacVim
+
+If you are using MacVim, open the preferences (cmd+,) and in the Advanced tab, check the "Use experimental renderer" option.
+
 h2. Help Tags
 
 At first usage of vim, type ":" while in command mode and execute:
