@@ -12,6 +12,9 @@
 " Pathogen
 call pathogen#runtime_append_all_bundles()
 
+" Flog
+silent exe "g:flog_enable"
+
 
 " ------------ theme --------------
 
