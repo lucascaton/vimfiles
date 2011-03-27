@@ -7,3 +7,6 @@
 [submodule "bundle/vim-flog"]
 	path = bundle/vim-flog
 	url = https://github.com/fousa/vim-flog.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git

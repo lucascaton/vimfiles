@@ -5,6 +5,7 @@ It is recommended that you use gVim in either Windows or Linux and MacVim for Ma
 * (Windows) http://www.vim.org/download.php#pc (gvim72.exe)
 * (Mac) http://code.google.com/p/macvim/downloads/list (snapshot-52)
 
+
 h1. Usage
 
 Troubleshoot: Because of the large amount of submodules, if you ever have any trouble after pulling from the repository, it will be easier to just back up your old .vim folder and just git clone a new version.
@@ -28,9 +29,11 @@ If you already have a custom .vimrc file, append the following lines to load eve
 <pre><code>source ~/.vim/vimrc      "linux
 source ~/vimfiles/vimrc  "windows</code></pre>
 
+
 h2. About MacVim
 
 If you are using MacVim, open the preferences (cmd+,) and in the Advanced tab, check the "Use experimental renderer" option.
+
 
 h2. Help Tags
 
@@ -40,11 +43,22 @@ At first usage of vim, type ":" while in command mode and execute:
 
 This will make the plugins documentations available upon :help
 
+
 h2. Fonts
 
 Monaco is for Mac, Consolas is for Windows. Under Linux better try "Bitstream Vera Sans Mono".
 
-h2. Learn Vim
+
+h1. Plugins
+
+h2. Command-T
+
+If you have problems in Mac / Linux using this plugin, check the solutions on the github's page:
+
+* https://github.com/wincent/Command-T
+
+
+h1. Learn Vim
 
 Visit the following sites to learn more about Vim:
 
@@ -52,7 +66,8 @@ Visit the following sites to learn more about Vim:
 
 There are many sites teaching Vim, if you know of any other that are easy to follow for newcomers, let me know.
 
-h2. References
+
+h1. References
 
 * MacVim - http://code.google.com/p/macvim/
 * gVim - http://www.vim.org/download.php#pc
@@ -61,7 +76,8 @@ h2. References
 * Efficient Editing With vim - http://jmcpherson.org/editing.html
 * Byte of Vim - http://www.swaroopch.com/notes/Vim
 
-h2. Credits
+
+h1. Credits
 
 Lucas Caton.
 * http://blog.lucascaton.com.br/
