@@ -20,6 +20,9 @@ silent exe "g:flog_enable"
 let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
 
+" NERDTree
+nmap <F2> :NERDTreeToggle<CR>
+
 " ---------------------------------
 " Settings
 " ---------------------------------
