@@ -16,6 +16,10 @@ call pathogen#runtime_append_all_bundles()
 " Flog
 silent exe "g:flog_enable"
 
+" Gist-vim
+let g:gist_detect_filetype = 1
+let g:gist_open_browser_after_post = 1
+
 " ---------------------------------
 " Settings
 " ---------------------------------
