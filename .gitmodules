@@ -25,3 +25,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-ruby-runner"]
+	path = bundle/vim-ruby-runner
+	url = https://github.com/henrik/vim-ruby-runner.git
