@@ -77,6 +77,9 @@ set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 " Highlight all search results
 set hlsearch
 
+" Plugin and indentation on
+filetype plugin indent on
+
 " ---------------------------------
 " Theme
 " ---------------------------------
@@ -94,13 +97,15 @@ set guifont=Monaco:h12
 " Don't show the top bar
 set guioptions-=T
 
+" Syntax on
+syntax on
+
 if has("gui_running")
   set t_Co=256
   set lines=57
   set columns=237
 else
   let g:CSApprox_loaded = 0
-  syntax on
 endif
 
 " ---------------------------------
