@@ -57,6 +57,37 @@ If you have problems in Mac / Linux using this plugin, check the solutions on th
 
 * https://github.com/wincent/Command-T
 
+h2. Snipmate
+
+* https://github.com/msanders/snipmate.vim
+
+h2. Vim-rails
+
+* https://github.com/tpope/vim-rails
+
+h2. Vim-flog
+
+* https://github.com/fousa/vim-flog
+
+h2. Tcomment
+
+* https://github.com/tomtom/tcomment_vim
+
+h2. Extradite
+
+* https://github.com/int3/vim-extradite
+
+h2. Fugitive
+
+* https://github.com/tpope/vim-fugitive
+
+h2. Gist-vim
+
+* https://github.com/mattn/gist-vim
+
+h2. Nerdtree
+
+* https://github.com/scrooloose/nerdtree
 
 h1. Learn Vim
 
