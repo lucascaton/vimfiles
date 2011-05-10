@@ -1,0 +1,937 @@
+total 16
+-rw-r--r--@   1 lucascaton  staff   926 Feb 21 16:06 Rakefile
+drwxr-xr-x@   5 lucascaton  staff   170 Feb 21 16:06 _
+-rw-r--r--    1 lucascaton  staff     0 May 10 16:20 a
+drwxr-xr-x@   3 lucascaton  staff   102 Feb 21 16:06 ant
+drwxr-xr-x@  24 lucascaton  staff   816 Feb 21 16:06 c
+drwxr-xr-x@  49 lucascaton  staff  1666 Feb 21 16:06 css
+drwxr-xr-x@   6 lucascaton  staff   204 Feb 21 16:06 eruby
+drwxr-xr-x@  42 lucascaton  staff  1428 Feb 21 16:06 eruby-rails
+drwxr-xr-x@  43 lucascaton  staff  1462 Feb 21 16:06 haml
+drwxr-xr-x@  26 lucascaton  staff   884 Feb 21 16:06 html
+drwxr-xr-x@   9 lucascaton  staff   306 Feb 21 16:06 java
+drwxr-xr-x@  11 lucascaton  staff   374 Feb 21 16:06 javascript
+drwxr-xr-x@ 100 lucascaton  staff  3400 Feb 21 16:06 javascript-jquery
+drwxr-xr-x@  22 lucascaton  staff   748 Feb 21 16:06 objc
+drwxr-xr-x@  38 lucascaton  staff  1292 Feb 21 16:06 php
+drwxr-xr-x@   3 lucascaton  staff   102 Feb 21 16:06 po
+drwxr-xr-x@  12 lucascaton  staff   408 Feb 21 16:06 python
+drwxr-xr-x@  66 lucascaton  staff  2244 May 10 16:19 ruby
+drwxr-xr-x@   7 lucascaton  staff   238 Feb 21 16:06 ruby-factorygirl
+drwxr-xr-x@ 119 lucascaton  staff  4046 Feb 21 16:06 ruby-rails
+drwxr-xr-x@  72 lucascaton  staff  2448 Feb 21 16:06 ruby-rspec
+drwxr-xr-x@  25 lucascaton  staff   850 Feb 21 16:06 ruby-shoulda
+drwxr-xr-x@   3 lucascaton  staff   102 Feb 21 16:06 sinatra
+drwxr-xr-x@   3 lucascaton  staff   102 Feb 21 16:06 sshconfig
+-rw-r--r--@   1 lucascaton  staff  2783 Feb 21 16:06 support_functions.vim
+drwxr-xr-x@   9 lucascaton  staff   306 Feb 21 16:06 vim
+drwxr-xr-x@  13 lucascaton  staff   442 Feb 21 16:06 xslt
+drwxr-xr-x@  16 lucascaton  staff   544 Feb 21 16:06 zend
+
+./_:
+total 16
+drwxr-xr-x@ 4 lucascaton  staff  136 Feb 21 16:06 date
+-rw-r--r--@ 1 lucascaton  staff  447 Feb 21 16:06 lorem.snippet
+-rw-r--r--@ 1 lucascaton  staff   21 Feb 21 16:06 modeline.snippet
+
+./_/date:
+total 16
+-rw-r--r--@ 1 lucascaton  staff  32 Feb 21 16:06 date + time.snippet
+-rw-r--r--@ 1 lucascaton  staff  23 Feb 21 16:06 date.snippet
+
+./ant:
+total 0
+drwxr-xr-x@ 3 lucascaton  staff  102 Feb 21 16:06 skel
+
+./ant/skel:
+total 8
+-rw-r--r--@ 1 lucascaton  staff  876 Feb 21 16:06 basic.snippet
+
+./c:
+total 168
+-rw-r--r--@ 1 lucascaton  staff  121 Feb 21 16:06 cl.snippet
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 def.snippet
+-rw-r--r--@ 1 lucascaton  staff   54 Feb 21 16:06 do.snippet
+-rw-r--r--@ 1 lucascaton  staff   15 Feb 21 16:06 el.snippet
+-rw-r--r--@ 1 lucascaton  staff   66 Feb 21 16:06 for.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 forr.snippet
+-rw-r--r--@ 1 lucascaton  staff   43 Feb 21 16:06 fpf.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 fun.snippet
+-rw-r--r--@ 1 lucascaton  staff   47 Feb 21 16:06 if.snippet
+drwxr-xr-x@ 4 lucascaton  staff  136 Feb 21 16:06 inc
+-rw-r--r--@ 1 lucascaton  staff   72 Feb 21 16:06 main.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 map.snippet
+-rw-r--r--@ 1 lucascaton  staff   55 Feb 21 16:06 ns.snippet
+-rw-r--r--@ 1 lucascaton  staff  182 Feb 21 16:06 once.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 pr.snippet
+-rw-r--r--@ 1 lucascaton  staff  198 Feb 21 16:06 readfile.snippet
+-rw-r--r--@ 1 lucascaton  staff   99 Feb 21 16:06 st.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 t.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 td.snippet
+-rw-r--r--@ 1 lucascaton  staff   69 Feb 21 16:06 tds.snippet
+-rw-r--r--@ 1 lucascaton  staff   30 Feb 21 16:06 vector.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 wh.snippet
+
+./c/inc:
+total 16
+-rw-r--r--@ 1 lucascaton  staff  39 Feb 21 16:06 inc.snippet
+-rw-r--r--@ 1 lucascaton  staff  28 Feb 21 16:06 inc_global.snippet
+
+./css:
+total 264
+-rw-r--r--@  1 lucascaton  staff   20 Feb 21 16:06 #.snippet
+drwxr-xr-x@ 12 lucascaton  staff  408 Feb 21 16:06 background
+drwxr-xr-x@  6 lucascaton  staff  204 Feb 21 16:06 border
+drwxr-xr-x@  6 lucascaton  staff  204 Feb 21 16:06 borderb
+drwxr-xr-x@  6 lucascaton  staff  204 Feb 21 16:06 borderl
+drwxr-xr-x@  6 lucascaton  staff  204 Feb 21 16:06 borderr
+drwxr-xr-x@  6 lucascaton  staff  204 Feb 21 16:06 bordert
+-rw-r--r--@  1 lucascaton  staff   36 Feb 21 16:06 cl.snippet
+-rw-r--r--@  1 lucascaton  staff   36 Feb 21 16:06 clear.snippet
+-rw-r--r--@  1 lucascaton  staff   20 Feb 21 16:06 color.snippet
+-rw-r--r--@  1 lucascaton  staff   19 Feb 21 16:06 colorn.snippet
+-rw-r--r--@  1 lucascaton  staff   42 Feb 21 16:06 colorr.snippet
+-rw-r--r--@  1 lucascaton  staff   76 Feb 21 16:06 cursor.snippet
+-rw-r--r--@  1 lucascaton  staff   19 Feb 21 16:06 cursuru.snippet
+-rw-r--r--@  1 lucascaton  staff   27 Feb 21 16:06 direction.snippet
+drwxr-xr-x@  6 lucascaton  staff  204 Feb 21 16:06 display
+-rw-r--r--@  1 lucascaton  staff   31 Feb 21 16:06 float.snippet
+drwxr-xr-x@  9 lucascaton  staff  306 Feb 21 16:06 font
+-rw-r--r--@  1 lucascaton  staff   16 Feb 21 16:06 i.snippet
+-rw-r--r--@  1 lucascaton  staff   34 Feb 21 16:06 letter.snippet
+-rw-r--r--@  1 lucascaton  staff   24 Feb 21 16:06 letterem.snippet
+-rw-r--r--@  1 lucascaton  staff   24 Feb 21 16:06 letterpx.snippet
+drwxr-xr-x@ 10 lucascaton  staff  340 Feb 21 16:06 list-style
+-rw-r--r--@  1 lucascaton  staff   49 Feb 21 16:06 margin.snippet
+-rw-r--r--@  1 lucascaton  staff   28 Feb 21 16:06 marginb.snippet
+-rw-r--r--@  1 lucascaton  staff   26 Feb 21 16:06 marginl.snippet
+drwxr-xr-x@  9 lucascaton  staff  306 Feb 21 16:06 margino
+-rw-r--r--@  1 lucascaton  staff   27 Feb 21 16:06 marginr.snippet
+-rw-r--r--@  1 lucascaton  staff   25 Feb 21 16:06 margint.snippet
+drwxr-xr-x@  4 lucascaton  staff  136 Feb 21 16:06 marker
+-rw-r--r--@  1 lucascaton  staff  153 Feb 21 16:06 opacity.snippet
+-rw-r--r--@  1 lucascaton  staff   45 Feb 21 16:06 overflow.snippet
+-rw-r--r--@  1 lucascaton  staff   50 Feb 21 16:06 padding.snippet
+-rw-r--r--@  1 lucascaton  staff   29 Feb 21 16:06 paddingb.snippet
+-rw-r--r--@  1 lucascaton  staff   27 Feb 21 16:06 paddingl.snippet
+drwxr-xr-x@  9 lucascaton  staff  306 Feb 21 16:06 paddingo
+-rw-r--r--@  1 lucascaton  staff   28 Feb 21 16:06 paddingr.snippet
+-rw-r--r--@  1 lucascaton  staff   26 Feb 21 16:06 paddingt.snippet
+-rw-r--r--@  1 lucascaton  staff   49 Feb 21 16:06 position.snippet
+-rw-r--r--@  1 lucascaton  staff  341 Feb 21 16:06 scrollbar.snippet
+-rw-r--r--@  1 lucascaton  staff   33 Feb 21 16:06 tag.snippet
+drwxr-xr-x@ 10 lucascaton  staff  340 Feb 21 16:06 text
+-rw-r--r--@  1 lucascaton  staff   91 Feb 21 16:06 vertical.snippet
+-rw-r--r--@  1 lucascaton  staff   91 Feb 21 16:06 visibility.snippet
+-rw-r--r--@  1 lucascaton  staff   39 Feb 21 16:06 white.snippet
+drwxr-xr-x@  4 lucascaton  staff  136 Feb 21 16:06 word
+-rw-r--r--@  1 lucascaton  staff   15 Feb 21 16:06 z.snippet
+
+./css/background:
+total 80
+-rw-r--r--@ 1 lucascaton  staff  229 Feb 21 16:06 all.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 attachment.snippet
+-rw-r--r--@ 1 lucascaton  staff   31 Feb 21 16:06 color.snippet
+-rw-r--r--@ 1 lucascaton  staff   30 Feb 21 16:06 color_name.snippet
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 color_rgb.snippet
+-rw-r--r--@ 1 lucascaton  staff   33 Feb 21 16:06 color_transparent.snippet
+-rw-r--r--@ 1 lucascaton  staff   26 Feb 21 16:06 image_none.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 image_url.snippet
+-rw-r--r--@ 1 lucascaton  staff  157 Feb 21 16:06 position.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 repeat.snippet
+
+./css/border:
+total 32
+-rw-r--r--@ 1 lucascaton  staff  41 Feb 21 16:06 basic.snippet
+-rw-r--r--@ 1 lucascaton  staff  26 Feb 21 16:06 color.snippet
+-rw-r--r--@ 1 lucascaton  staff  87 Feb 21 16:06 style.snippet
+-rw-r--r--@ 1 lucascaton  staff  26 Feb 21 16:06 width.snippet
+
+./css/borderb:
+total 32
+-rw-r--r--@ 1 lucascaton  staff  48 Feb 21 16:06 basic.snippet
+-rw-r--r--@ 1 lucascaton  staff  34 Feb 21 16:06 color.snippet
+-rw-r--r--@ 1 lucascaton  staff  94 Feb 21 16:06 style.snippet
+-rw-r--r--@ 1 lucascaton  staff  54 Feb 21 16:06 width.snippet
+
+./css/borderl:
+total 32
+-rw-r--r--@ 1 lucascaton  staff  46 Feb 21 16:06 basic.snippet
+-rw-r--r--@ 1 lucascaton  staff  32 Feb 21 16:06 color.snippet
+-rw-r--r--@ 1 lucascaton  staff  92 Feb 21 16:06 style.snippet
+-rw-r--r--@ 1 lucascaton  staff  52 Feb 21 16:06 width.snippet
+
+./css/borderr:
+total 32
+-rw-r--r--@ 1 lucascaton  staff  47 Feb 21 16:06 basic.snippet
+-rw-r--r--@ 1 lucascaton  staff  33 Feb 21 16:06 color.snippet
+-rw-r--r--@ 1 lucascaton  staff  93 Feb 21 16:06 style.snippet
+-rw-r--r--@ 1 lucascaton  staff  53 Feb 21 16:06 width.snippet
+
+./css/bordert:
+total 32
+-rw-r--r--@ 1 lucascaton  staff  45 Feb 21 16:06 basic.snippet
+-rw-r--r--@ 1 lucascaton  staff  31 Feb 21 16:06 color.snippet
+-rw-r--r--@ 1 lucascaton  staff  91 Feb 21 16:06 style.snippet
+-rw-r--r--@ 1 lucascaton  staff  51 Feb 21 16:06 width.snippet
+
+./css/display:
+total 32
+-rw-r--r--@ 1 lucascaton  staff   18 Feb 21 16:06 block.snippet
+-rw-r--r--@ 1 lucascaton  staff   67 Feb 21 16:06 common.snippet
+-rw-r--r--@ 1 lucascaton  staff   19 Feb 21 16:06 inline.snippet
+-rw-r--r--@ 1 lucascaton  staff  157 Feb 21 16:06 table.snippet
+
+./css/font:
+total 56
+-rw-r--r--@ 1 lucascaton  staff  119 Feb 21 16:06 all.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 family.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 size.snippet
+-rw-r--r--@ 1 lucascaton  staff   81 Feb 21 16:06 size_font.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 style.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 variant.snippet
+-rw-r--r--@ 1 lucascaton  staff   33 Feb 21 16:06 weight.snippet
+
+./css/list-style:
+total 64
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 image.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 position.snippet
+-rw-r--r--@ 1 lucascaton  staff   89 Feb 21 16:06 type_asian.snippet
+-rw-r--r--@ 1 lucascaton  staff   49 Feb 21 16:06 type_marker.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 type_numeric.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 type_other.snippet
+-rw-r--r--@ 1 lucascaton  staff   85 Feb 21 16:06 type_position_image.snippet
+-rw-r--r--@ 1 lucascaton  staff  109 Feb 21 16:06 type_roman_alpha_greek.snippet
+
+./css/margino:
+total 56
+-rw-r--r--@ 1 lucascaton  staff  49 Feb 21 16:06 T_R_B_L.snippet
+-rw-r--r--@ 1 lucascaton  staff  30 Feb 21 16:06 V_H.snippet
+-rw-r--r--@ 1 lucascaton  staff  21 Feb 21 16:06 all.snippet
+-rw-r--r--@ 1 lucascaton  staff  28 Feb 21 16:06 bottom.snippet
+-rw-r--r--@ 1 lucascaton  staff  26 Feb 21 16:06 left.snippet
+-rw-r--r--@ 1 lucascaton  staff  27 Feb 21 16:06 right.snippet
+-rw-r--r--@ 1 lucascaton  staff  25 Feb 21 16:06 top.snippet
+
+./css/marker:
+total 16
+-rw-r--r--@ 1 lucascaton  staff  23 Feb 21 16:06 offset_auto.snippet
+-rw-r--r--@ 1 lucascaton  staff  28 Feb 21 16:06 offset_length.snippet
+
+./css/paddingo:
+total 56
+-rw-r--r--@ 1 lucascaton  staff  50 Feb 21 16:06 T_R_B_L.snippet
+-rw-r--r--@ 1 lucascaton  staff  31 Feb 21 16:06 V_H.snippet
+-rw-r--r--@ 1 lucascaton  staff  22 Feb 21 16:06 all.snippet
+-rw-r--r--@ 1 lucascaton  staff  29 Feb 21 16:06 bottom.snippet
+-rw-r--r--@ 1 lucascaton  staff  27 Feb 21 16:06 left.snippet
+-rw-r--r--@ 1 lucascaton  staff  28 Feb 21 16:06 right.snippet
+-rw-r--r--@ 1 lucascaton  staff  26 Feb 21 16:06 top.snippet
+
+./css/text:
+total 64
+-rw-r--r--@ 1 lucascaton  staff  46 Feb 21 16:06 align.snippet
+-rw-r--r--@ 1 lucascaton  staff  68 Feb 21 16:06 decoration.snippet
+-rw-r--r--@ 1 lucascaton  staff  26 Feb 21 16:06 indent.snippet
+-rw-r--r--@ 1 lucascaton  staff  55 Feb 21 16:06 shadow_hex.snippet
+-rw-r--r--@ 1 lucascaton  staff  21 Feb 21 16:06 shadow_none.snippet
+-rw-r--r--@ 1 lucascaton  staff  77 Feb 21 16:06 shadow_rgb.snippet
+-rw-r--r--@ 1 lucascaton  staff  55 Feb 21 16:06 transform.snippet
+-rw-r--r--@ 1 lucascaton  staff  24 Feb 21 16:06 transform_none.snippet
+
+./css/word:
+total 16
+-rw-r--r--@ 1 lucascaton  staff  27 Feb 21 16:06 spacing_length.snippet
+-rw-r--r--@ 1 lucascaton  staff  24 Feb 21 16:06 spacing_normal.snippet
+
+./eruby:
+total 32
+-rw-r--r--@ 1 lucascaton  staff  40 Feb 21 16:06 if.snippet
+-rw-r--r--@ 1 lucascaton  staff  41 Feb 21 16:06 ife.snippet
+-rw-r--r--@ 1 lucascaton  staff  34 Feb 21 16:06 unless.snippet
+-rw-r--r--@ 1 lucascaton  staff  45 Feb 21 16:06 unlesse.snippet
+
+./eruby-rails:
+total 320
+-rw-r--r--@ 1 lucascaton  staff   67 Feb 21 16:06 conf.snippet
+-rw-r--r--@ 1 lucascaton  staff  138 Feb 21 16:06 cs.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 ct.snippet
+-rw-r--r--@ 1 lucascaton  staff   11 Feb 21 16:06 end.snippet
+-rw-r--r--@ 1 lucascaton  staff   52 Feb 21 16:06 ff.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 ffcb.snippet
+-rw-r--r--@ 1 lucascaton  staff   91 Feb 21 16:06 ffe.snippet
+-rw-r--r--@ 1 lucascaton  staff   41 Feb 21 16:06 ffff.snippet
+-rw-r--r--@ 1 lucascaton  staff   43 Feb 21 16:06 ffhf.snippet
+-rw-r--r--@ 1 lucascaton  staff   47 Feb 21 16:06 ffl.snippet
+-rw-r--r--@ 1 lucascaton  staff   45 Feb 21 16:06 ffpf.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 ffrb.snippet
+-rw-r--r--@ 1 lucascaton  staff   35 Feb 21 16:06 ffs.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 ffta.snippet
+-rw-r--r--@ 1 lucascaton  staff   41 Feb 21 16:06 fftf.snippet
+-rw-r--r--@ 1 lucascaton  staff   64 Feb 21 16:06 fields.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 for.snippet
+-rw-r--r--@ 1 lucascaton  staff   98 Feb 21 16:06 ft.snippet
+-rw-r--r--@ 1 lucascaton  staff   28 Feb 21 16:06 i18.snippet
+-rw-r--r--@ 1 lucascaton  staff   28 Feb 21 16:06 it.snippet
+-rw-r--r--@ 1 lucascaton  staff   63 Feb 21 16:06 jit.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 jsit.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 lia.snippet
+-rw-r--r--@ 1 lucascaton  staff   76 Feb 21 16:06 liai.snippet
+-rw-r--r--@ 1 lucascaton  staff   61 Feb 21 16:06 lic.snippet
+-rw-r--r--@ 1 lucascaton  staff   86 Feb 21 16:06 lica.snippet
+-rw-r--r--@ 1 lucascaton  staff  104 Feb 21 16:06 licai.snippet
+-rw-r--r--@ 1 lucascaton  staff   65 Feb 21 16:06 lim.snippet
+-rw-r--r--@ 1 lucascaton  staff   99 Feb 21 16:06 linp.snippet
+-rw-r--r--@ 1 lucascaton  staff   83 Feb 21 16:06 linpp.snippet
+-rw-r--r--@ 1 lucascaton  staff   74 Feb 21 16:06 lip.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 lipp.snippet
+-rw-r--r--@ 1 lucascaton  staff   38 Feb 21 16:06 lt.snippet
+-rw-r--r--@ 1 lucascaton  staff  118 Feb 21 16:06 ofcfs.snippet
+-rw-r--r--@ 1 lucascaton  staff   39 Feb 21 16:06 rf.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 rp.snippet
+-rw-r--r--@ 1 lucascaton  staff   43 Feb 21 16:06 rt.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 slt.snippet
+-rw-r--r--@ 1 lucascaton  staff   34 Feb 21 16:06 sslt.snippet
+-rw-r--r--@ 1 lucascaton  staff  188 Feb 21 16:06 st.snippet
+
+./haml:
+total 328
+-rw-r--r--@ 1 lucascaton  staff   54 Feb 21 16:06 conf.snippet
+-rw-r--r--@ 1 lucascaton  staff  142 Feb 21 16:06 cs.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 ff.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 ffcb.snippet
+-rw-r--r--@ 1 lucascaton  staff   69 Feb 21 16:06 ffe.snippet
+-rw-r--r--@ 1 lucascaton  staff   30 Feb 21 16:06 ffff.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 ffhf.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 ffl.snippet
+-rw-r--r--@ 1 lucascaton  staff   34 Feb 21 16:06 ffpf.snippet
+-rw-r--r--@ 1 lucascaton  staff   49 Feb 21 16:06 ffrb.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 ffs.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 ffta.snippet
+-rw-r--r--@ 1 lucascaton  staff   30 Feb 21 16:06 fftf.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 fields.snippet
+-rw-r--r--@ 1 lucascaton  staff   67 Feb 21 16:06 for.snippet
+-rw-r--r--@ 1 lucascaton  staff   81 Feb 21 16:06 ft.snippet
+-rw-r--r--@ 1 lucascaton  staff   16 Feb 21 16:06 if.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 ife.snippet
+-rw-r--r--@ 1 lucascaton  staff   18 Feb 21 16:06 it.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 jit.snippet
+-rw-r--r--@ 1 lucascaton  staff   31 Feb 21 16:06 jsit.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 lia.snippet
+-rw-r--r--@ 1 lucascaton  staff   70 Feb 21 16:06 liai.snippet
+-rw-r--r--@ 1 lucascaton  staff   55 Feb 21 16:06 lic.snippet
+-rw-r--r--@ 1 lucascaton  staff   80 Feb 21 16:06 lica.snippet
+-rw-r--r--@ 1 lucascaton  staff   98 Feb 21 16:06 licai.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 lim.snippet
+-rw-r--r--@ 1 lucascaton  staff   93 Feb 21 16:06 linp.snippet
+-rw-r--r--@ 1 lucascaton  staff   77 Feb 21 16:06 linpp.snippet
+-rw-r--r--@ 1 lucascaton  staff   68 Feb 21 16:06 lip.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 lipp.snippet
+-rw-r--r--@ 1 lucascaton  staff   27 Feb 21 16:06 lt.snippet
+-rw-r--r--@ 1 lucascaton  staff  112 Feb 21 16:06 ofcfs.snippet
+-rw-r--r--@ 1 lucascaton  staff   33 Feb 21 16:06 rf.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 rp.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 rt.snippet
+-rw-r--r--@ 1 lucascaton  staff   54 Feb 21 16:06 slt.snippet
+-rw-r--r--@ 1 lucascaton  staff   28 Feb 21 16:06 sslt.snippet
+-rw-r--r--@ 1 lucascaton  staff  182 Feb 21 16:06 st.snippet
+-rw-r--r--@ 1 lucascaton  staff   21 Feb 21 16:06 unless.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 unlesse.snippet
+
+./html:
+total 168
+-rw-r--r--@ 1 lucascaton  staff   38 Feb 21 16:06 base.snippet
+-rw-r--r--@ 1 lucascaton  staff   31 Feb 21 16:06 body.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 div.snippet
+-rw-r--r--@ 1 lucascaton  staff  126 Feb 21 16:06 doctype.snippet
+-rw-r--r--@ 1 lucascaton  staff  142 Feb 21 16:06 form.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 h1.snippet
+-rw-r--r--@ 1 lucascaton  staff  126 Feb 21 16:06 head.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 href.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 ifie.snippet
+-rw-r--r--@ 1 lucascaton  staff   23 Feb 21 16:06 img.snippet
+-rw-r--r--@ 1 lucascaton  staff   95 Feb 21 16:06 input.snippet
+-rw-r--r--@ 1 lucascaton  staff  138 Feb 21 16:06 inputl.snippet
+-rw-r--r--@ 1 lucascaton  staff   45 Feb 21 16:06 label.snippet
+-rw-r--r--@ 1 lucascaton  staff  126 Feb 21 16:06 link.snippet
+-rw-r--r--@ 1 lucascaton  staff   69 Feb 21 16:06 mailto.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 meta.snippet
+-rw-r--r--@ 1 lucascaton  staff   35 Feb 21 16:06 option.snippet
+drwxr-xr-x@ 4 lucascaton  staff  136 Feb 21 16:06 script
+-rw-r--r--@ 1 lucascaton  staff   47 Feb 21 16:06 select.snippet
+drwxr-xr-x@ 4 lucascaton  staff  136 Feb 21 16:06 skel
+-rw-r--r--@ 1 lucascaton  staff   55 Feb 21 16:06 style.snippet
+-rw-r--r--@ 1 lucascaton  staff   31 Feb 21 16:06 t.snippet
+drwxr-xr-x@ 4 lucascaton  staff  136 Feb 21 16:06 table
+-rw-r--r--@ 1 lucascaton  staff   72 Feb 21 16:06 textarea.snippet
+
+./html/script:
+total 16
+-rw-r--r--@ 1 lucascaton  staff   76 Feb 21 16:06 include_script.snippet
+-rw-r--r--@ 1 lucascaton  staff  104 Feb 21 16:06 inline_script.snippet
+
+./html/skel:
+total 16
+-rw-r--r--@ 1 lucascaton  staff  327 Feb 21 16:06 basic.snippet
+-rw-r--r--@ 1 lucascaton  staff  404 Feb 21 16:06 basic_with_meta.snippet
+
+./html/table:
+total 16
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 basic.snippet
+-rw-r--r--@ 1 lucascaton  staff  152 Feb 21 16:06 hardcore.snippet
+
+./java:
+total 48
+drwxr-xr-x@ 5 lucascaton  staff  170 Feb 21 16:06 class
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 for.snippet
+-rw-r--r--@ 1 lucascaton  staff  166 Feb 21 16:06 gs.snippet
+-rw-r--r--@ 1 lucascaton  staff   18 Feb 21 16:06 if.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 ife.snippet
+-rw-r--r--@ 1 lucascaton  staff   31 Feb 21 16:06 log.snippet
+-rw-r--r--@ 1 lucascaton  staff  113 Feb 21 16:06 m.snippet
+
+./java/class:
+total 24
+-rw-r--r--@ 1 lucascaton  staff  234 Feb 21 16:06 basic+constructor+main.snippet
+-rw-r--r--@ 1 lucascaton  staff  187 Feb 21 16:06 basic+constructor.snippet
+-rw-r--r--@ 1 lucascaton  staff  187 Feb 21 16:06 basic.snippet
+
+./javascript:
+total 72
+-rw-r--r--@ 1 lucascaton  staff  25 Feb 21 16:06 anon.snippet
+-rw-r--r--@ 1 lucascaton  staff  85 Feb 21 16:06 for.snippet
+-rw-r--r--@ 1 lucascaton  staff  62 Feb 21 16:06 fun.snippet
+-rw-r--r--@ 1 lucascaton  staff  25 Feb 21 16:06 if.snippet
+-rw-r--r--@ 1 lucascaton  staff  35 Feb 21 16:06 ife.snippet
+-rw-r--r--@ 1 lucascaton  staff  19 Feb 21 16:06 log.snippet
+-rw-r--r--@ 1 lucascaton  staff  60 Feb 21 16:06 met.snippet
+-rw-r--r--@ 1 lucascaton  staff  94 Feb 21 16:06 proto.snippet
+-rw-r--r--@ 1 lucascaton  staff  42 Feb 21 16:06 timeout.snippet
+
+./javascript-jquery:
+total 784
+-rw-r--r--@ 1 lucascaton  staff   45 Feb 21 16:06 add.snippet
+-rw-r--r--@ 1 lucascaton  staff   41 Feb 21 16:06 addClass.snippet
+-rw-r--r--@ 1 lucascaton  staff   54 Feb 21 16:06 after.snippet
+-rw-r--r--@ 1 lucascaton  staff  339 Feb 21 16:06 ajax.snippet
+-rw-r--r--@ 1 lucascaton  staff  111 Feb 21 16:06 ajaxerror.snippet
+-rw-r--r--@ 1 lucascaton  staff  123 Feb 21 16:06 ajaxget.snippet
+-rw-r--r--@ 1 lucascaton  staff  131 Feb 21 16:06 ajaxgetif.snippet
+-rw-r--r--@ 1 lucascaton  staff  150 Feb 21 16:06 ajaxpost.snippet
+-rw-r--r--@ 1 lucascaton  staff  110 Feb 21 16:06 ajaxsend.snippet
+-rw-r--r--@ 1 lucascaton  staff  344 Feb 21 16:06 ajaxsetup.snippet
+-rw-r--r--@ 1 lucascaton  staff  124 Feb 21 16:06 ajaxstart.snippet
+-rw-r--r--@ 1 lucascaton  staff  123 Feb 21 16:06 ajaxstop.snippet
+-rw-r--r--@ 1 lucascaton  staff  127 Feb 21 16:06 ajaxsuccess.snippet
+-rw-r--r--@ 1 lucascaton  staff   72 Feb 21 16:06 animate.snippet
+-rw-r--r--@ 1 lucascaton  staff   55 Feb 21 16:06 append.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 appendTo.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 attr.snippet
+-rw-r--r--@ 1 lucascaton  staff   78 Feb 21 16:06 attrm.snippet
+-rw-r--r--@ 1 lucascaton  staff   55 Feb 21 16:06 before.snippet
+-rw-r--r--@ 1 lucascaton  staff   86 Feb 21 16:06 bind.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 blur.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 change.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 children.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 click.snippet
+-rw-r--r--@ 1 lucascaton  staff   21 Feb 21 16:06 clone.snippet
+-rw-r--r--@ 1 lucascaton  staff   43 Feb 21 16:06 contains.snippet
+-rw-r--r--@ 1 lucascaton  staff   49 Feb 21 16:06 css.snippet
+-rw-r--r--@ 1 lucascaton  staff   83 Feb 21 16:06 cssm.snippet
+-rw-r--r--@ 1 lucascaton  staff   61 Feb 21 16:06 dblclick.snippet
+-rw-r--r--@ 1 lucascaton  staff  116 Feb 21 16:06 each.snippet
+-rw-r--r--@ 1 lucascaton  staff   15 Feb 21 16:06 el.snippet
+-rw-r--r--@ 1 lucascaton  staff   26 Feb 21 16:06 eltrim.snippet
+-rw-r--r--@ 1 lucascaton  staff   19 Feb 21 16:06 end.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 error.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 fadein.snippet
+-rw-r--r--@ 1 lucascaton  staff  105 Feb 21 16:06 fadeinc.snippet
+-rw-r--r--@ 1 lucascaton  staff   43 Feb 21 16:06 fadeout.snippet
+-rw-r--r--@ 1 lucascaton  staff  106 Feb 21 16:06 fadeoutc.snippet
+-rw-r--r--@ 1 lucascaton  staff   52 Feb 21 16:06 fadeto.snippet
+-rw-r--r--@ 1 lucascaton  staff  115 Feb 21 16:06 fadetoc.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 filter.snippet
+-rw-r--r--@ 1 lucascaton  staff   46 Feb 21 16:06 find.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 focus.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 get.snippet
+-rw-r--r--@ 1 lucascaton  staff  157 Feb 21 16:06 getjson.snippet
+-rw-r--r--@ 1 lucascaton  staff   96 Feb 21 16:06 getscript.snippet
+-rw-r--r--@ 1 lucascaton  staff   34 Feb 21 16:06 height.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 hide.snippet
+-rw-r--r--@ 1 lucascaton  staff  107 Feb 21 16:06 hidec.snippet
+-rw-r--r--@ 1 lucascaton  staff  164 Feb 21 16:06 hover.snippet
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 html.snippet
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 insertAfter.snippet
+-rw-r--r--@ 1 lucascaton  staff   54 Feb 21 16:06 insertBefore.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 is.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 load.snippet
+-rw-r--r--@ 1 lucascaton  staff  159 Feb 21 16:06 loadf.snippet
+-rw-r--r--@ 1 lucascaton  staff  169 Feb 21 16:06 loadif.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 mdown.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 mmove.snippet
+-rw-r--r--@ 1 lucascaton  staff   61 Feb 21 16:06 mout.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 mover.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 mup.snippet
+-rw-r--r--@ 1 lucascaton  staff   46 Feb 21 16:06 next.snippet
+-rw-r--r--@ 1 lucascaton  staff   45 Feb 21 16:06 not.snippet
+-rw-r--r--@ 1 lucascaton  staff   90 Feb 21 16:06 one.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 parent.snippet
+-rw-r--r--@ 1 lucascaton  staff   49 Feb 21 16:06 parents.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 prepend.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 prependto.snippet
+-rw-r--r--@ 1 lucascaton  staff   46 Feb 21 16:06 prev.snippet
+-rw-r--r--@ 1 lucascaton  staff   85 Feb 21 16:06 ready.snippet
+-rw-r--r--@ 1 lucascaton  staff   22 Feb 21 16:06 remove.snippet
+-rw-r--r--@ 1 lucascaton  staff   47 Feb 21 16:06 removeattr.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 removeclass.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 reset.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 resize.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 scroll.snippet
+-rw-r--r--@ 1 lucascaton  staff   45 Feb 21 16:06 sdown.snippet
+-rw-r--r--@ 1 lucascaton  staff  113 Feb 21 16:06 sdownc.snippet
+-rw-r--r--@ 1 lucascaton  staff  111 Feb 21 16:06 sdupc.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 select.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 show.snippet
+-rw-r--r--@ 1 lucascaton  staff  107 Feb 21 16:06 showc.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 sib.snippet
+-rw-r--r--@ 1 lucascaton  staff   20 Feb 21 16:06 size.snippet
+-rw-r--r--@ 1 lucascaton  staff   47 Feb 21 16:06 stoggle.snippet
+-rw-r--r--@ 1 lucascaton  staff   64 Feb 21 16:06 submit.snippet
+-rw-r--r--@ 1 lucascaton  staff   43 Feb 21 16:06 sup.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 text.snippet
+-rw-r--r--@ 1 lucascaton  staff   12 Feb 21 16:06 this.snippet
+-rw-r--r--@ 1 lucascaton  staff  179 Feb 21 16:06 tog.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 togclass.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 togsh.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 trig.snippet
+-rw-r--r--@ 1 lucascaton  staff   39 Feb 21 16:06 unbind.snippet
+-rw-r--r--@ 1 lucascaton  staff   30 Feb 21 16:06 val.snippet
+-rw-r--r--@ 1 lucascaton  staff   33 Feb 21 16:06 width.snippet
+-rw-r--r--@ 1 lucascaton  staff   72 Feb 21 16:06 wrap.snippet
+
+./objc:
+total 152
+-rw-r--r--@ 1 lucascaton  staff  158 Feb 21 16:06 I.snippet
+-rw-r--r--@ 1 lucascaton  staff   34 Feb 21 16:06 Imp.snippet
+-rw-r--r--@ 1 lucascaton  staff   33 Feb 21 16:06 alloc.snippet
+-rw-r--r--@ 1 lucascaton  staff   52 Feb 21 16:06 array.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 bez.snippet
+-rw-r--r--@ 1 lucascaton  staff   81 Feb 21 16:06 cat.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 cati.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 cli.snippet
+-rw-r--r--@ 1 lucascaton  staff   71 Feb 21 16:06 dict.snippet
+-rw-r--r--@ 1 lucascaton  staff  154 Feb 21 16:06 forarray.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 log.snippet
+drwxr-xr-x@ 4 lucascaton  staff  136 Feb 21 16:06 m
+-rw-r--r--@ 1 lucascaton  staff  120 Feb 21 16:06 objacc.snippet
+-rw-r--r--@ 1 lucascaton  staff  156 Feb 21 16:06 objc.snippet
+-rw-r--r--@ 1 lucascaton  staff   55 Feb 21 16:06 prop.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 rel.snippet
+-rw-r--r--@ 1 lucascaton  staff   23 Feb 21 16:06 ret.snippet
+-rw-r--r--@ 1 lucascaton  staff   28 Feb 21 16:06 sel.snippet
+-rw-r--r--@ 1 lucascaton  staff   95 Feb 21 16:06 sm.snippet
+-rw-r--r--@ 1 lucascaton  staff   34 Feb 21 16:06 syn.snippet
+
+./objc/m:
+total 16
+-rw-r--r--@ 1 lucascaton  staff  45 Feb 21 16:06 class method.snippet
+-rw-r--r--@ 1 lucascaton  staff  50 Feb 21 16:06 method.snippet
+
+./php:
+total 288
+-rw-r--r--@ 1 lucascaton  staff   45 Feb 21 16:06 array.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 case.snippet
+-rw-r--r--@ 1 lucascaton  staff  113 Feb 21 16:06 class.snippet
+-rw-r--r--@ 1 lucascaton  staff  140 Feb 21 16:06 classe.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 def.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 defd.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 do.snippet
+-rw-r--r--@ 1 lucascaton  staff  101 Feb 21 16:06 doc_cp.snippet
+-rw-r--r--@ 1 lucascaton  staff  118 Feb 21 16:06 doc_f.snippet
+-rw-r--r--@ 1 lucascaton  staff  174 Feb 21 16:06 doc_h.snippet
+-rw-r--r--@ 1 lucascaton  staff  127 Feb 21 16:06 doc_i.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 ec.snippet
+-rw-r--r--@ 1 lucascaton  staff   26 Feb 21 16:06 else.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 elseif.snippet
+-rw-r--r--@ 1 lucascaton  staff   69 Feb 21 16:06 for.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 foreach.snippet
+-rw-r--r--@ 1 lucascaton  staff   73 Feb 21 16:06 foreachk.snippet
+-rw-r--r--@ 1 lucascaton  staff   66 Feb 21 16:06 fun.snippet
+-rw-r--r--@ 1 lucascaton  staff   18 Feb 21 16:06 get.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 globals.snippet
+-rw-r--r--@ 1 lucascaton  staff   47 Feb 21 16:06 if.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 ife.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 inc.snippet
+-rw-r--r--@ 1 lucascaton  staff   30 Feb 21 16:06 inc1.snippet
+-rw-r--r--@ 1 lucascaton  staff   39 Feb 21 16:06 log.snippet
+-rw-r--r--@ 1 lucascaton  staff   14 Feb 21 16:06 php.snippet
+-rw-r--r--@ 1 lucascaton  staff   19 Feb 21 16:06 post.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 req.snippet
+-rw-r--r--@ 1 lucascaton  staff   30 Feb 21 16:06 req1.snippet
+-rw-r--r--@ 1 lucascaton  staff   22 Feb 21 16:06 request.snippet
+-rw-r--r--@ 1 lucascaton  staff   22 Feb 21 16:06 session.snippet
+-rw-r--r--@ 1 lucascaton  staff  118 Feb 21 16:06 switch.snippet
+-rw-r--r--@ 1 lucascaton  staff   55 Feb 21 16:06 t.snippet
+-rw-r--r--@ 1 lucascaton  staff   74 Feb 21 16:06 try.snippet
+-rw-r--r--@ 1 lucascaton  staff   22 Feb 21 16:06 var.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 wh.snippet
+
+./po:
+total 8
+-rw-r--r--@ 1 lucascaton  staff  31 Feb 21 16:06 msg.snippet
+
+./python:
+total 80
+-rw-r--r--@ 1 lucascaton  staff  70 Feb 21 16:06 class.snippet
+-rw-r--r--@ 1 lucascaton  staff  31 Feb 21 16:06 def.snippet
+-rw-r--r--@ 1 lucascaton  staff  42 Feb 21 16:06 for.snippet
+-rw-r--r--@ 1 lucascaton  staff  39 Feb 21 16:06 from.snippet
+-rw-r--r--@ 1 lucascaton  staff  46 Feb 21 16:06 get.snippet
+-rw-r--r--@ 1 lucascaton  staff  32 Feb 21 16:06 ifmain.snippet
+-rw-r--r--@ 1 lucascaton  staff  24 Feb 21 16:06 import.snippet
+-rw-r--r--@ 1 lucascaton  staff  36 Feb 21 16:06 init.snippet
+-rw-r--r--@ 1 lucascaton  staff  37 Feb 21 16:06 set.snippet
+-rw-r--r--@ 1 lucascaton  staff  37 Feb 21 16:06 try.snippet
+
+./ruby:
+total 512
+-rw-r--r--@ 1 lucascaton  staff   17 Feb 21 16:06 Pn.snippet
+-rw-r--r--@ 1 lucascaton  staff   78 Feb 21 16:06 Yd.snippet
+-rw-r--r--@ 1 lucascaton  staff   63 Feb 21 16:06 Yl.snippet
+-rw-r--r--@ 1 lucascaton  staff   69 Feb 21 16:06 asam.snippet
+-rw-r--r--@ 1 lucascaton  staff   27 Feb 21 16:06 asb.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 asc.snippet
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 ascd.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 asem.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 asf.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 asfa.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 asi.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 asie.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 asncd.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 asnem.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 asni.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 asnid.snippet
+-rw-r--r--@ 1 lucascaton  staff   61 Feb 21 16:06 asnie.snippet
+-rw-r--r--@ 1 lucascaton  staff   49 Feb 21 16:06 asnp.snippet
+-rw-r--r--@ 1 lucascaton  staff   47 Feb 21 16:06 asnrt.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 asnse.snippet
+-rw-r--r--@ 1 lucascaton  staff   45 Feb 21 16:06 asp.snippet
+-rw-r--r--@ 1 lucascaton  staff   28 Feb 21 16:06 aspe.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 aspne.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 asrko.snippet
+-rw-r--r--@ 1 lucascaton  staff   43 Feb 21 16:06 asrm.snippet
+-rw-r--r--@ 1 lucascaton  staff   28 Feb 21 16:06 asse.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 astr.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 bm.snippet
+-rw-r--r--@ 1 lucascaton  staff   63 Feb 21 16:06 class.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 classe.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 defi.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 detect.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 detecto.snippet
+-rw-r--r--@ 1 lucascaton  staff   46 Feb 21 16:06 dglob.snippet
+-rw-r--r--@ 1 lucascaton  staff   26 Feb 21 16:06 dop.snippet
+-rw-r--r--@ 1 lucascaton  staff   34 Feb 21 16:06 each.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 each_with_index.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 each_with_indexo.snippet
+-rw-r--r--@ 1 lucascaton  staff   38 Feb 21 16:06 eacho.snippet
+-rw-r--r--@ 1 lucascaton  staff   38 Feb 21 16:06 eado.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 eawido.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 fileeach.snippet
+-rw-r--r--@ 1 lucascaton  staff   55 Feb 21 16:06 fopen.snippet
+-rw-r--r--@ 1 lucascaton  staff   16 Feb 21 16:06 fread.snippet
+-rw-r--r--@ 1 lucascaton  staff   61 Feb 21 16:06 http_get.snippet
+-rw-r--r--@ 1 lucascaton  staff   80 Feb 21 16:06 http_post.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 injdo.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 inject.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 injecto.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 ip.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 mapdo.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 mapo.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 mod.snippet
+-rw-r--r--@ 1 lucascaton  staff  234 Feb 21 16:06 module.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 pathhere.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 reject.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 rejecto.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 select.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 selecto.snippet
+-rw-r--r--@ 1 lucascaton  staff   35 Feb 21 16:06 sort.snippet
+-rw-r--r--@ 1 lucascaton  staff   39 Feb 21 16:06 sorto.snippet
+-rw-r--r--@ 1 lucascaton  staff   92 Feb 21 16:06 task.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 unlesse.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 xmlr.snippet
+
+./ruby-factorygirl:
+total 40
+-rw-r--r--@ 1 lucascaton  staff  25 Feb 21 16:06 fac.snippet
+-rw-r--r--@ 1 lucascaton  staff  31 Feb 21 16:06 facb.snippet
+-rw-r--r--@ 1 lucascaton  staff  55 Feb 21 16:06 facd.snippet
+-rw-r--r--@ 1 lucascaton  staff  38 Feb 21 16:06 facn.snippet
+-rw-r--r--@ 1 lucascaton  staff  64 Feb 21 16:06 facs.snippet
+
+./ruby-rails:
+total 936
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 art.snippet
+-rw-r--r--@ 1 lucascaton  staff   84 Feb 21 16:06 artnp.snippet
+-rw-r--r--@ 1 lucascaton  staff   68 Feb 21 16:06 artnpp.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 artp.snippet
+-rw-r--r--@ 1 lucascaton  staff   41 Feb 21 16:06 artpp.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 asd.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 asnd.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 asre.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 asrj.snippet
+-rw-r--r--@ 1 lucascaton  staff   75 Feb 21 16:06 ass.snippet
+-rw-r--r--@ 1 lucascaton  staff   27 Feb 21 16:06 bf.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 bt.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 crw.snippet
+-rw-r--r--@ 1 lucascaton  staff  420 Feb 21 16:06 defcreate.snippet
+-rw-r--r--@ 1 lucascaton  staff  190 Feb 21 16:06 defdestroy.snippet
+-rw-r--r--@ 1 lucascaton  staff   77 Feb 21 16:06 defedit.snippet
+-rw-r--r--@ 1 lucascaton  staff  164 Feb 21 16:06 defindex.snippet
+-rw-r--r--@ 1 lucascaton  staff  159 Feb 21 16:06 defnew.snippet
+-rw-r--r--@ 1 lucascaton  staff  175 Feb 21 16:06 defshow.snippet
+-rw-r--r--@ 1 lucascaton  staff  399 Feb 21 16:06 defupdate.snippet
+-rw-r--r--@ 1 lucascaton  staff   63 Feb 21 16:06 fina.snippet
+-rw-r--r--@ 1 lucascaton  staff   65 Feb 21 16:06 finf.snippet
+-rw-r--r--@ 1 lucascaton  staff   13 Feb 21 16:06 fini.snippet
+-rw-r--r--@ 1 lucascaton  staff   64 Feb 21 16:06 finl.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 flash.snippet
+-rw-r--r--@ 1 lucascaton  staff  102 Feb 21 16:06 habtm.snippet
+-rw-r--r--@ 1 lucascaton  staff   22 Feb 21 16:06 hm.snippet
+-rw-r--r--@ 1 lucascaton  staff  119 Feb 21 16:06 hmd.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 hmt.snippet
+-rw-r--r--@ 1 lucascaton  staff   21 Feb 21 16:06 ho.snippet
+-rw-r--r--@ 1 lucascaton  staff   28 Feb 21 16:06 i18.snippet
+-rw-r--r--@ 1 lucascaton  staff  146 Feb 21 16:06 ist.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 log.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 logd.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 loge.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 logf.snippet
+-rw-r--r--@ 1 lucascaton  staff   35 Feb 21 16:06 logi.snippet
+-rw-r--r--@ 1 lucascaton  staff   35 Feb 21 16:06 logw.snippet
+-rw-r--r--@ 1 lucascaton  staff   49 Feb 21 16:06 mac.snippet
+-rw-r--r--@ 1 lucascaton  staff   52 Feb 21 16:06 mapc.snippet
+-rw-r--r--@ 1 lucascaton  staff   96 Feb 21 16:06 mapca.snippet
+-rw-r--r--@ 1 lucascaton  staff   33 Feb 21 16:06 mapr.snippet
+-rw-r--r--@ 1 lucascaton  staff   34 Feb 21 16:06 maprs.snippet
+-rw-r--r--@ 1 lucascaton  staff   73 Feb 21 16:06 mapwo.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 mbs.snippet
+-rw-r--r--@ 1 lucascaton  staff   52 Feb 21 16:06 mcc.snippet
+-rw-r--r--@ 1 lucascaton  staff   35 Feb 21 16:06 mccc.snippet
+-rw-r--r--@ 1 lucascaton  staff   47 Feb 21 16:06 mcht.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 mcol.snippet
+-rw-r--r--@ 1 lucascaton  staff   74 Feb 21 16:06 mct.snippet
+-rw-r--r--@ 1 lucascaton  staff  125 Feb 21 16:06 migration.snippet
+-rw-r--r--@ 1 lucascaton  staff   15 Feb 21 16:06 mp.snippet
+-rw-r--r--@ 1 lucascaton  staff   27 Feb 21 16:06 mrc.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 mrmc.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 mrnc.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 mrw.snippet
+-rw-r--r--@ 1 lucascaton  staff  100 Feb 21 16:06 nc.snippet
+-rw-r--r--@ 1 lucascaton  staff  102 Feb 21 16:06 ncl.snippet
+-rw-r--r--@ 1 lucascaton  staff   21 Feb 21 16:06 pa.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 ra.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 ral.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 rest.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 rf.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 rfu.snippet
+-rw-r--r--@ 1 lucascaton  staff   39 Feb 21 16:06 ri.snippet
+-rw-r--r--@ 1 lucascaton  staff   87 Feb 21 16:06 ril.snippet
+-rw-r--r--@ 1 lucascaton  staff   61 Feb 21 16:06 rit.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 rjson.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 rl.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 rn.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 rns.snippet
+-rw-r--r--@ 1 lucascaton  staff   31 Feb 21 16:06 rp.snippet
+-rw-r--r--@ 1 lucascaton  staff   61 Feb 21 16:06 rpc.snippet
+-rw-r--r--@ 1 lucascaton  staff   77 Feb 21 16:06 rpl.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 rpo.snippet
+-rw-r--r--@ 1 lucascaton  staff   52 Feb 21 16:06 rps.snippet
+-rw-r--r--@ 1 lucascaton  staff   38 Feb 21 16:06 rt.snippet
+-rw-r--r--@ 1 lucascaton  staff   68 Feb 21 16:06 rtl.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 rtlt.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 rts.snippet
+-rw-r--r--@ 1 lucascaton  staff   43 Feb 21 16:06 ru.snippet
+-rw-r--r--@ 1 lucascaton  staff   35 Feb 21 16:06 rxml.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 sha1.snippet
+-rw-r--r--@ 1 lucascaton  staff  240 Feb 21 16:06 sweeper.snippet
+-rw-r--r--@ 1 lucascaton  staff   27 Feb 21 16:06 tcb.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 tcbi.snippet
+-rw-r--r--@ 1 lucascaton  staff   77 Feb 21 16:06 tcd.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 tcda.snippet
+-rw-r--r--@ 1 lucascaton  staff   28 Feb 21 16:06 tcdt.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 tcf.snippet
+-rw-r--r--@ 1 lucascaton  staff   67 Feb 21 16:06 tch.snippet
+-rw-r--r--@ 1 lucascaton  staff   27 Feb 21 16:06 tci.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 tcl.snippet
+-rw-r--r--@ 1 lucascaton  staff   85 Feb 21 16:06 tcr.snippet
+-rw-r--r--@ 1 lucascaton  staff   26 Feb 21 16:06 tcs.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 tct.snippet
+-rw-r--r--@ 1 lucascaton  staff   24 Feb 21 16:06 tcti.snippet
+-rw-r--r--@ 1 lucascaton  staff   29 Feb 21 16:06 tcts.snippet
+-rw-r--r--@ 1 lucascaton  staff   18 Feb 21 16:06 tctss.snippet
+-rw-r--r--@ 1 lucascaton  staff   22 Feb 21 16:06 trc.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 tre.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 tref.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 va.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 vao.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 vc.snippet
+-rw-r--r--@ 1 lucascaton  staff   66 Feb 21 16:06 ve.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 vf.snippet
+-rw-r--r--@ 1 lucascaton  staff   66 Feb 21 16:06 vi.snippet
+-rw-r--r--@ 1 lucascaton  staff   64 Feb 21 16:06 vl.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 vn.snippet
+-rw-r--r--@ 1 lucascaton  staff   38 Feb 21 16:06 vpo.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 vu.snippet
+-rw-r--r--@ 1 lucascaton  staff   35 Feb 21 16:06 wants.snippet
+-rw-r--r--@ 1 lucascaton  staff   46 Feb 21 16:06 xdelete.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 xget.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 xpost.snippet
+-rw-r--r--@ 1 lucascaton  staff   68 Feb 21 16:06 xput.snippet
+
+./ruby-rspec:
+total 560
+-rw-r--r--@ 1 lucascaton  staff   31 Feb 21 16:06 aft.snippet
+-rw-r--r--@ 1 lucascaton  staff   20 Feb 21 16:06 annot.snippet
+-rw-r--r--@ 1 lucascaton  staff   23 Feb 21 16:06 anr.snippet
+-rw-r--r--@ 1 lucascaton  staff   26 Feb 21 16:06 anra.snippet
+-rw-r--r--@ 1 lucascaton  staff   20 Feb 21 16:06 anrb.snippet
+-rw-r--r--@ 1 lucascaton  staff   20 Feb 21 16:06 ant.snippet
+-rw-r--r--@ 1 lucascaton  staff   23 Feb 21 16:06 any.snippet
+-rw-r--r--@ 1 lucascaton  staff   23 Feb 21 16:06 atl.snippet
+-rw-r--r--@ 1 lucascaton  staff   22 Feb 21 16:06 atm.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 bef.snippet
+-rw-r--r--@ 1 lucascaton  staff   33 Feb 21 16:06 conn.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 des.snippet
+-rw-r--r--@ 1 lucascaton  staff   88 Feb 21 16:06 desc.snippet
+-rw-r--r--@ 1 lucascaton  staff   86 Feb 21 16:06 desrc.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 dest.snippet
+-rw-r--r--@ 1 lucascaton  staff   52 Feb 21 16:06 dests.snippet
+-rw-r--r--@ 1 lucascaton  staff   22 Feb 21 16:06 ex.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 isbl.snippet
+-rw-r--r--@ 1 lucascaton  staff   23 Feb 21 16:06 it.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 its.snippet
+-rw-r--r--@ 1 lucascaton  staff  496 Feb 21 16:06 mat.snippet
+-rw-r--r--@ 1 lucascaton  staff   27 Feb 21 16:06 mm.snippet
+-rw-r--r--@ 1 lucascaton  staff   66 Feb 21 16:06 moc.snippet
+-rw-r--r--@ 1 lucascaton  staff   81 Feb 21 16:06 mocw.snippet
+-rw-r--r--@ 1 lucascaton  staff    5 Feb 21 16:06 on.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 resh.snippet
+-rw-r--r--@ 1 lucascaton  staff   54 Feb 21 16:06 sef.snippet
+-rw-r--r--@ 1 lucascaton  staff   38 Feb 21 16:06 sh.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 shb.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 shbc.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 shbio.snippet
+-rw-r--r--@ 1 lucascaton  staff   49 Feb 21 16:06 shbko.snippet
+-rw-r--r--@ 1 lucascaton  staff   33 Feb 21 16:06 shbr.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 shbs.snippet
+-rw-r--r--@ 1 lucascaton  staff  117 Feb 21 16:06 shc.snippet
+-rw-r--r--@ 1 lucascaton  staff   45 Feb 21 16:06 shdm.snippet
+-rw-r--r--@ 1 lucascaton  staff   40 Feb 21 16:06 she.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 sheq.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 shh.snippet
+-rw-r--r--@ 1 lucascaton  staff   60 Feb 21 16:06 shhal.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 shham.snippet
+-rw-r--r--@ 1 lucascaton  staff   45 Feb 21 16:06 shhr.snippet
+-rw-r--r--@ 1 lucascaton  staff   42 Feb 21 16:06 shn.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 shnb.snippet
+-rw-r--r--@ 1 lucascaton  staff   66 Feb 21 16:06 shnbc.snippet
+-rw-r--r--@ 1 lucascaton  staff   55 Feb 21 16:06 shnbio.snippet
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 shnbko.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 shnbr.snippet
+-rw-r--r--@ 1 lucascaton  staff   36 Feb 21 16:06 shnbs.snippet
+-rw-r--r--@ 1 lucascaton  staff   65 Feb 21 16:06 shnc.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 shne.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 shneq.snippet
+-rw-r--r--@ 1 lucascaton  staff   49 Feb 21 16:06 shnm.snippet
+-rw-r--r--@ 1 lucascaton  staff   41 Feb 21 16:06 shnp.snippet
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 shnr.snippet
+-rw-r--r--@ 1 lucascaton  staff   52 Feb 21 16:06 shnre.snippet
+-rw-r--r--@ 1 lucascaton  staff   47 Feb 21 16:06 shnredt.snippet
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 shnrt.snippet
+-rw-r--r--@ 1 lucascaton  staff   56 Feb 21 16:06 shns.snippet
+-rw-r--r--@ 1 lucascaton  staff   59 Feb 21 16:06 shnt.snippet
+-rw-r--r--@ 1 lucascaton  staff   37 Feb 21 16:06 shp.snippet
+-rw-r--r--@ 1 lucascaton  staff   49 Feb 21 16:06 shr.snippet
+-rw-r--r--@ 1 lucascaton  staff   48 Feb 21 16:06 shre.snippet
+-rw-r--r--@ 1 lucascaton  staff   43 Feb 21 16:06 shredt.snippet
+-rw-r--r--@ 1 lucascaton  staff   46 Feb 21 16:06 shrt.snippet
+-rw-r--r--@ 1 lucascaton  staff   52 Feb 21 16:06 shs.snippet
+-rw-r--r--@ 1 lucascaton  staff   51 Feb 21 16:06 sht.snippet
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 shtemp.snippet
+-rw-r--r--@ 1 lucascaton  staff    6 Feb 21 16:06 tw.snippet
+-rw-r--r--@ 1 lucascaton  staff   21 Feb 21 16:06 wia.snippet
+
+./ruby-shoulda:
+total 184
+-rw-r--r--@ 1 lucascaton  staff  38 Feb 21 16:06 context.snippet
+-rw-r--r--@ 1 lucascaton  staff  44 Feb 21 16:06 samao.snippet
+-rw-r--r--@ 1 lucascaton  staff  50 Feb 21 16:06 savf.snippet
+-rw-r--r--@ 1 lucascaton  staff  35 Feb 21 16:06 sbt.snippet
+-rw-r--r--@ 1 lucascaton  staff  59 Feb 21 16:06 selal.snippet
+-rw-r--r--@ 1 lucascaton  staff  49 Feb 21 16:06 seli.snippet
+-rw-r--r--@ 1 lucascaton  staff  64 Feb 21 16:06 selir.snippet
+-rw-r--r--@ 1 lucascaton  staff  19 Feb 21 16:06 setup.snippet
+-rw-r--r--@ 1 lucascaton  staff  63 Feb 21 16:06 sevir.snippet
+-rw-r--r--@ 1 lucascaton  staff  49 Feb 21 16:06 shabtm.snippet
+-rw-r--r--@ 1 lucascaton  staff  39 Feb 21 16:06 shcm.snippet
+-rw-r--r--@ 1 lucascaton  staff  35 Feb 21 16:06 shdc.snippet
+-rw-r--r--@ 1 lucascaton  staff  32 Feb 21 16:06 shi.snippet
+-rw-r--r--@ 1 lucascaton  staff  42 Feb 21 16:06 shim.snippet
+-rw-r--r--@ 1 lucascaton  staff  35 Feb 21 16:06 shm.snippet
+-rw-r--r--@ 1 lucascaton  staff  34 Feb 21 16:06 sho.snippet
+-rw-r--r--@ 1 lucascaton  staff  45 Feb 21 16:06 shroa.snippet
+-rw-r--r--@ 1 lucascaton  staff  48 Feb 21 16:06 snamao.snippet
+-rw-r--r--@ 1 lucascaton  staff  54 Feb 21 16:06 snavf.snippet
+-rw-r--r--@ 1 lucascaton  staff  42 Feb 21 16:06 svao.snippet
+-rw-r--r--@ 1 lucascaton  staff  44 Feb 21 16:06 svno.snippet
+-rw-r--r--@ 1 lucascaton  staff  40 Feb 21 16:06 svpo.snippet
+-rw-r--r--@ 1 lucascaton  staff  75 Feb 21 16:06 svuo.snippet
+
+./sinatra:
+total 8
+-rw-r--r--@ 1 lucascaton  staff  26 Feb 21 16:06 get.snippet
+
+./sshconfig:
+total 8
+-rw-r--r--@ 1 lucascaton  staff  68 Feb 21 16:06 host.snippet
+
+./vim:
+total 56
+-rw-r--r--@ 1 lucascaton  staff   46 Feb 21 16:06 au.snippet
+-rw-r--r--@ 1 lucascaton  staff   77 Feb 21 16:06 com.snippet
+-rw-r--r--@ 1 lucascaton  staff  102 Feb 21 16:06 func.snippet
+-rw-r--r--@ 1 lucascaton  staff   20 Feb 21 16:06 if.snippet
+-rw-r--r--@ 1 lucascaton  staff   25 Feb 21 16:06 ife.snippet
+-rw-r--r--@ 1 lucascaton  staff   13 Feb 21 16:06 log.snippet
+-rw-r--r--@ 1 lucascaton  staff   30 Feb 21 16:06 try.snippet
+
+./xslt:
+total 88
+-rw-r--r--@ 1 lucascaton  staff   71 Feb 21 16:06 call.snippet
+-rw-r--r--@ 1 lucascaton  staff  118 Feb 21 16:06 choose.snippet
+-rw-r--r--@ 1 lucascaton  staff   61 Feb 21 16:06 mat.snippet
+-rw-r--r--@ 1 lucascaton  staff   66 Feb 21 16:06 out.snippet
+-rw-r--r--@ 1 lucascaton  staff   32 Feb 21 16:06 param.snippet
+-rw-r--r--@ 1 lucascaton  staff  106 Feb 21 16:06 sty.snippet
+-rw-r--r--@ 1 lucascaton  staff   57 Feb 21 16:06 tem.snippet
+-rw-r--r--@ 1 lucascaton  staff   38 Feb 21 16:06 value.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 var.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 wparam.snippet
+-rw-r--r--@ 1 lucascaton  staff   53 Feb 21 16:06 xdec.snippet
+
+./zend:
+total 112
+-rw-r--r--@ 1 lucascaton  staff   50 Feb 21 16:06 assert.snippet
+-rw-r--r--@ 1 lucascaton  staff  105 Feb 21 16:06 boolcol.snippet
+-rw-r--r--@ 1 lucascaton  staff  316 Feb 21 16:06 clac.snippet
+-rw-r--r--@ 1 lucascaton  staff   58 Feb 21 16:06 flash.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 getconf.snippet
+-rw-r--r--@ 1 lucascaton  staff  133 Feb 21 16:06 input.snippet
+-rw-r--r--@ 1 lucascaton  staff  193 Feb 21 16:06 inputarr.snippet
+-rw-r--r--@ 1 lucascaton  staff   85 Feb 21 16:06 intcol.snippet
+-rw-r--r--@ 1 lucascaton  staff   44 Feb 21 16:06 lib.snippet
+-rw-r--r--@ 1 lucascaton  staff  551 Feb 21 16:06 model.snippet
+-rw-r--r--@ 1 lucascaton  staff   91 Feb 21 16:06 navi.snippet
+-rw-r--r--@ 1 lucascaton  staff  126 Feb 21 16:06 route.snippet
+-rw-r--r--@ 1 lucascaton  staff   62 Feb 21 16:06 rp.snippet
+-rw-r--r--@ 1 lucascaton  staff   88 Feb 21 16:06 strcol.snippet
