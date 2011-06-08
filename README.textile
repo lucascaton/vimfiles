@@ -89,6 +89,10 @@ h2. Nerdtree
 
 * https://github.com/scrooloose/nerdtree
 
+h2. Vim Endwise
+
+* https://github.com/tpope/vim-endwise
+
 h1. Learn Vim
 
 Visit the following sites to learn more about Vim:
