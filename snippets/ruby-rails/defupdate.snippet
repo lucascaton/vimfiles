@@ -1,5 +1,5 @@
 def update
-  @${1:model_class_name} = ${2:ModelClassName}.find(params[:id])
+  @${1:model_class_name} = ${2:ModelClassName}.find params[:id]
 
   if @$1.update_attributes params[:$1]
     flash[:notice] = '$2 was successfully updated.'
