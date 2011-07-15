@@ -1,0 +1,45 @@
+class ${1:ModelClassName}sController < ApplicationController
+  def index
+    @${2:model_class_name} = $1.all
+  end
+
+  def show
+    @$2 = $1.find params[:id]
+  end
+
+  def new
+    @$2 = $1.new
+  end
+
+  def create
+    @$2 = $1.new params[:$2]
+
+    if @$2.save
+      flash[:notice] = '$1 foi criado com sucesso.'
+      redirect_to @$2
+    else
+      render :action => 'new'
+    end
+  end
+
+  def edit
+    @$2 = $1.find params[:id]
+  end
+
+  def update
+    @$2 = $1.find params[:id]
+
+    if @$2.update_attributes params[:$2]
+      flash[:notice] = '$1 foi atualizado com sucesso.'
+      redirect_to @$2
+    else
+      render :action => 'edit'
+    end
+  end
+
+  def destroy
+    @$2 = $1.find params[:id]
+    @$2.destroy
+    redirect_to $2s_url
+  end
+end${3}
