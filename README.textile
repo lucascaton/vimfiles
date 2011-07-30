@@ -93,6 +93,10 @@ h2. Vim Endwise
 
 * https://github.com/tpope/vim-endwise
 
+h2. Easy Grep
+
+* https://github.com/vim-scripts/EasyGrep
+
 h1. Learn Vim
 
 Visit the following sites to learn more about Vim:
