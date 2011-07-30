@@ -40,6 +40,6 @@ class ${1:ModelClassName}sController < ApplicationController
   def destroy
     @$2 = $1.find params[:id]
     @$2.destroy
-    redirect_to $2s_url
+    redirect_to $2s_path
   end
 end${3}
