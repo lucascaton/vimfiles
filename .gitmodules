@@ -40,3 +40,6 @@
 [submodule "bundle/EasyGrep"]
 	path = bundle/EasyGrep
 	url = https://github.com/vim-scripts/EasyGrep.git
+[submodule "bundle/vim-slim"]
+	path = bundle/vim-slim
+	url = https://github.com/bbommarito/vim-slim.git
