@@ -90,6 +90,7 @@ set wrap  " Line wrapping on
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 
 " Highlight all search results
+set incsearch
 set hlsearch
 
 " Plugin and indentation on
