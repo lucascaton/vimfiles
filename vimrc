@@ -168,6 +168,10 @@ nnoremap <C-T> :tabnew<cr>
 nnoremap <A-w> :q<cr>
 nnoremap <A-W> :q<cr>
 
+" Improve 'n' command (for searches)
+nmap n nzz
+nmap N Nzz
+
 " ---------------------------------
 " Aliases
 " ---------------------------------
