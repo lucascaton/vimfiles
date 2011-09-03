@@ -43,3 +43,6 @@
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
 	url = https://github.com/bbommarito/vim-slim.git
+[submodule "bundle/colorsel"]
+	path = bundle/colorsel
+	url = https://github.com/vim-scripts/colorsel.vim.git
