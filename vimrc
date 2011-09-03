@@ -139,6 +139,17 @@ set list listchars=tab:»·,trail:·
 map <leader>= :call TrimWhiteSpace()<CR>
 map! <leader>= :call TrimWhiteSpace()<CR>
 
+" Auto complete
+function! CleverTab()
+  if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+    return "\<Tab>"
+  else
+    return "\<C-X>\<C-O>"
+endfunction
+
+inoremap <Tab> <C-R>=CleverTab()<CR>
+set completeopt=menu,preview
+
 " ---------------------------------
 " Shortcuts
 " ---------------------------------
