@@ -15,7 +15,7 @@ class ${1:ModelClassName}sController < ApplicationController
     @$2 = $1.new params[:$2]
 
     if @$2.save
-      flash[:notice] = '$1 criado com sucesso.'
+      flash[:notice] = '${3:transated_model_name} criad${4:a/o} com sucesso.'
       redirect_to @$2
     else
       render :action => 'new'
@@ -30,7 +30,7 @@ class ${1:ModelClassName}sController < ApplicationController
     @$2 = $1.find params[:id]
 
     if @$2.update_attributes params[:$2]
-      flash[:notice] = '$1 atualizado com sucesso.'
+      flash[:notice] = '$3 atualizad$4 com sucesso.'
       redirect_to @$2
     else
       render :action => 'edit'
@@ -40,7 +40,7 @@ class ${1:ModelClassName}sController < ApplicationController
   def destroy
     @$2 = $1.find params[:id]
     @$2.destroy
-    flash[:notice] = '$1 removido com sucesso.'
+    flash[:notice] = '$3 removid$4 com sucesso.'
     redirect_to $2s_path
   end
-end${3}
+end${5}
