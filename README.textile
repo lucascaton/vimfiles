@@ -97,6 +97,11 @@ h2. Easy Grep
 
 * https://github.com/vim-scripts/EasyGrep
 
+h2. CtrlP
+
+* http://kien.github.com/ctrlp.vim/
+* https://github.com/kien/ctrlp.vim
+
 h1. Learn Vim
 
 Visit the following sites to learn more about Vim:

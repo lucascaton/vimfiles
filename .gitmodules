@@ -46,3 +46,6 @@
 [submodule "bundle/colorsel"]
 	path = bundle/colorsel
 	url = https://github.com/vim-scripts/colorsel.vim.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
