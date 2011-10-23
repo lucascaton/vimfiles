@@ -7,9 +7,6 @@
 [submodule "bundle/vim-flog"]
 	path = bundle/vim-flog
 	url = https://github.com/fousa/vim-flog.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
 [submodule "bundle/tcomment"]
 	path = bundle/tcomment
 	url = https://github.com/tomtom/tcomment_vim.git
@@ -31,9 +28,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "bundle/vim-peepopen"]
-	path = bundle/vim-peepopen
-	url = https://github.com/shemerey/vim-peepopen.git
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = https://github.com/tpope/vim-endwise.git

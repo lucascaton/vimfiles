@@ -51,12 +51,6 @@ Monaco is for Mac, Consolas is for Windows. Under Linux better try "Bitstream Ve
 
 h1. Plugins
 
-h2. Command-T
-
-If you have problems in Mac / Linux using this plugin, check the solutions on the github's page:
-
-* https://github.com/wincent/Command-T
-
 h2. Snipmate
 
 * https://github.com/msanders/snipmate.vim
