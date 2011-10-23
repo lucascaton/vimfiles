@@ -160,14 +160,18 @@ nnoremap <C-R> :source ~/.vimrc
 " Ctrl+L clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
 
+" Improve 'n' command (for searches)
+nmap n nzz
+nmap N Nzz
+
 " ---------------------------------
 " Shortcuts for Linux (Gvim)
 " ---------------------------------
 
 " Ctrl+C to copy and Ctrl+P to paste
-vnoremap <C-C> "+y
-inoremap <C-P> <ESC>"+pa
-nnoremap <C-P> "+p
+" vnoremap <C-C> "+y
+" inoremap <C-P> <ESC>"+pa
+" nnoremap <C-P> "+p
 
 " Ctrl+S to save the current file
 nmap <c-s> :w<CR>
@@ -178,10 +182,6 @@ nnoremap <C-t> :tabnew<cr>
 nnoremap <C-T> :tabnew<cr>
 nnoremap <A-w> :q<cr>
 nnoremap <A-W> :q<cr>
-
-" Improve 'n' command (for searches)
-nmap n nzz
-nmap N Nzz
 
 " ---------------------------------
 " Aliases
