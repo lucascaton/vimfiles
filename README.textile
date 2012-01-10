@@ -104,6 +104,11 @@ h2. Syntastic
 
 * https://github.com/scrooloose/syntastic
 
+h2. Sparkup (Zen-coding)
+
+* https://github.com/rstacruz/sparkup
+* http://code.google.com/p/zen-coding/
+
 
 h1. Learn Vim
 
