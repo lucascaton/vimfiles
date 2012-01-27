@@ -104,11 +104,12 @@ filetype plugin indent on
 colorscheme ir_black
 
 " Fonts for Linux
-"set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
-"set guifont=Monaco\ 10
+" set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
+" set guifont=Monospace\ 10
 
 " Fonts for Mac
-set guifont=Monaco:h12
+set guifont=Monaco:h14
+" set guifont=Inconsolata-dz:h17
 
 " Don't show the top bar
 set guioptions-=T
