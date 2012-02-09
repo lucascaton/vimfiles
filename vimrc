@@ -97,10 +97,14 @@ set hlsearch
 filetype plugin indent on
 
 " Forcing the use of hjkl keys to navigate
-noremap <Up> <nop>
-noremap <Down> <nop>
-noremap <Left> <nop>
-noremap <Right> <nop>
+noremap  <Up>    <nop>
+inoremap <Up>    <nop>
+noremap  <Down>  <nop>
+inoremap <Down>  <nop>
+noremap  <Left>  <nop>
+inoremap <Left>  <nop>
+noremap  <Right> <nop>
+inoremap <Right> <nop>
 
 " ---------------------------------
 " Theme
