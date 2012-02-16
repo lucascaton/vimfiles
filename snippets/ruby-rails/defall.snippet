@@ -18,7 +18,8 @@ class ${1:ModelClassName}sController < ApplicationController
       flash[:notice] = '${3:transated_model_name} criad${4:a/o} com sucesso.'
       redirect_to @$2
     else
-      render :action => 'new'
+      flash[:erorr] = @$2.errors.full_messages.first
+      render :new
     end
   end
 
@@ -33,7 +34,8 @@ class ${1:ModelClassName}sController < ApplicationController
       flash[:notice] = '$3 atualizad$4 com sucesso.'
       redirect_to @$2
     else
-      render :action => 'edit'
+      flash[:erorr] = @$2.errors.full_messages.first
+      render :edit
     end
   end
 
