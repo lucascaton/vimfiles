@@ -98,7 +98,7 @@ h2. CtrlP
 
 h2. Vim Matchit
 
-* https://github.com/mhz/vim-matchit
+* https://github.com/tsaleh/vim-matchit
 
 h2. Syntastic
 
