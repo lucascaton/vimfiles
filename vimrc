@@ -199,3 +199,9 @@ cab Q q
 cab Wq wq
 cab wQ wq
 cab WQ wq
+
+" ---------------------------------
+" Syntax Highlighting
+" ---------------------------------
+
+au BufNewFile,BufRead *.thor set filetype=ruby
