@@ -59,10 +59,6 @@ h2. Vim-rails
 
 * https://github.com/tpope/vim-rails
 
-h2. Vim-flog
-
-* https://github.com/fousa/vim-flog
-
 h2. Tcomment
 
 * https://github.com/tomtom/tcomment_vim
