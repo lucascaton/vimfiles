@@ -19,8 +19,7 @@ Then 'cd' into the repo and run this to get the snippets submodule:
 <pre><code>git submodule init
 git submodule update</code></pre>
 
-Now just copy (or symlink) the .vim/vimrc file as .vimrc (Mac/Linux) or copy as _vimrc (Windows) in your home directory. In Mac and Linux, the 
-easiest thing to do is:
+Now just copy (or symlink) the .vim/vimrc file as .vimrc (Mac/Linux) or copy as _vimrc (Windows) in your home directory. In Mac and Linux, the easiest thing to do is:
 
 <pre><code>ln -s ~/.vim/vimrc ~/.vimrc</pre></code>
 
@@ -110,7 +109,8 @@ h1. Learn Vim
 
 Visit the following sites to learn more about Vim:
 
-* http://vimcasts.org
+* Vimcasts: http://vimcasts.org
+* Screencast "17 dicas para o Vim" (portuguese): http://blog.lucascaton.com.br/?p=1081
 
 There are many sites teaching Vim, if you know of any other that are easy to follow for newcomers, let me know.
 
