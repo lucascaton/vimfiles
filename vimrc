@@ -111,7 +111,7 @@ colorscheme ir_black
 " set guifont=Monospace\ 10
 
 " Fonts for Mac
-set guifont=Monaco:h14
+set guifont=Monaco:h17
 " set guifont=Inconsolata-dz:h17
 
 " Don't show the top bar
@@ -202,3 +202,4 @@ cab WQ wq
 " ---------------------------------
 
 au BufNewFile,BufRead *.thor set filetype=ruby
+au BufNewFile,BufRead Guardfile set filetype=ruby
