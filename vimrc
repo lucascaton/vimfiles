@@ -143,6 +143,8 @@ set list listchars=tab:»·,trail:·
 map <leader>= :call TrimWhiteSpace()<CR>
 map! <leader>= :call TrimWhiteSpace()<CR>
 
+autocmd BufWritePre * :%s/\s\+$//e
+
 " Auto complete
 function! CleverTab()
   if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
