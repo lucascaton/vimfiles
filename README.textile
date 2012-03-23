@@ -104,6 +104,10 @@ h2. Sparkup (Zen-coding)
 * https://github.com/rstacruz/sparkup
 * http://code.google.com/p/zen-coding/
 
+h2. Easymotion
+
+* https://github.com/Lokaltog/vim-easymotion
+* http://net.tutsplus.com/tutorials/other/vim-essential-plugin-easymotion/
 
 h1. Learn Vim
 
