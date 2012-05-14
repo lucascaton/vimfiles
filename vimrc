@@ -204,4 +204,5 @@ cab WQ wq
 " ---------------------------------
 
 au BufNewFile,BufRead *.thor set filetype=ruby
+au BufNewFile,BufRead *.less set filetype=css
 au BufNewFile,BufRead Guardfile set filetype=ruby
