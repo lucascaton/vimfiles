@@ -109,6 +109,10 @@ h2. Easymotion
 * https://github.com/Lokaltog/vim-easymotion
 * http://net.tutsplus.com/tutorials/other/vim-essential-plugin-easymotion/
 
+h2. PowerLine
+
+* https://github.com/Lokaltog/vim-powerline
+
 h1. Learn Vim
 
 Visit the following sites to learn more about Vim:

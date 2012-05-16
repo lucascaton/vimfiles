@@ -34,6 +34,9 @@ function! s:align()
   endif
 endfunction
 
+" PowerLine
+let g:Powerline_symbols = 'unicode'
+set laststatus=2
 
 " ---------------------------------
 " Settings
