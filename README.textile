@@ -50,59 +50,83 @@ Monaco is for Mac, Consolas is for Windows. Under Linux better try "Bitstream Ve
 
 h1. Plugins
 
-h2. Snipmate
+h2. CtrlP
 
-* https://github.com/msanders/snipmate.vim
-
-h2. Vim-rails
-
-* https://github.com/tpope/vim-rails
-
-h2. Tcomment
-
-* https://github.com/tomtom/tcomment_vim
+Full path fuzzy file, buffer, mru and tag finder.
+* http://kien.github.com/ctrlp.vim/
+* https://github.com/kien/ctrlp.vim
 
 h2. Extradite
 
+A git commit browser. Extends fugitive.vim.
 * https://github.com/int3/vim-extradite
 
 h2. Fugitive
 
+A git wrapper so awesome, it should be illegal.
 * https://github.com/tpope/vim-fugitive
 
 h2. Gist-vim
 
+For creating gists.
 * https://github.com/mattn/gist-vim
 
 h2. Nerdtree
 
+A tree explorer plugin.
 * https://github.com/scrooloose/nerdtree
 
-h2. Vim Endwise
+h2. Snipmate
 
-* https://github.com/tpope/vim-endwise
-
-h2. CtrlP
-
-* http://kien.github.com/ctrlp.vim/
-* https://github.com/kien/ctrlp.vim
-
-h2. Vim Matchit
-
-* https://github.com/tsaleh/vim-matchit
-
-h2. Syntastic
-
-* https://github.com/scrooloose/syntastic
+Aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
+* https://github.com/msanders/snipmate.vim
 
 h2. Sparkup (Zen-coding)
 
+A parser for a condensed HTML format.
 * https://github.com/rstacruz/sparkup
 * http://code.google.com/p/zen-coding/
 
+h2. Syntastic
+
+Syntax checking hacks.
+* https://github.com/scrooloose/syntastic
+
+h2. Tabular
+
+Text filtering and alignmentClone.
+* https://github.com/godlygeek/tabular
+
+h2. Tcomment
+
+An extensible & universal comment vim-plugin that also handles embedded filetypes.
+* https://github.com/tomtom/tcomment_vim
+
+h2. Vim Endwise
+
+Wisely add "end" in ruby, endfunction/endif/more in vim script, etc.
+* https://github.com/tpope/vim-endwise
+
+h2. Vim Matchit
+
+Extended % matching for HTML, LaTeX, and many other languages.
+* https://github.com/tsaleh/vim-matchit
+
 h2. PowerLine
 
+The ultimate vim statusline utility.
 * https://github.com/Lokaltog/vim-powerline
+
+h2. Vim-rails
+
+Ruby on Rails power tools.
+* https://github.com/tpope/vim-rails
+
+h2. Vim Ruby Runner
+
+Execute Ruby into an output buffer, similar to ⌘R in TextMate.
+* https://github.com/henrik/vim-ruby-runner
+
 
 h1. Learn Vim
 
