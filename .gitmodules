@@ -1,54 +1,42 @@
 [submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = https://github.com/msanders/snipmate.vim.git
+  path = bundle/snipmate
+  url = https://github.com/msanders/snipmate.vim.git
 [submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = https://github.com/tpope/vim-rails.git
+  path = bundle/vim-rails
+  url = https://github.com/tpope/vim-rails.git
 [submodule "bundle/tcomment"]
-	path = bundle/tcomment
-	url = https://github.com/tomtom/tcomment_vim.git
+  path = bundle/tcomment
+  url = https://github.com/tomtom/tcomment_vim.git
 [submodule "bundle/extradite"]
-	path = bundle/extradite
-	url = https://github.com/int3/vim-extradite.git
+  path = bundle/extradite
+  url = https://github.com/int3/vim-extradite.git
 [submodule "bundle/fugitive"]
-	path = bundle/fugitive
-	url = https://github.com/tpope/vim-fugitive.git
+  path = bundle/fugitive
+  url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/gist-vim"]
-	path = bundle/gist-vim
-	url = https://github.com/mattn/gist-vim.git
+  path = bundle/gist-vim
+  url = https://github.com/mattn/gist-vim.git
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+  path = bundle/nerdtree
+  url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vim-ruby-runner"]
-	path = bundle/vim-ruby-runner
-	url = https://github.com/henrik/vim-ruby-runner.git
+  path = bundle/vim-ruby-runner
+  url = https://github.com/henrik/vim-ruby-runner.git
 [submodule "bundle/tabular"]
-	path = bundle/tabular
-	url = https://github.com/godlygeek/tabular.git
+  path = bundle/tabular
+  url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/vim-endwise"]
-	path = bundle/vim-endwise
-	url = https://github.com/tpope/vim-endwise.git
-[submodule "bundle/EasyGrep"]
-	path = bundle/EasyGrep
-	url = https://github.com/vim-scripts/EasyGrep.git
-[submodule "bundle/vim-slim"]
-	path = bundle/vim-slim
-	url = https://github.com/bbommarito/vim-slim.git
-[submodule "bundle/colorsel"]
-	path = bundle/colorsel
-	url = https://github.com/vim-scripts/colorsel.vim.git
+  path = bundle/vim-endwise
+  url = https://github.com/tpope/vim-endwise.git
 [submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
+  path = bundle/ctrlp
+  url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
+  path = bundle/syntastic
+  url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/vim-matchit"]
-	path = bundle/vim-matchit
-	url = https://github.com/tsaleh/vim-matchit
-[submodule "bundle/easymotion"]
-	path = bundle/easymotion
-	url = git://github.com/Lokaltog/vim-easymotion.git
+  path = bundle/vim-matchit
+  url = https://github.com/tsaleh/vim-matchit
 [submodule "bundle/vim-powerline"]
-	path = bundle/vim-powerline
-	url = https://github.com/Lokaltog/vim-powerline.git
+  path = bundle/vim-powerline
+  url = https://github.com/Lokaltog/vim-powerline.git
