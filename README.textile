@@ -82,10 +82,6 @@ h2. Vim Endwise
 
 * https://github.com/tpope/vim-endwise
 
-h2. Easy Grep
-
-* https://github.com/vim-scripts/EasyGrep
-
 h2. CtrlP
 
 * http://kien.github.com/ctrlp.vim/
@@ -103,11 +99,6 @@ h2. Sparkup (Zen-coding)
 
 * https://github.com/rstacruz/sparkup
 * http://code.google.com/p/zen-coding/
-
-h2. Easymotion
-
-* https://github.com/Lokaltog/vim-easymotion
-* http://net.tutsplus.com/tutorials/other/vim-essential-plugin-easymotion/
 
 h2. PowerLine
 
