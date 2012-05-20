@@ -74,6 +74,8 @@ set expandtab
 " Highlight the line and the column of the current position of cursor
 set cursorline
 set cursorcolumn
+hi CursorLine guibg=#222222
+hi CursorColumn guibg=#222222
 
 " Folding settings
 " set foldmethod=indent   "fold based on indent
