@@ -50,6 +50,11 @@ Monaco is for Mac, Consolas is for Windows. Under Linux better try "Bitstream Ve
 
 h1. Plugins
 
+h2. Ack.vim
+
+Perl module App::Ack. Ack can be used as a replacement for 99% of the uses of grep.
+* https://github.com/mileszs/ack.vim
+
 h2. CtrlP
 
 Full path fuzzy file, buffer, mru and tag finder.

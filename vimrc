@@ -35,8 +35,10 @@ function! s:align()
 endfunction
 
 " PowerLine
+" let g:Powerline_symbols = 'fancy'
 let g:Powerline_symbols = 'unicode'
 set laststatus=2
+" %{fugitive#statusline()}
 
 " CtrlP
 let g:ctrlp_map = '<c-p>'
