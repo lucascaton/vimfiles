@@ -80,28 +80,28 @@ hi CursorLine guibg=#222222
 hi CursorColumn guibg=#222222
 
 " Folding settings
-" set foldmethod=indent   "fold based on indent
-" set foldnestmax=10      "deepest fold is 3 levels
-set nofoldenable        "dont fold by default
+" set foldmethod=indent   " fold based on indent
+" set foldnestmax=10      " deepest fold is 3 levels
+set nofoldenable        " dont fold by default
 " set foldlevel=1
 
-set wildmode=list:longest   "make cmdline tab completion similar to bash
-set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
-set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
+set wildmode=list:longest " make cmdline tab completion similar to bash
+set wildmenu " enable ctrl-n and ctrl-p to scroll thru matches
+set wildignore=*.o,*.obj,*~ " stuff to ignore when tab completing
 
 " Vertical / horizontal scroll off settings
 set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
-set cf  " Enable error files & error jumping.
-set clipboard+=unnamed  " Yanks go on clipboard instead.
-set history=256  " Number of things to remember in history.
-set autowrite  " Writes on make/shell commands
-set ruler  " Ruler on
-set nu  " Line numbers on
-set wrap  " Line wrapping on
-set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
+set cf " Enable error files & error jumping.
+set clipboard+=unnamed " Yanks go on clipboard instead.
+set history=256 " Number of things to remember in history.
+set autowrite " Writes on make/shell commands
+set ruler " Ruler on
+set nu " Line numbers on
+set wrap " Line wrapping on
+set timeoutlen=250 " Time to wait after ESC (default causes an annoying delay)
 
 " Highlight all search results
 set incsearch
@@ -111,9 +111,9 @@ set hlsearch
 filetype plugin indent on
 
 " Forcing the use of hjkl keys to navigate
-" noremap <Up>    <nop>
-" noremap <Down>  <nop>
-" noremap <Left>  <nop>
+" noremap <Up> <nop>
+" noremap <Down> <nop>
+" noremap <Left> <nop>
 " noremap <Right> <nop>
 
 " Highlight long lines
