@@ -107,6 +107,11 @@ h2. Tcomment
 An extensible & universal comment vim-plugin that also handles embedded filetypes.
 * https://github.com/tomtom/tcomment_vim
 
+h2. Vim Easymotion
+
+It provides a much simpler way to use some motions in vim.
+* https://github.com/Lokaltog/vim-easymotion/
+
 h2. Vim Endwise
 
 Wisely add "end" in ruby, endfunction/endif/more in vim script, etc.
