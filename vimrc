@@ -131,6 +131,9 @@ au InsertLeave * :set rnu
 au FocusLost * :set nu
 au FocusGained * :set rnu
 
+" Ignore case in searches
+set ignorecase
+
 " ---------------------------------
 " Theme
 " ---------------------------------
