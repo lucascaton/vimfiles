@@ -11,7 +11,7 @@
 " ---------------------------------
 
 " Pathogen
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 " Gist-vim
 let g:gist_detect_filetype = 1
