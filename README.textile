@@ -13,20 +13,16 @@ Troubleshoot: Because of the large amount of submodules, if you ever have any tr
 Clone this repo into your home directory either as .vim (linux/mac) or vimfiles (Windows). Such as:
 
 <pre><code>git clone git://github.com/lucascaton/vimfiles.git ~/.vim
-cd ~/.vim
+cd ~/.vim</code></pre>
 
-# And run this to get the snippets submodules:
-git submodule init
-git submodule update
+And run this to get the snippets submodules:
 
-# Now, just copy (or create a symlink) the .vim/vimrc file as .vimrc (Mac OSX/Linux) or copy as _vimrc (Windows) in your home directory. In Mac OSX and Linux, the easiest thing to do is:
+<pre><code>git submodule init
+git submodule update</code></pre>
 
-ln -s ~/.vim/vimrc ~/.vimrc</pre></code>
+Now, just copy (or create a symlink) the .vim/vimrc file as .vimrc (Mac OSX/Linux) or copy as _vimrc (Windows) in your home directory. In Mac OSX and Linux, the easiest thing to do is:
 
-If you already have a custom .vimrc file, append the following lines to load everything else along with your personal hacks:
-
-<pre><code>source ~/.vim/vimrc      "linux
-source ~/vimfiles/vimrc  "windows</code></pre>
+<pre><code>ln -s ~/.vim/vimrc ~/.vimrc</pre></code>
 
 
 h2. About MacVim
@@ -38,7 +34,7 @@ h2. Help Tags
 
 At first usage of vim, type ":" while in command mode and execute:
 
-  call pathogen#helptags()
+  Helptags
 
 This will make the plugins documentations available upon :help
 
