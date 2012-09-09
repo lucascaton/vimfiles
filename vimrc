@@ -125,11 +125,11 @@ let w:m2=matchadd('Search', '\%>80v.\+', -1)
 " let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 
 " Relative line numbers in normal mode
-set rnu
-au InsertEnter * :set nu
-au InsertLeave * :set rnu
-au FocusLost * :set nu
-au FocusGained * :set rnu
+" set rnu
+" au InsertEnter * :set nu
+" au InsertLeave * :set rnu
+" au FocusLost * :set nu
+" au FocusGained * :set rnu
 
 " Ignore case in searches
 set ignorecase
