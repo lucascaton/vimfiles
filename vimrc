@@ -35,8 +35,7 @@ function! s:align()
 endfunction
 
 " PowerLine
-" let g:Powerline_symbols = 'fancy'
-let g:Powerline_symbols = 'unicode'
+let g:Powerline_symbols = 'fancy'
 set laststatus=2
 " %{fugitive#statusline()}
 
