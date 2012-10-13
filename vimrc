@@ -145,7 +145,7 @@ colorscheme ir_black
 " set guifont=Monospace\ 10
 
 " Fonts for Mac
-set guifont=Monaco:h17
+set guifont=Monaco:h15
 " set guifont=Inconsolata-dz:h17
 
 " Don't show the top bar
