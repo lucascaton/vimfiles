@@ -49,3 +49,6 @@
 [submodule "bundle/html5"]
 	path = bundle/html5
 	url = git://github.com/othree/html5.vim.git
+[submodule "bundle/rename"]
+	path = bundle/rename
+	url = https://github.com/danro/rename.vim.git

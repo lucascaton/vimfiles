@@ -81,6 +81,11 @@ h2. Nerdtree
 A tree explorer plugin.
 * https://github.com/scrooloose/nerdtree
 
+h2. Rename
+
+A command and function that basically does a ":saveas <newfile>" then removes the old filename on the disk.
+* https://github.com/danro/rename.vim
+
 h2. Snipmate
 
 Aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
