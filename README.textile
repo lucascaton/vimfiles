@@ -72,8 +72,7 @@ h2. Gist-vim
 For creating gists.
 * https://github.com/mattn/gist-vim
 
-h2. HTML5
-HTML5 omnicomplete and syntax.
+h2. HTML5 omnicomplete and syntax.
 * https://github.com/othree/html5.vim
 
 h2. Nerdtree
