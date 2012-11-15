@@ -72,12 +72,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" Highlight the line and the column of the current position of cursor
-set cursorline
-set cursorcolumn
-hi CursorLine guibg=#222222
-hi CursorColumn guibg=#222222
-
 " Folding settings
 " set foldmethod=indent   " fold based on indent
 " set foldnestmax=10      " deepest fold is 3 levels
@@ -156,6 +150,12 @@ if has("gui_running")
   set lines=57
   set columns=237
   colorscheme ir_black
+
+  " Highlight the line and the column of the current position of cursor
+  set cursorline
+  set cursorcolumn
+  hi CursorLine guibg=#222222
+  hi CursorColumn guibg=#222222
 else
   let g:CSApprox_loaded = 0
 endif
