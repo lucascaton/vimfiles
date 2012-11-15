@@ -137,9 +137,6 @@ set ignorecase
 " Theme
 " ---------------------------------
 
-" Color Scheme
-colorscheme ir_black
-
 " Fonts for Linux
 " set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
 " set guifont=Monospace\ 10
@@ -158,6 +155,7 @@ if has("gui_running")
   set t_Co=256
   set lines=57
   set columns=237
+  colorscheme ir_black
 else
   let g:CSApprox_loaded = 0
 endif
