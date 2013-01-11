@@ -188,6 +188,17 @@ endfunction
 inoremap <Tab> <C-R>=CleverTab()<CR>
 set completeopt=menu,preview
 
+" Tab toggle
+function TabToggle()
+  if &expandtab
+    set noexpandtab
+  else
+    set expandtab
+  endif
+  retab!
+endfunction
+nmap <F9> mz:execute TabToggle()<CR>
+
 " ---------------------------------
 " Shortcuts
 " ---------------------------------
