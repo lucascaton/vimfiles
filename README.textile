@@ -52,6 +52,7 @@ Perl module App::Ack. Ack can be used as a replacement for 99% of the uses of gr
 * https://github.com/mileszs/ack.vim
 
 h2. (Vim) Coffee Script
+
 CoffeeScript support for Vim
 * https://github.com/kchmck/vim-coffee-script
 
