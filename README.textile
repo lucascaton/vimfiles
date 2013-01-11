@@ -51,6 +51,10 @@ h2. Ack.vim
 Perl module App::Ack. Ack can be used as a replacement for 99% of the uses of grep.
 * https://github.com/mileszs/ack.vim
 
+h2. (Vim) Coffee Script
+CoffeeScript support for Vim
+* https://github.com/kchmck/vim-coffee-script
+
 h2. CtrlP
 
 Full path fuzzy file, buffer, mru and tag finder.
