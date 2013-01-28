@@ -127,6 +127,10 @@ inoremap <Right> <nop>
 " Ignore case in searches
 set ignorecase
 
+" Open splits at right side (and below)
+set splitright
+set splitbelow
+
 " ---------------------------------
 " Theme
 " ---------------------------------
