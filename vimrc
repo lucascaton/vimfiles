@@ -10,6 +10,8 @@
 " Plugins
 " ---------------------------------
 
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
 " Pathogen
 call pathogen#infect()
 
