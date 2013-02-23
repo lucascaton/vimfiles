@@ -152,16 +152,19 @@ set guioptions-=T
 syntax on
 
 if has("gui_running")
-  set t_Co=256
   set lines=57
   set columns=237
-  colorscheme ir_black
 
   " Highlight the line and the column of the current position of cursor
   set cursorline
   set cursorcolumn
   hi CursorLine guibg=#222222
   hi CursorColumn guibg=#222222
+endif
+
+if has("gui_running") || $TERM == "xterm-256color"
+  set t_Co=256
+  colorscheme ir_black
 else
   let g:CSApprox_loaded = 0
 endif
