@@ -44,6 +44,11 @@ h2. Fonts
 Monaco is for Mac, Consolas is for Windows. Under Linux better try "Bitstream Vera Sans Mono".
 
 
+h2. Pretty Vim Color Schemes in iTerm2
+
+* http://kevin.colyar.net/2011/01/pretty-vim-color-schemes-in-iterm2/
+
+
 h1. Plugins
 
 h2. Ack.vim
