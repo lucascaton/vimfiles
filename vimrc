@@ -252,12 +252,15 @@ command! -nargs=0 RemoveAllFocusTags call s:RemoveAllFocusTags()
 :nnoremap <leader>t :AddFocusTag<CR>
 :nnoremap <leader>r :RemoveAllFocusTags<CR>
 
+" Search and replace selected text (http://stackoverflow.com/questions/676600/vim-search-and-replace-selected-text)
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
 " ---------------------------------
 " Shortcuts
 " ---------------------------------
 
 " Ctrl+R reloads the ~/.vimrc file
-nnoremap <C-R> :source ~/.vimrc
+nnoremap <F12> :source ~/.vimrc
 
 " Ctrl+L clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
