@@ -121,6 +121,11 @@ h2. Tcomment
 An extensible & universal comment vim-plugin that also handles embedded filetypes.
 * https://github.com/tomtom/tcomment_vim
 
+h2. Vim Abolish
+Easily search for, substitute, and abbreviate multiple variants of a word.
+* https://github.com/tpope/vim-abolish
+* http://vimcasts.org/episodes/supercharged-substitution-with-subvert/
+
 h2. Vim Easymotion
 
 It provides a much simpler way to use some motions in vim.
