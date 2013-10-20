@@ -143,6 +143,7 @@ set splitbelow
 
 " Fonts for Mac
 set guifont=Monaco:h15
+" set guifont=Anonymous\ Pro:h17
 " set guifont=Inconsolata-dz:h17
 
 " Don't show the top bar
