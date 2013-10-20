@@ -1,5 +1,3 @@
 respond_to do |format|
-  format.js do
-    ${1}
-  end
+  format.json { render json: ${1}.to_json }
 end
