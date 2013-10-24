@@ -136,6 +136,11 @@ h2. Vim Endwise
 Wisely add "end" in ruby, endfunction/endif/more in vim script, etc.
 * https://github.com/tpope/vim-endwise
 
+h2. Vim Handlebars
+
+This plugin is here to help you editing Handlebars files.
+* https://github.com/nono/vim-handlebars
+
 h2. Vim Matchit
 
 Extended % matching for HTML, LaTeX, and many other languages.
