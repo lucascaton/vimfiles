@@ -1,10 +1,8 @@
 h1. Vim
 
-It is recommended that you use gVim in either Windows or Linux and MacVim for Mac. Download from:
+If you want to use vim in a GUI, you can use gVim in Linux or MacVim for Mac. Download from:
 
-* (Windows) http://www.vim.org/download.php#pc (gvim72.exe)
-* (Mac) http://code.google.com/p/macvim/downloads/list (snapshot-52)
-
+* (Mac OSX) http://code.google.com/p/macvim/downloads/list (snapshot-70)
 
 h1. Usage
 
