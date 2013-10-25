@@ -1,10 +1,10 @@
 def update
   @${1:model_class_name} = ${2:ModelClassName}.find params[:id]
 
-  if @$1.update_attributes params[:$1]
-    flash[:notice] = '$2 was successfully updated.'
-    redirect_to @$1
+  if @$1.update params[:$1]
+    redirect_to @$1, notice: '$2 was successfully updated.'
   else
+    flash[:error] = @$1.errors.full_messages.join(', ')
     render :edit
   end
-end${3}
+end

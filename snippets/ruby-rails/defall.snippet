@@ -1,6 +1,6 @@
 class ${1:ModelClassName}sController < ApplicationController
   before_action :set_${2:model_class_name}, only: [:show, :edit, :update, :destroy]
-
+${5}
   def index
     @$2s = $1.all
   end
@@ -27,7 +27,7 @@ class ${1:ModelClassName}sController < ApplicationController
   end
 
   def update
-    if @$2.update($2_params)
+    if @$2.update $2_params
       redirect_to @$2, notice: '$1 was successfully updated.'
     else
       flash[:error] = @$2.errors.full_messages.join(', ')
@@ -50,4 +50,4 @@ class ${1:ModelClassName}sController < ApplicationController
   def $2_params
     params.require(:$2).permit(:${3:first_attribute}, :${4:second_attribute})
   end
-end${5}
+end
