@@ -1,49 +1,53 @@
-# encoding: utf-8
 class ${1:ModelClassName}sController < ApplicationController
+  before_action :set_${2:model_class_name}, only: [:show, :edit, :update, :destroy]
+
   def index
-    @${2:model_class_name}s = $1.all
+    @$2s = $1.all
   end
 
   def show
-    @$2 = $1.find params[:id]
   end
 
   def new
     @$2 = $1.new
   end
 
+  def edit
+  end
+
   def create
     @$2 = $1.new params[:$2]
 
     if @$2.save
-      flash[:notice] = '${3:transated_model_name} criad${4:a/o} com sucesso.'
-      redirect_to @$2
+      redirect_to @$2, notice: '$1 was successfully created.'
     else
-      flash[:error] = @$2.errors.full_messages.first
+      flash.now[:error] = @$2.errors.full_messages.join(', ')
       render :new
     end
   end
 
-  def edit
-    @$2 = $1.find params[:id]
-  end
-
   def update
-    @$2 = $1.find params[:id]
-
-    if @$2.update_attributes params[:$2]
-      flash[:notice] = '$3 atualizad$4 com sucesso.'
-      redirect_to @$2
+    if @$2.update($2_params)
+      redirect_to @$2, notice: '$1 was successfully updated.'
     else
-      flash[:error] = @$2.errors.full_messages.first
+      flash[:error] = @$2.errors.full_messages.join(', ')
       render :edit
     end
   end
 
   def destroy
-    @$2 = $1.find params[:id]
     @$2.destroy
-    flash[:notice] = '$3 removid$4 com sucesso.'
-    redirect_to $2s_path
+
+    redirect_to $2s_path, notice: '$1 was successfully removed.'
+  end
+
+  private
+
+  def set_$2
+    @$2 = $1.find params[:id]
+  end
+
+  def $2_params
+    params.require(:$2).permit(:${3:first_attribute}, :${4:second_attribute})
   end
 end${5}
