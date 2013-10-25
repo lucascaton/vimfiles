@@ -1,1 +1,1 @@
-should_validate_uniqueness_of :${1:field}, :scoped_to => ${2:arrayofnames}
+it { should validate_uniqueness_of(:${1:attribute}).scoped_to(:${2}) }
