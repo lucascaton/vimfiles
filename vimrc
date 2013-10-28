@@ -276,6 +276,14 @@ nnoremap <C-L> :nohls<CR><C-L>
 nmap n nzz
 nmap N Nzz
 
+" Mappings to move lines: http://vim.wikia.com/wiki/Moving_lines_up_or_down
+nnoremap <D-j> :m .+1<CR>==
+nnoremap <D-k> :m .-2<CR>==
+inoremap <D-j> <Esc>:m .+1<CR>==gi
+inoremap <D-k> <Esc>:m .-2<CR>==gi
+vnoremap <D-j> :m '>+1<CR>gv=gv
+vnoremap <D-k> :m '<-2<CR>gv=gv
+
 " ---------------------------------
 " Shortcuts for Linux (Gvim)
 " ---------------------------------
