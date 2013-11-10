@@ -65,11 +65,6 @@ Full path fuzzy file, buffer, mru and tag finder.
 * http://kien.github.com/ctrlp.vim/
 * https://github.com/kien/ctrlp.vim
 
-h2. Ember.vim
-
-Features for the Emberjs frontend framework
-* https://github.com/dsawardekar/ember.vim
-
 h2. Extradite
 
 A git commit browser. Extends fugitive.vim.
@@ -92,11 +87,6 @@ h2. Nerdtree
 
 A tree explorer plugin.
 * https://github.com/scrooloose/nerdtree
-
-h2. Portkey
-
-Navigate files at the speed of Vim.
-* https://github.com/dsawardekar/portkey
 
 h2. Rename
 
