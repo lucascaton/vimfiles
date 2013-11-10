@@ -61,9 +61,9 @@
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
-[submodule "/Users/lucascaton/.vim/bundle/portkey"]
-	path = /Users/lucascaton/.vim/bundle/portkey
+[submodule "bundle/portkey"]
+	path = bundle/portkey
 	url = https://github.com/dsawardekar/portkey
-[submodule "/Users/lucascaton/.vim/bundle/ember.vim"]
-	path = /Users/lucascaton/.vim/bundle/ember.vim
+[submodule "bundle/ember.vim"]
+	path = bundle/ember.vim
 	url = https://github.com/dsawardekar/ember.vim
