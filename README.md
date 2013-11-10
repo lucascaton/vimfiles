@@ -11,7 +11,7 @@ Clone this repository into your home directory as `~/.vim` and then install the 
     git clone git://github.com/lucascaton/vimfiles.git ~/.vim
     cd ~/.vim
     git submodule update --init
-    ln -s ~/.vim/vimrc ~/.vimrc</pre></code>
+    ln -s ~/.vim/vimrc ~/.vimrc
 
 ## Colorscheme
 
