@@ -262,6 +262,20 @@ command! -nargs=0 RemoveAllFocusTags call s:RemoveAllFocusTags()
 " Search and replace selected text (http://stackoverflow.com/questions/676600/vim-search-and-replace-selected-text)
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
+" Creates parent directories on save
+function s:MkNonExDir(file, buf)
+  if empty(getbufvar(a:buf, '&buftype')) && a:file!~#'\v^\w+\:\/'
+    let dir=fnamemodify(a:file, ':h')
+    if !isdirectory(dir)
+      call mkdir(dir, 'p')
+    endif
+  endif
+endfunction
+augroup BWCCreateDir
+  autocmd!
+  autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
+augroup END
+
 " ---------------------------------
 " Shortcuts
 " ---------------------------------
