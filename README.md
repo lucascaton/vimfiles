@@ -9,9 +9,9 @@
 Clone this repository into your home directory as `~/.vim` and then install the plugins. Such as:
 
     git clone git://github.com/lucascaton/vimfiles.git ~/.vim
+    ln -s ~/.vim/vimrc ~/.vimrc
     cd ~/.vim
     git submodule update --init
-    ln -s ~/.vim/vimrc ~/.vimrc
 
 ## Colorscheme
 
