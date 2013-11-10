@@ -15,8 +15,7 @@ cd ~/.vim</code></pre>
 
 And run this to get the snippets submodules:
 
-<pre><code>git submodule init
-git submodule update</code></pre>
+<pre><code>git submodule update --init</code></pre>
 
 Now, just copy (or create a symlink) the .vim/vimrc file as .vimrc (Mac OSX/Linux) or copy as _vimrc (Windows) in your home directory. In Mac OSX and Linux, the easiest thing to do is:
 
