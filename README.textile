@@ -2,30 +2,17 @@ h1. Vim
 
 If you want to use vim in a GUI, you can use gVim in Linux or MacVim for Mac. Download from:
 
-* (Mac OSX) http://code.google.com/p/macvim/downloads/list (snapshot-70)
+* Macvim (Mac OSX) - http://code.google.com/p/macvim/downloads/list
+* gVim (Ubuntu Linux) - https://apps.ubuntu.com/cat/applications/vim-gnome/
 
 h1. Usage
 
-Troubleshoot: Because of the large amount of submodules, if you ever have any trouble after pulling from the repository, it will be easier to just back up your old .vim folder and just git clone a new version.
-
-Clone this repo into your home directory either as .vim (linux/mac) or vimfiles (Windows). Such as:
+Clone this repository into your home directory as ~/.vim and then install the plugins. Such as:
 
 <pre><code>git clone git://github.com/lucascaton/vimfiles.git ~/.vim
-cd ~/.vim</code></pre>
-
-And run this to get the snippets submodules:
-
-<pre><code>git submodule update --init</code></pre>
-
-Now, just copy (or create a symlink) the .vim/vimrc file as .vimrc (Mac OSX/Linux) or copy as _vimrc (Windows) in your home directory. In Mac OSX and Linux, the easiest thing to do is:
-
-<pre><code>ln -s ~/.vim/vimrc ~/.vimrc</pre></code>
-
-
-h2. About MacVim
-
-If you are using MacVim, open the preferences (cmd+,) and in the Advanced tab, check the "Use experimental renderer" option.
-
+cd ~/.vim
+git submodule update --init
+ln -s ~/.vim/vimrc ~/.vimrc</pre></code>
 
 h2. Help Tags
 
@@ -35,16 +22,18 @@ At first usage of vim, type ":" while in command mode and execute:
 
 This will make the plugins documentations available upon :help
 
-
 h2. Fonts
 
-Monaco is for Mac, Consolas is for Windows. Under Linux better try "Bitstream Vera Sans Mono".
+These are my favorite fonts:
 
+* Monaco (my current one)
+* Anonymous Pro
+* Inconsolata-dz
+* Bitstream Vera Sans Mono
 
 h2. Pretty Vim Color Schemes in iTerm2
 
 * http://kevin.colyar.net/2011/01/pretty-vim-color-schemes-in-iterm2/
-
 
 h1. Plugins
 
@@ -168,38 +157,32 @@ h2. Vim Ruby Runner
 Execute Ruby into an output buffer, similar to ⌘R in TextMate.
 * https://github.com/henrik/vim-ruby-runner
 
-
 h1. Learn Vim
 
 Visit the following sites to learn more about Vim:
 
+* Learn Vim Progressively - http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
+* Vim Adventures - http://vim-adventures.com/
 * Vimcasts: http://vimcasts.org
-* Screencast "17 dicas para o Vim" (portuguese): http://blog.lucascaton.com.br/?p=1081
-
-There are many sites teaching Vim, if you know of any other that are easy to follow for newcomers, let me know.
-
-
-h1. References
-
-* MacVim - http://code.google.com/p/macvim/
-* gVim - http://www.vim.org/download.php#pc
+* Screencast "17 tips for Vim" (in portuguese) - http://blog.lucascaton.com.br/?p=1081
 * Using Vim as a Complete Ruby on Rails IDE - http://biodegradablegeek.com/2007/12/using-vim-as-a-complete-ruby-on-rails-ide/
 * Why, oh WHY, do those #?@! nutheads use vi? - http://www.viemu.com/a-why-vi-vim.html
-* Efficient Editing With vim - http://jmcpherson.org/editing.html
 * Byte of Vim - http://www.swaroopch.com/notes/Vim
-
 
 h1. Credits
 
-Lucas Caton.
+Created and maintained by Lucas Caton.
 * http://blog.lucascaton.com.br/
 * http://twitter.com/lucascaton
 
-
 h1. Licence
 
-Copyright (c) 2010 - 2013 Lucas Caton
+The MIT License (MIT)
+
+Copyright (c) 2013 - 2013 Lucas Caton
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-%p The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-%p THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
