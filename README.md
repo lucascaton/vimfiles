@@ -6,7 +6,7 @@
 
 ## How to use these vim configs
 
-Clone this repository into your home directory as ~/.vim and then install the plugins. Such as:
+Clone this repository into your home directory as `~/.vim` and then install the plugins. Such as:
 
     git clone git://github.com/lucascaton/vimfiles.git ~/.vim
     cd ~/.vim
