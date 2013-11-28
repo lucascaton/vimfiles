@@ -89,7 +89,7 @@ Created and maintained by [Lucas Caton](https://github.com/lucascaton):
 * [Lucas' blog](http://blog.lucascaton.com.br/)
 * [Lucas' twitter](http://twitter.com/lucascaton)
 
-## Licence
+## License
 
 **The MIT License (MIT)**
 
