@@ -136,6 +136,7 @@ set splitbelow
 " <script> tags can contain HTML tags (handlebars):
 
 let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 let g:syntastic_mode_map={ 'mode': 'active',
                          \ 'active_filetypes': ['ruby', 'javascript'],
                          \ 'passive_filetypes': ['html'] }
