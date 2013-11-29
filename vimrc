@@ -135,9 +135,10 @@ set splitbelow
 
 " <script> tags can contain HTML tags (handlebars):
 
+let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_mode_map={ 'mode': 'active',
-                     \ 'active_filetypes': [],
-                     \ 'passive_filetypes': ['html'] }
+                         \ 'active_filetypes': ['ruby', 'javascript'],
+                         \ 'passive_filetypes': ['html'] }
 
 " ---------------------------------
 " Theme
