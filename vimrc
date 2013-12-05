@@ -339,3 +339,4 @@ au BufNewFile,BufRead .pryrc set filetype=ruby
 au BufNewFile,BufRead Vagrantfile set filetype=ruby
 au BufNewFile,BufRead *.pp set filetype=ruby
 au BufNewFile,BufRead .psqlrc set filetype=sql
+au BufNewFile,BufRead *.prawn set filetype=ruby
