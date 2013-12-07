@@ -133,6 +133,11 @@ set ignorecase
 set splitright
 set splitbelow
 
+" Never ever let Vim write a backup file! They did that in the 70’s.
+" Use modern ways for tracking your changes (like git), for God’s sake
+set nobackup
+set noswapfile
+
 " Syntastic configs
 let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
