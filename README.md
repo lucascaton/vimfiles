@@ -13,6 +13,10 @@ Clone this repository into your home directory as `~/.vim` and then install the 
     cd ~/.vim
     git submodule update --init
 
+Install jshint, in order to review your javascript files:
+
+    sudo npm install -g jshint
+
 ## Colorscheme
 
 * ir_black
