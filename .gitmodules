@@ -1,8 +1,8 @@
+  path = bundle/vim-rails
 [submodule "bundle/snipmate"]
   path = bundle/snipmate
   url = https://github.com/msanders/snipmate.vim.git
 [submodule "bundle/vim-rails"]
-  path = bundle/vim-rails
   url = https://github.com/tpope/vim-rails.git
 [submodule "bundle/tcomment"]
   path = bundle/tcomment
@@ -41,29 +41,29 @@
   path = bundle/vim-powerline
   url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/ack-vim"]
-	path = bundle/ack-vim
-	url = https://github.com/mileszs/ack.vim.git
+  path = bundle/ack-vim
+  url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle/vim-easymotion"]
-	path = bundle/vim-easymotion
-	url = git://github.com/Lokaltog/vim-easymotion.git
+  path = bundle/vim-easymotion
+  url = git://github.com/Lokaltog/vim-easymotion.git
 [submodule "bundle/html5"]
-	path = bundle/html5
-	url = git://github.com/othree/html5.vim.git
+  path = bundle/html5
+  url = git://github.com/othree/html5.vim.git
 [submodule "bundle/rename"]
-	path = bundle/rename
-	url = https://github.com/danro/rename.vim.git
+  path = bundle/rename
+  url = https://github.com/danro/rename.vim.git
 [submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
+  path = bundle/vim-coffee-script
+  url = git://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/vim-abolish"]
-	path = bundle/vim-abolish
-	url = git://github.com/tpope/vim-abolish.git
+  path = bundle/vim-abolish
+  url = git://github.com/tpope/vim-abolish.git
 [submodule "bundle/handlebars"]
-	path = bundle/handlebars
-	url = git://github.com/nono/vim-handlebars.git
+  path = bundle/handlebars
+  url = git://github.com/nono/vim-handlebars.git
 [submodule "bundle/portkey"]
-	path = bundle/portkey
-	url = https://github.com/dsawardekar/portkey
+  path = bundle/portkey
+  url = https://github.com/dsawardekar/portkey
 [submodule "bundle/ember.vim"]
-	path = bundle/ember.vim
-	url = https://github.com/dsawardekar/ember.vim
+  path = bundle/ember.vim
+  url = https://github.com/dsawardekar/ember.vim
