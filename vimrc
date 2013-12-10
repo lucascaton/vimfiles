@@ -46,6 +46,10 @@ let g:ctrlp_custom_ignore = {
   \ 'link': 'some_bad_symbolic_links',
   \ }
 
+" vim-airline
+set laststatus=2
+let g:airline_powerline_fonts = 1
+
 " ---------------------------------
 " Settings
 " ---------------------------------

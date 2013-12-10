@@ -12,6 +12,7 @@ Clone this repository into your home directory as `~/.vim` and then install the 
     ln -s ~/.vim/vimrc ~/.vimrc
     cd ~/.vim
     git submodule update --init
+    cp fonts/fonts/Monaco+for+Powerline.otf ~/Library/Fonts/
 
 Install jshint, in order to review your javascript files:
 
@@ -50,7 +51,8 @@ These are my favorite fonts:
 | [Tabular](https://github.com/godlygeek/tabular)                    | Text filtering and alignmentClone.                                                                          |                                                                                                                                              |
 | [Tcomment](https://github.com/tomtom/tcomment_vim)                 | An extensible & universal comment vim-plugin that also handles embedded filetypes.                          |                                                                                                                                              |
 | [Vim Abolish](https://github.com/tpope/vim-abolish)                | Easily search for, substitute, and abbreviate multiple variants of a word.                                  | [http://vimcasts.org/episodes/supercharged-substitution-with-subvert/](http://vimcasts.org/episodes/supercharged-substitution-with-subvert/) |
-| [Vim Coffee Script](https://github.com/kchmck/vim-coffee-script)  | CoffeeScript support for Vim                                                                                | [http://kien.github.com/ctrlp.vim/](http://kien.github.com/ctrlp.vim/)                                                                       |
+| [Vim Airline](https://github.com/bling/vim-airline)                | Lean & mean status / tabline                                                                                |                                                                                                                                              |
+| [Vim Coffee Script](https://github.com/kchmck/vim-coffee-script)   | CoffeeScript support for Vim                                                                                | [http://kien.github.com/ctrlp.vim/](http://kien.github.com/ctrlp.vim/)                                                                       |
 | [Vim Easymotion](https://github.com/Lokaltog/vim-easymotion/)      | It provides a much simpler way to use some motions in Vim.                                                  |                                                                                                                                              |
 | [Vim Endwise](https://github.com/tpope/vim-endwise)                | Wisely add "end" in ruby, endfunction/endif/more in Vim script, etc.                                        |                                                                                                                                              |
 | [Vim Handlebars](https://github.com/nono/vim-handlebars)           | This plugin is here to help you editing Handlebars files.                                                   |                                                                                                                                              |
