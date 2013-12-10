@@ -12,7 +12,7 @@ Clone this repository into your home directory as `~/.vim` and then install the 
     ln -s ~/.vim/vimrc ~/.vimrc
     cd ~/.vim
     git submodule update --init
-    cp fonts/fonts/Monaco+for+Powerline.otf ~/Library/Fonts/
+    cp fonts/Monaco+for+Powerline.otf ~/Library/Fonts/
 
 Install jshint, in order to review your javascript files:
 
