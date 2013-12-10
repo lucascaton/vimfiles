@@ -37,9 +37,6 @@
 [submodule "bundle/vim-matchit"]
   path = bundle/vim-matchit
   url = https://github.com/tsaleh/vim-matchit
-[submodule "bundle/vim-powerline"]
-  path = bundle/vim-powerline
-  url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/ack-vim"]
   path = bundle/ack-vim
   url = https://github.com/mileszs/ack.vim.git

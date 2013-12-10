@@ -36,11 +36,6 @@ function! s:align()
   endif
 endfunction
 
-" PowerLine
-let g:Powerline_symbols = 'fancy'
-set laststatus=2
-" %{fugitive#statusline()}
-
 " CtrlP
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_working_path_mode = 2
