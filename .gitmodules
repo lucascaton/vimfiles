@@ -64,3 +64,6 @@
 [submodule "bundle/ember.vim"]
   path = bundle/ember.vim
   url = https://github.com/dsawardekar/ember.vim
+[submodule "bundle/vim-airline"]
+  path = bundle/vim-airline
+  url = https://github.com/bling/vim-airline
