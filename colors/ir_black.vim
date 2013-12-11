@@ -1,7 +1,6 @@
 " ir_black color scheme
 " More at: http://blog.infinitered.com/entries/show/8
 
-
 " ********************************************************************************
 " Standard colors used in all ir_black themes:
 " Note, x:x:x are RGB values
@@ -38,7 +37,6 @@
 "  search selection: #07281C  7:40:28
 "  line number: #3D3D3D  61:61:61
 
-
 " ********************************************************************************
 " The following are the preferred 16 colors for your terminal
 "           Colors      Bright Colors
@@ -61,7 +59,6 @@ if exists("syntax_on")
 endif
 
 let colors_name = "ir_black"
-
 
 "hi Example         guifg=NONE        guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
@@ -141,7 +138,6 @@ hi link SpecialChar     Special
 hi link SpecialComment  Special
 hi link Debug           Special
 
-
 " Special for Ruby
 hi rubyRegexp                  guifg=#B18A3D      guibg=NONE      gui=NONE      ctermfg=brown          ctermbg=NONE      cterm=NONE
 hi rubyRegexpDelimiter         guifg=#FF8000      guibg=NONE      gui=NONE      ctermfg=brown          ctermbg=NONE      cterm=NONE
@@ -171,7 +167,6 @@ hi link rubyGlobalVariable    Identifier
 hi link rubyClassVariable     Identifier
 hi link rubyConstant          Type
 
-
 " Special for Java
 " hi link javaClassDecl    Type
 hi link javaScopeDecl         Identifier
@@ -184,29 +179,21 @@ hi javaDocSeeTag              guifg=#CCCCCC     guibg=NONE        gui=NONE      
 hi javaDocSeeTag              guifg=#CCCCCC     guibg=NONE        gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
 "hi javaClassDecl              guifg=#CCFFCC     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
 
-
 " Special for XML
 hi link xmlTag          Keyword
 hi link xmlTagName      Conditional
 hi link xmlEndTag       Identifier
-
 
 " Special for HTML
 hi link htmlTag         Keyword
 hi link htmlTagName     Conditional
 hi link htmlEndTag      Identifier
 
-
 " Special for Javascript
 hi link javaScriptNumber      Number
-
 
 " Special for Python
 "hi  link pythonEscape         Keyword
 
-
 " Special for CSharp
 hi  link csXmlTag             Keyword
-
-
-" Special for PHP
