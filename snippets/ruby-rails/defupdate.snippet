@@ -4,7 +4,7 @@ def update
   if @$1.update params[:$1]
     redirect_to @$1, notice: '$2 was successfully updated.'
   else
-    flash[:error] = @$1.errors.full_messages.join(', ')
+    flash.now[:error] = @$1.errors.full_messages.join(', ')
     render :edit
   end
 end

@@ -30,7 +30,7 @@ ${5}
     if @$2.update $2_params
       redirect_to @$2, notice: '$1 was successfully updated.'
     else
-      flash[:error] = @$2.errors.full_messages.join(', ')
+      flash.now[:error] = @$2.errors.full_messages.join(', ')
       render :edit
     end
   end
