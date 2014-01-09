@@ -1,3 +1,13 @@
-module ${1:`Snippet_RubyClassNameFromFilename()`}
-	${2}
+module ${1:ModuleName}
+  module ClassMethods
+    ${2}
+  end
+
+  module InstanceMethods
+  end
+
+  def self.included(receiver)
+    receiver.extend         ClassMethods
+    receiver.send :include, InstanceMethods
+  end
 end
