@@ -1,9 +1,10 @@
-"  /===================================\
-"  | VimFiles by Lucas Caton.          |
-"  | http://blog.lucascaton.com.br/    |
-"  | http://www.twitter.com/lucascaton |
-"  | Created at 2011, January.         |
-"  \===================================/
+"  /====================================\
+"  | Custom by Heverton Rodrigues        |
+"  | VimFiles by Lucas Caton.            |
+"  | http://github.com/hevertonrodrigues |
+"  | http://www.twitter.com/heverton25   |
+"  | Created at 2011, January.           |
+"  \====================================/
 
 
 " ---------------------------------
@@ -20,7 +21,8 @@ let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
 
 " NERDTree
-nmap <F2> :NERDTreeToggle<CR>
+" nmap <F2> :NERDTreeToggle<CR>
+nmap <Leader>p :NERDTreeToggle<CR>
 
 " Tabular
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
