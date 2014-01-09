@@ -109,10 +109,10 @@ noremap <Up> <nop>
 noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
-inoremap <Up> <nop>
-inoremap <Down> <nop>
-inoremap <Left> <nop>
-inoremap <Right> <nop>
+" #inoremap <Up> <nop>
+" #inoremap <Down> <nop>
+" #inoremap <Left> <nop>
+" #inoremap <Right> <nop>
 
 " Highlight long lines
 " let w:m2=matchadd('Search', '\%>80v.\+', -1)
