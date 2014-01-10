@@ -111,6 +111,12 @@ noremap <Right> <nop>
 " #inoremap <Down> <nop>
 " #inoremap <Left> <nop>
 " #inoremap <Right> <nop>
+"
+nmap <C-k> :wincmd k<CR>
+nmap <C-j> :wincmd j<CR>
+nmap <C-h> :wincmd h<CR>
+nmap <C-l> :wincmd l<CR>
+
 
 " Highlight long lines
 " let w:m2=matchadd('Search', '\%>80v.\+', -1)
@@ -287,7 +293,7 @@ augroup END
 nnoremap <F12> :source ~/.vimrc
 
 " Ctrl+L clear the highlight as well as redraw
-nnoremap <C-L> :nohls<CR><C-L>
+nnoremap <Leader>c :nohls<CR><C-L>
 
 " Improve 'n' command (for searches)
 nmap n nzz
