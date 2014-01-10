@@ -5,7 +5,7 @@
 "  | http://www.twitter.com/heverton25   |
 "  | Created at 2011, January.           |
 "  \====================================/
-
+"
 
 " ---------------------------------
 " Plugins
@@ -19,10 +19,6 @@ call pathogen#infect()
 " Gist-vim
 let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
-
-" NERDTree
-" nmap <F2> :NERDTreeToggle<CR>
-nmap <Leader>p :NERDTreeToggle<CR>
 
 " Tabular
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
@@ -351,3 +347,47 @@ au BufNewFile,BufRead *.pp         set filetype=ruby
 au BufNewFile,BufRead .psqlrc      set filetype=sql
 au BufNewFile,BufRead *.prawn      set filetype=ruby
 au BufNewFile,BufRead bash_profile set filetype=sh
+
+
+" ---------------------------------
+" NERDTree
+" ---------------------------------
+" nmap <F2> :NERDTreeToggle<CR>
+nmap <Leader>p :NERDTreeToggle<CR>
+
+
+" ---------------------------------
+" Window Title with filename + (path)
+" ---------------------------------
+
+set titlestring=%t%(\ %M%)%(\ (%{expand(\"%:p:h\")})%)%(\ %a%)\ -\ %{v:servername}
+
+
+function! Smart_TabComplete()
+  let line = getline('.')                         " current line
+
+  let substr = strpart(line, -1, col('.')+1)      " from the start of the current
+                                                  " line to one character right
+                                                  " of the cursor
+  let substr = matchstr(substr, "[^ \t]*$")       " word till cursor
+  if (strlen(substr)==0)                          " nothing to match on empty string
+    return "\<tab>"
+  endif
+  let has_period = match(substr, '\.') != -1      " position of period, if any
+  let has_slash = match(substr, '\/') != -1       " position of slash, if any
+  if (!has_period && !has_slash)
+    return "\<C-X>\<C-P>"                         " existing text matching
+  elseif ( has_slash )
+    return "\<C-X>\<C-F>"                         " file matching
+  else
+    return "\<C-X>\<C-O>"                         " plugin matching
+  endif
+endfunction
+
+inoremap <C-space> <c-r>=Smart_TabComplete()<CR>
+
+"nmap <c-]>:w<CR>
+
+
+
+
