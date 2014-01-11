@@ -12,7 +12,6 @@
 " ---------------------------------
 "
 
-
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
 " Pathogen
@@ -115,10 +114,10 @@ inoremap <Left> <nop>
 inoremap <Right> <nop>
 
 " Navegation on splits and NERDTree
-nmap <C-k> :wincmd k<CR>
-nmap <C-j> :wincmd j<CR>
-nmap <C-h> :wincmd h<CR>
-nmap <C-l> :wincmd l<CR>
+nmap <silent><C-k> :wincmd k<CR>
+nmap <silent><C-j> :wincmd j<CR>
+nmap <silent><C-h> :wincmd h<CR>
+nmap <silent><C-l> :wincmd l<CR>
 
 
 " Highlight long lines
@@ -143,6 +142,7 @@ set splitbelow
 " Use modern ways for tracking your changes (like git), for God’s sake
 set nobackup
 set noswapfile
+set nowb
 
 " Syntastic configs
 let g:syntastic_javascript_checkers = ['jshint']
@@ -183,7 +183,10 @@ endif
 
 if has("gui_running") || $TERM == "xterm-256color"
   set t_Co=256
-  colorscheme ir_black
+  set background=dark
+  "colorscheme ir_black
+  "colorscheme molokai
+  colorscheme solarized
 else
   let g:CSApprox_loaded = 0
 endif
@@ -393,7 +396,7 @@ au BufNewFile,BufRead bash_profile set filetype=sh
 " NERDTree
 " ---------------------------------
 " nmap <F2> :NERDTreeToggle<CR>
-nmap <Leader>p :NERDTreeToggle<CR>
+nmap <silent><Leader>p :NERDTreeToggle<CR>
 
 
 " ---------------------------------
@@ -426,3 +429,38 @@ set titlestring=%t%(\ %M%)%(\ (%{expand(\"%:p:h\")})%)%(\ %a%)\ -\ %{v:servernam
 "inoremap <C-space> <c-r>=Smart_TabComplete()<CR>
 
 "nmap <c-]>:w<CR>
+
+
+"Key mapping for indentation
+nmap <D-[> <<
+nmap <D-]> >>
+vmap <D-[> <gv
+vmap <D-]> >gv
+
+
+
+
+" ================ Persistent Undo ==================
+" Keep undo history across sessions, by storing in file.
+" Only works all the time.
+"if has('persistent_undo')
+"  silent !mkdir ~/.vim/backups > /dev/null 2>&1
+"  set undodir=~/.vim/backups
+"  set undofile
+"endif
+
+
+set wildmode=list:longest
+set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
+set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
+set wildignore+=*vim/backups*
+set wildignore+=*sass-cache*
+set wildignore+=*DS_Store*
+set wildignore+=vendor/rails/**
+set wildignore+=vendor/cache/**
+set wildignore+=*.gem
+set wildignore+=log/**
+set wildignore+=tmp/**
+set wildignore+=*.png,*.jpg,*.gif
+
+
