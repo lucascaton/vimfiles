@@ -10,6 +10,8 @@
 " ---------------------------------
 " Plugins
 " ---------------------------------
+"
+
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
@@ -206,27 +208,52 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Auto complete
 let g:stop_autocomplete=0
 
-function! CleverTab(type)
-    if a:type=='omni'
-        if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
-            let g:stop_autocomplete=1
-            return "\<TAB>"
-        elseif !pumvisible() && !&omnifunc
-            return "\<C-X>\<C-O>\<C-P>"
-        endif
-    elseif a:type=='keyword' && !pumvisible() && !g:stop_autocomplete
-        return "\<C-X>\<C-N>\<C-P>"
-    elseif a:type=='next'
-        if g:stop_autocomplete
-            let g:stop_autocomplete=0
-        else
-            return "\<C-N>"
-        endif
-    endif
-    return ''
+"function! CleverTab(type)
+"    if a:type=='omni'
+"        if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+"            let g:stop_autocomplete=1
+"            return "\<TAB>"
+"        elseif !pumvisible() && !&omnifunc
+"            return "\<C-X>\<C-O>\<C-P>"
+"        endif
+"    elseif a:type=='keyword' && !pumvisible() && !g:stop_autocomplete
+"        return "\<C-X>\<C-N>\<C-P>"
+"    elseif a:type=='next'
+"        if g:stop_autocomplete
+"            let g:stop_autocomplete=0
+"        else
+"            return "\<C-N>"
+"        endif
+"    endif
+"    return ''
+"endfunction
+
+
+"inoremap <silent><TAB> <C-R>=CleverTab('omni')<CR><C-R>=CleverTab('keyword')<CR><C-R>=CleverTab('next')<CR>
+
+function! Smart_TabComplete()
+  let line = getline('.')                         " current line
+
+  let substr = strpart(line, -1, col('.')+1)      " from the start of the current
+                                                  " line to one character right
+                                                  " of the cursor
+  let substr = matchstr(substr, "[^ \t]*$")       " word till cursor
+  if (strlen(substr)==0)                          " nothing to match on empty string
+    return "\<tab>"
+  endif
+  let has_period = match(substr, '\.') != -1      " position of period, if any
+  let has_slash = match(substr, '\/') != -1       " position of slash, if any
+  if (!has_period && !has_slash)
+    return "\<C-X>\<C-P>"                         " existing text matching
+  elseif ( has_slash )
+    return "\<C-X>\<C-F>"                         " file matching
+  else
+    return "\<C-X>\<C-O>"                         " plugin matching
+  endif
 endfunction
 
-inoremap <silent><TAB> <C-R>=CleverTab('omni')<CR><C-R>=CleverTab('keyword')<CR><C-R>=CleverTab('next')<CR>
+inoremap <silent><TAB> <c-r>=Smart_TabComplete()<CR>
+
 
 " Tab toggle
 function TabToggle()
@@ -395,12 +422,7 @@ set titlestring=%t%(\ %M%)%(\ (%{expand(\"%:p:h\")})%)%(\ %a%)\ -\ %{v:servernam
 "    return "\<C-X>\<C-O>"                         " plugin matching
 "  endif
 "endfunction
-
-
+"
 "inoremap <C-space> <c-r>=Smart_TabComplete()<CR>
 
 "nmap <c-]>:w<CR>
-
-
-
-
