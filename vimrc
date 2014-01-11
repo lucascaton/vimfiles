@@ -107,11 +107,12 @@ noremap <Up> <nop>
 noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
-" #inoremap <Up> <nop>
-" #inoremap <Down> <nop>
-" #inoremap <Left> <nop>
-" #inoremap <Right> <nop>
-"
+inoremap <Up> <nop>
+inoremap <Down> <nop>
+inoremap <Left> <nop>
+inoremap <Right> <nop>
+
+" Navegation on splits and NERDTree
 nmap <C-k> :wincmd k<CR>
 nmap <C-j> :wincmd j<CR>
 nmap <C-h> :wincmd h<CR>
@@ -145,7 +146,7 @@ set noswapfile
 let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 let g:syntastic_mode_map={ 'mode': 'active',
-                         \ 'active_filetypes': ['ruby', 'javascript'],
+                         \ 'active_filetypes': ['ruby', 'php', 'javascript'],
                          \ 'passive_filetypes': ['html'] }
 
 " ---------------------------------
@@ -174,7 +175,7 @@ if has("gui_running")
   " Highlight the line and the column of the current position of cursor
   set cursorline
   set cursorcolumn
-  hi CursorLine guibg=#222222
+  hi CursorLine guibg=#333333
   hi CursorColumn guibg=#222222
 endif
 
@@ -292,7 +293,7 @@ augroup END
 " Ctrl+R reloads the ~/.vimrc file
 nnoremap <F12> :source ~/.vimrc
 
-" Ctrl+L clear the highlight as well as redraw
+" Leader C clear the highlight as well as redraw
 nnoremap <Leader>c :nohls<CR><C-L>
 
 " Improve 'n' command (for searches)
@@ -329,6 +330,9 @@ nnoremap <C-t> :tabnew<cr>
 nnoremap <C-T> :tabnew<cr>
 nnoremap <A-w> :q<cr>
 nnoremap <A-W> :q<cr>
+nnoremap <C-TAB> :tabnext <cr>
+nnoremap <C-S-TAB> :tabprevious<cr>
+
 
 " ---------------------------------
 " Aliases
@@ -344,8 +348,10 @@ cab WQ wq
 " Syntax Highlighting
 " ---------------------------------
 
-au BufNewFile,BufRead *.thor       set filetype=ruby
 au BufNewFile,BufRead *.less       set filetype=css
+au BufNewFile,BufRead *.scss       set filetype=css
+au BufNewFile,BufRead *.ctp        set filetype=php
+au BufNewFile,BufRead *.thor       set filetype=ruby
 au BufNewFile,BufRead Guardfile    set filetype=ruby
 au BufNewFile,BufRead .pryrc       set filetype=ruby
 au BufNewFile,BufRead Vagrantfile  set filetype=ruby
@@ -353,6 +359,7 @@ au BufNewFile,BufRead *.pp         set filetype=ruby
 au BufNewFile,BufRead .psqlrc      set filetype=sql
 au BufNewFile,BufRead *.prawn      set filetype=ruby
 au BufNewFile,BufRead bash_profile set filetype=sh
+
 
 
 " ---------------------------------
@@ -368,29 +375,29 @@ nmap <Leader>p :NERDTreeToggle<CR>
 
 set titlestring=%t%(\ %M%)%(\ (%{expand(\"%:p:h\")})%)%(\ %a%)\ -\ %{v:servername}
 
+"function! Smart_TabComplete()
+"  let line = getline('.')                         " current line
+"
+"  let substr = strpart(line, -1, col('.')+1)      " from the start of the current
+"                                                  " line to one character right
+"                                                  " of the cursor
+"  let substr = matchstr(substr, "[^ \t]*$")       " word till cursor
+"  if (strlen(substr)==0)                          " nothing to match on empty string
+"    return "\<tab>"
+"  endif
+"  let has_period = match(substr, '\.') != -1      " position of period, if any
+"  let has_slash = match(substr, '\/') != -1       " position of slash, if any
+"  if (!has_period && !has_slash)
+"    return "\<C-X>\<C-P>"                         " existing text matching
+"  elseif ( has_slash )
+"    return "\<C-X>\<C-F>"                         " file matching
+"  else
+"    return "\<C-X>\<C-O>"                         " plugin matching
+"  endif
+"endfunction
 
-function! Smart_TabComplete()
-  let line = getline('.')                         " current line
 
-  let substr = strpart(line, -1, col('.')+1)      " from the start of the current
-                                                  " line to one character right
-                                                  " of the cursor
-  let substr = matchstr(substr, "[^ \t]*$")       " word till cursor
-  if (strlen(substr)==0)                          " nothing to match on empty string
-    return "\<tab>"
-  endif
-  let has_period = match(substr, '\.') != -1      " position of period, if any
-  let has_slash = match(substr, '\/') != -1       " position of slash, if any
-  if (!has_period && !has_slash)
-    return "\<C-X>\<C-P>"                         " existing text matching
-  elseif ( has_slash )
-    return "\<C-X>\<C-F>"                         " file matching
-  else
-    return "\<C-X>\<C-O>"                         " plugin matching
-  endif
-endfunction
-
-inoremap <C-space> <c-r>=Smart_TabComplete()<CR>
+"inoremap <C-space> <c-r>=Smart_TabComplete()<CR>
 
 "nmap <c-]>:w<CR>
 
