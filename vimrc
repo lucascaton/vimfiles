@@ -1,14 +1,16 @@
-"  /===================================\
-"  | VimFiles by Lucas Caton.          |
-"  | http://blog.lucascaton.com.br/    |
-"  | http://www.twitter.com/lucascaton |
-"  | Created at 2011, January.         |
-"  \===================================/
-
+"  /====================================\
+"  | Custom by Heverton Rodrigues        |
+"  | VimFiles by Lucas Caton.            |
+"  | http://github.com/hevertonrodrigues |
+"  | http://www.twitter.com/heverton25   |
+"  | Created at 2011, January.           |
+"  \====================================/
+"
 
 " ---------------------------------
 " Plugins
 " ---------------------------------
+"
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
@@ -16,25 +18,22 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 call pathogen#infect()
 
 " Gist-vim
-let g:gist_detect_filetype = 1
-let g:gist_open_browser_after_post = 1
-
-" NERDTree
-nmap <F2> :NERDTreeToggle<CR>
+"let g:gist_detect_filetype = 1
+"let g:gist_open_browser_after_post = 1
 
 " Tabular
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
 
-function! s:align()
-  let p = '^\s*|\s.*\s|\s*$'
-  if exists(':Tabularize') && getline('.') =~# '^\s*|' && (getline(line('.')-1) =~# p || getline(line('.')+1) =~# p)
-    let column = strlen(substitute(getline('.')[0:col('.')],'[^|]','','g'))
-    let position = strlen(matchstr(getline('.')[0:col('.')],'.*|\s*\zs.*'))
-    Tabularize/|/l1
-    normal! 0
-    call search(repeat('[^|]*|',column).'\s\{-\}'.repeat('.',position),'ce',line('.'))
-  endif
-endfunction
+"function! s:align()
+"  let p = '^\s*|\s.*\s|\s*$'
+"  if exists(':Tabularize') && getline('.') =~# '^\s*|' && (getline(line('.')-1) =~# p || getline(line('.')+1) =~# p)
+"    let column = strlen(substitute(getline('.')[0:col('.')],'[^|]','','g'))
+"    let position = strlen(matchstr(getline('.')[0:col('.')],'.*|\s*\zs.*'))
+"    Tabularize/|/l1
+"    normal! 0
+"    call search(repeat('[^|]*|',column).'\s\{-\}'.repeat('.',position),'ce',line('.'))
+"  endif
+"endfunction
 
 " CtrlP
 let g:ctrlp_map = '<c-p>'
@@ -71,17 +70,17 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 " Autoindent with two spaces, always expand tabs
 set tabstop=2
 set shiftwidth=2
-set expandtab
+set noexpandtab
 
 " Folding settings
 " set foldmethod=indent   " fold based on indent
 " set foldnestmax=10      " deepest fold is 3 levels
-set nofoldenable        " dont fold by default
 " set foldlevel=1
+set nofoldenable        " dont fold by default
 
-set wildmode=list:longest " make cmdline tab completion similar to bash
-set wildmenu " enable ctrl-n and ctrl-p to scroll thru matches
-set wildignore=*.o,*.obj,*~ " stuff to ignore when tab completing
+"set wildmode=list:longest " make cmdline tab completion similar to bash
+"set wildmenu " enable ctrl-n and ctrl-p to scroll thru matches
+"set wildignore=*.o,*.obj,*~ " stuff to ignore when tab completing
 
 " Vertical / horizontal scroll off settings
 set scrolloff=3
@@ -90,7 +89,7 @@ set sidescroll=1
 
 set cf " Enable error files & error jumping.
 set clipboard+=unnamed " Yanks go on clipboard instead.
-set history=256 " Number of things to remember in history.
+set history=1024 " Number of things to remember in history.
 set autowrite " Writes on make/shell commands
 set ruler " Ruler on
 set nu " Line numbers on
@@ -114,6 +113,13 @@ inoremap <Down> <nop>
 inoremap <Left> <nop>
 inoremap <Right> <nop>
 
+" Navegation on splits and NERDTree
+nmap <silent><C-k> :wincmd k<CR>
+nmap <silent><C-j> :wincmd j<CR>
+nmap <silent><C-h> :wincmd h<CR>
+nmap <silent><C-l> :wincmd l<CR>
+
+
 " Highlight long lines
 " let w:m2=matchadd('Search', '\%>80v.\+', -1)
 " let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
@@ -136,12 +142,14 @@ set splitbelow
 " Use modern ways for tracking your changes (like git), for God’s sake
 set nobackup
 set noswapfile
+set nowb
+
 
 " Syntastic configs
 let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 let g:syntastic_mode_map={ 'mode': 'active',
-                         \ 'active_filetypes': ['ruby', 'javascript'],
+                         \ 'active_filetypes': ['ruby', 'php', 'javascript'],
                          \ 'passive_filetypes': ['html'] }
 
 " ---------------------------------
@@ -153,7 +161,7 @@ let g:syntastic_mode_map={ 'mode': 'active',
 " set guifont=Monospace\ 10
 
 " Fonts for Mac
-set guifont=Monaco\ for\ Powerline:h15
+set guifont=Monaco\ for\ Powerline:h12
 " set guifont=Anonymous\ Pro:h17
 " set guifont=Inconsolata-dz:h17
 
@@ -170,13 +178,16 @@ if has("gui_running")
   " Highlight the line and the column of the current position of cursor
   set cursorline
   set cursorcolumn
-  hi CursorLine guibg=#222222
+  hi CursorLine guibg=#333333
   hi CursorColumn guibg=#222222
 endif
 
 if has("gui_running") || $TERM == "xterm-256color"
   set t_Co=256
-  colorscheme ir_black
+  set background=dark
+  colorscheme solarized
+  "colorscheme ir_black
+  "colorscheme molokai
 else
   let g:CSApprox_loaded = 0
 endif
@@ -186,12 +197,13 @@ endif
 " ---------------------------------
 
 " Removes trailing spaces
-function TrimWhiteSpace()
-  %s/\s*$//
-  ''
-:endfunction
+"function TrimWhiteSpace()
+"  %s/\s*$//
+"  ''
+":endfunction
 
 set list listchars=tab:»·,trail:·
+set nolist
 
 map <leader>= :call TrimWhiteSpace()<CR>
 map! <leader>= :call TrimWhiteSpace()<CR>
@@ -199,87 +211,112 @@ map! <leader>= :call TrimWhiteSpace()<CR>
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Auto complete
-let g:stop_autocomplete=0
+"let g:stop_autocomplete=0
 
-function! CleverTab(type)
-    if a:type=='omni'
-        if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
-            let g:stop_autocomplete=1
-            return "\<TAB>"
-        elseif !pumvisible() && !&omnifunc
-            return "\<C-X>\<C-O>\<C-P>"
-        endif
-    elseif a:type=='keyword' && !pumvisible() && !g:stop_autocomplete
-        return "\<C-X>\<C-N>\<C-P>"
-    elseif a:type=='next'
-        if g:stop_autocomplete
-            let g:stop_autocomplete=0
-        else
-            return "\<C-N>"
-        endif
-    endif
-    return ''
-endfunction
+"function! CleverTab(type)
+"    if a:type=='omni'
+"        if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+"            let g:stop_autocomplete=1
+"            return "\<TAB>"
+"        elseif !pumvisible() && !&omnifunc
+"            return "\<C-X>\<C-O>\<C-P>"
+"        endif
+"    elseif a:type=='keyword' && !pumvisible() && !g:stop_autocomplete
+"        return "\<C-X>\<C-N>\<C-P>"
+"    elseif a:type=='next'
+"        if g:stop_autocomplete
+"            let g:stop_autocomplete=0
+"        else
+"            return "\<C-N>"
+"        endif
+"    endif
+"    return ''
+"endfunction
 
-inoremap <silent><TAB> <C-R>=CleverTab('omni')<CR><C-R>=CleverTab('keyword')<CR><C-R>=CleverTab('next')<CR>
+
+"inoremap <silent><TAB> <C-R>=CleverTab('omni')<CR><C-R>=CleverTab('keyword')<CR><C-R>=CleverTab('next')<CR>
+
+"function! Smart_TabComplete()
+"  let line = getline('.')                         " current line
+
+"  let substr = strpart(line, -1, col('.')+1)      " from the start of the current
+"                                                  " line to one character right
+"                                                  " of the cursor
+"  let substr = matchstr(substr, "[^ \t]*$")       " word till cursor
+"  if (strlen(substr)==0)                          " nothing to match on empty string
+"    return "\<tab>"
+"  endif
+"  let has_period = match(substr, '\.') != -1      " position of period, if any
+"  let has_slash = match(substr, '\/') != -1       " position of slash, if any
+"  if (!has_period && !has_slash)
+"    return "\<C-X>\<C-P>"                         " existing text matching
+"  elseif ( has_slash )
+"    return "\<C-X>\<C-F>"                         " file matching
+"  else
+"    return "\<C-X>\<C-O>"                         " plugin matching
+"  endif
+"endfunction
+
+"inoremap <silent><TAB> <c-r>=Smart_TabComplete()<CR>
+
 
 " Tab toggle
-function TabToggle()
-  if &expandtab
-    set noexpandtab
-  else
-    set expandtab
-  endif
-  retab!
-endfunction
-nmap <F9> mz:execute TabToggle()<CR>
+"function TabToggle()
+"  if &expandtab
+"    set noexpandtab
+"  else
+"    set expandtab
+"  endif
+"  retab!
+"endfunction
+"nmap <F9> mz:execute TabToggle()<CR>
 
 " RSpec focus
-function! s:Preserve(command)
-  " Save cursor position
-  let l = line(".")
-  let c = col(".")
+"function! s:Preserve(command)
+"  " Save cursor position
+"  let l = line(".")
+"  let c = col(".")
 
-  " Do the business
-  execute a:command
+"  " Do the business
+"  execute a:command
 
-  " Restore cursor position
-  call cursor(l, c)
-  " Remove search history pollution and restore last search
-  call histdel("search", -1)
-  let @/ = histget("search", -1)
-endfunction
+"  " Restore cursor position
+"  call cursor(l, c)
+"  " Remove search history pollution and restore last search
+"  call histdel("search", -1)
+"  let @/ = histget("search", -1)
+"endfunction
 
-function! s:AddFocusTag()
-  call s:Preserve("normal! ^ / do\<cr>C, focus: true do\<esc>")
-endfunction
+"function! s:AddFocusTag()
+"  call s:Preserve("normal! ^ / do\<cr>C, focus: true do\<esc>")
+"endfunction
 
-function! s:RemoveAllFocusTags()
-  call s:Preserve("%s/, focus: true//e")
-endfunction
+"function! s:RemoveAllFocusTags()
+"  call s:Preserve("%s/, focus: true//e")
+"endfunction
 
-command! -nargs=0 AddFocusTag call s:AddFocusTag()
-command! -nargs=0 RemoveAllFocusTags call s:RemoveAllFocusTags()
+"command! -nargs=0 AddFocusTag call s:AddFocusTag()
+"command! -nargs=0 RemoveAllFocusTags call s:RemoveAllFocusTags()
 
-:nnoremap <leader>t :AddFocusTag<CR>
-:nnoremap <leader>r :RemoveAllFocusTags<CR>
+":nnoremap <leader>t :AddFocusTag<CR>
+":nnoremap <leader>r :RemoveAllFocusTags<CR>
 
 " Search and replace selected text (http://stackoverflow.com/questions/676600/vim-search-and-replace-selected-text)
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 " Creates parent directories on save
-function s:MkNonExDir(file, buf)
-  if empty(getbufvar(a:buf, '&buftype')) && a:file!~#'\v^\w+\:\/'
-    let dir=fnamemodify(a:file, ':h')
-    if !isdirectory(dir)
-      call mkdir(dir, 'p')
-    endif
-  endif
-endfunction
-augroup BWCCreateDir
-  autocmd!
-  autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
-augroup END
+"function s:MkNonExDir(file, buf)
+"  if empty(getbufvar(a:buf, '&buftype')) && a:file!~#'\v^\w+\:\/'
+"    let dir=fnamemodify(a:file, ':h')
+"    if !isdirectory(dir)
+"      call mkdir(dir, 'p')
+"    endif
+"  endif
+"endfunction
+"augroup BWCCreateDir
+"  autocmd!
+"  autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
+"augroup END
 
 " ---------------------------------
 " Shortcuts
@@ -288,12 +325,12 @@ augroup END
 " Ctrl+R reloads the ~/.vimrc file
 nnoremap <F12> :source ~/.vimrc
 
-" Ctrl+L clear the highlight as well as redraw
-nnoremap <C-L> :nohls<CR><C-L>
+" Leader C clear the highlight as well as redraw
+map <Leader>l :nohls <CR>
 
 " Improve 'n' command (for searches)
-nmap n nzz
-nmap N Nzz
+"nmap n nzz
+"nmap N Nzz
 
 " Mappings to move lines: http://vim.wikia.com/wiki/Moving_lines_up_or_down
 nnoremap <D-j> :m .+1<CR>==
@@ -317,14 +354,17 @@ cmap w!! w !sudo tee % >/dev/null
 " nnoremap <C-P> "+p
 
 " Ctrl+S to save the current file
-nmap <c-s> :w<CR>
-imap <c-s> <Esc>:w<CR>
+"nmap <c-s> :w<CR>
+"imap <c-s> <Esc>:w<CR>
 
 " Management tabs
-nnoremap <C-t> :tabnew<cr>
-nnoremap <C-T> :tabnew<cr>
-nnoremap <A-w> :q<cr>
-nnoremap <A-W> :q<cr>
+"nnoremap <C-t> :tabnew<cr>
+"nnoremap <C-T> :tabnew<cr>
+"nnoremap <A-w> :q<cr>
+"nnoremap <A-W> :q<cr>
+"nnoremap <C-TAB> :tabnext <cr>
+"nnoremap <C-S-TAB> :tabprevious<cr>
+
 
 " ---------------------------------
 " Aliases
@@ -340,8 +380,10 @@ cab WQ wq
 " Syntax Highlighting
 " ---------------------------------
 
-au BufNewFile,BufRead *.thor       set filetype=ruby
 au BufNewFile,BufRead *.less       set filetype=css
+au BufNewFile,BufRead *.scss       set filetype=css
+au BufNewFile,BufRead *.ctp        set filetype=php
+au BufNewFile,BufRead *.thor       set filetype=ruby
 au BufNewFile,BufRead Guardfile    set filetype=ruby
 au BufNewFile,BufRead .pryrc       set filetype=ruby
 au BufNewFile,BufRead Vagrantfile  set filetype=ruby
@@ -349,3 +391,56 @@ au BufNewFile,BufRead *.pp         set filetype=ruby
 au BufNewFile,BufRead .psqlrc      set filetype=sql
 au BufNewFile,BufRead *.prawn      set filetype=ruby
 au BufNewFile,BufRead bash_profile set filetype=sh
+
+
+" ---------------------------------
+" NERDTree
+" ---------------------------------
+" nmap <F2> :NERDTreeToggle<CR>
+nmap <silent><Leader>p :NERDTreeToggle<CR>
+nmap <silent><C-M> :NERDTreeToggle<CR>
+
+
+" ---------------------------------
+" Window Title with filename + (path)
+" ---------------------------------
+
+set titlestring=%t%(\ %M%)%(\ (%{expand(\"%:p:h\")})%)%(\ %a%)\ -\ %{v:servername}
+
+"Key mapping for indentation
+nmap <D-[> <<
+nmap <D-]> >>
+vmap <D-[> <gv
+vmap <D-]> >gv
+
+set exrc
+set secure
+let g:vim_tags_auto_generate = 1
+let g:vim_tags_project_tags_command = "ctags -R {OPTIONS} {DIRECTORY} 2>/dev/null"
+
+
+
+
+
+" ================ Persistent Undo ==================
+" Keep undo history across sessions, by storing in file.
+" Only works all the time.
+"if has('persistent_undo')
+"  silent !mkdir ~/.vim/backups > /dev/null 2>&1
+"  set undodir=~/.vim/backups
+"  set undofile
+"endif
+
+
+"set wildmode=list:longest
+"set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
+"set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
+"set wildignore+=*vim/backups*
+"set wildignore+=*sass-cache*
+"set wildignore+=*DS_Store*
+"set wildignore+=vendor/rails/**
+"set wildignore+=vendor/cache/**
+"set wildignore+=*.gem
+"set wildignore+=log/**
+"set wildignore+=tmp/**
+"set wildignore+=*.png,*.jpg,*.gif
