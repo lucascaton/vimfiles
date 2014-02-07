@@ -1,8 +1,8 @@
-# Vimfiles by Lucas Caton
+# Vimfiles by Heverton Rodrigues
 
 **Vimfiles** are configuration files for the Vim editor. It includes editor preferences, colorscheme and font definitions, plugins, custom functions and more.
 
-**This project is my personal Vimfiles**. Feel free to send me suggestions through the [issues page](https://github.com/hevertonrodrigues/vimfiles/issues/new) or to send me improvements through the [Pull Requests page](https://github.com/lucascaton/vimfiles/pulls).
+**This project is my personal Vimfiles**. Feel free to send me suggestions through the [issues page](https://github.com/hevertonrodrigues/vimfiles/issues/new) or to send me improvements through the [Pull Requests page](https://github.com/hevertonrodrigues/vimfiles/pulls).
 
 ## How to use these vim configs
 
@@ -21,6 +21,7 @@ Install jshint, in order to review your javascript files:
 ## Colorscheme
 
 * ir_black
+* solarized_dark
 
 ## Fonts
 
