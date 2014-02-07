@@ -326,7 +326,7 @@ vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 nnoremap <F12> :source ~/.vimrc
 
 " Leader C clear the highlight as well as redraw
-map <C-N> :nohls <CR>
+map <Leader>l :nohls <CR>
 
 " Improve 'n' command (for searches)
 "nmap n nzz
