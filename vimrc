@@ -75,8 +75,8 @@ set noexpandtab
 " Folding settings
 " set foldmethod=indent   " fold based on indent
 " set foldnestmax=10      " deepest fold is 3 levels
-set nofoldenable        " dont fold by default
 " set foldlevel=1
+set nofoldenable        " dont fold by default
 
 "set wildmode=list:longest " make cmdline tab completion similar to bash
 "set wildmenu " enable ctrl-n and ctrl-p to scroll thru matches
@@ -89,7 +89,7 @@ set sidescroll=1
 
 set cf " Enable error files & error jumping.
 set clipboard+=unnamed " Yanks go on clipboard instead.
-set history=512 " Number of things to remember in history.
+set history=1024 " Number of things to remember in history.
 set autowrite " Writes on make/shell commands
 set ruler " Ruler on
 set nu " Line numbers on
@@ -197,12 +197,13 @@ endif
 " ---------------------------------
 
 " Removes trailing spaces
-function TrimWhiteSpace()
-  %s/\s*$//
-  ''
-:endfunction
+"function TrimWhiteSpace()
+"  %s/\s*$//
+"  ''
+":endfunction
 
 set list listchars=tab:»·,trail:·
+set nolist
 
 map <leader>= :call TrimWhiteSpace()<CR>
 map! <leader>= :call TrimWhiteSpace()<CR>
@@ -325,7 +326,7 @@ vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 nnoremap <F12> :source ~/.vimrc
 
 " Leader C clear the highlight as well as redraw
-nnoremap <Leader>l :nohls<CR><C-L>
+map <C-N> :nohls <CR>
 
 " Improve 'n' command (for searches)
 "nmap n nzz
@@ -396,7 +397,7 @@ au BufNewFile,BufRead bash_profile set filetype=sh
 " NERDTree
 " ---------------------------------
 " nmap <F2> :NERDTreeToggle<CR>
-"nmap <silent><Leader>p :NERDTreeToggle<CR>
+nmap <silent><Leader>p :NERDTreeToggle<CR>
 nmap <silent><C-M> :NERDTreeToggle<CR>
 
 
