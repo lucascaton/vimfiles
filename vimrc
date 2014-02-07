@@ -412,6 +412,13 @@ nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
 
+set exrc
+set secure
+let g:vim_tags_auto_generate = 1
+let g:vim_tags_project_tags_command = "ctags -R {OPTIONS} {DIRECTORY} 2>/dev/null"
+
+
+
 
 
 " ================ Persistent Undo ==================
