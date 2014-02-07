@@ -2,13 +2,13 @@
 
 **Vimfiles** are configuration files for the Vim editor. It includes editor preferences, colorscheme and font definitions, plugins, custom functions and more.
 
-**This project is my personal Vimfiles**. Feel free to send me suggestions through the [issues page](https://github.com/lucascaton/vimfiles/issues/new) or to send me improvements through the [Pull Requests page](https://github.com/lucascaton/vimfiles/pulls).
+**This project is my personal Vimfiles**. Feel free to send me suggestions through the [issues page](https://github.com/hevertonrodrigues/vimfiles/issues/new) or to send me improvements through the [Pull Requests page](https://github.com/lucascaton/vimfiles/pulls).
 
 ## How to use these vim configs
 
 Clone this repository into your home directory as `~/.vim` and then install the plugins. Such as:
 
-    git clone git://github.com/lucascaton/vimfiles.git ~/.vim
+    git clone git://github.com/hevertonrodrigues/vimfiles.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
     cd ~/.vim
     git submodule update --init
