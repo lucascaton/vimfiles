@@ -202,6 +202,12 @@ function CollapseMultipleBlankLines()
   ''
 :endfunction
 
+" Reverse all lines
+function Reverse()
+  g/^/m0
+  ''
+:endfunction
+
 map <leader>- :call CollapseMultipleBlankLines()<CR>
 map! <leader>- :call CollapseMultipleBlankLines()<CR>
 
