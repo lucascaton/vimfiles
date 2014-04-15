@@ -241,11 +241,12 @@ function CollapseMultipleBlankLines()
   ''
 :endfunction
 
-" Reverse all lines
-function Reverse()
+" Invert lines
+function InvertLines()
   g/^/m0
   ''
 :endfunction
+nnoremap <D-i> :call InvertLines()<cr>
 
 map <leader>- :call CollapseMultipleBlankLines()<CR>
 map! <leader>- :call CollapseMultipleBlankLines()<CR>
