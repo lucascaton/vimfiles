@@ -1,6 +1,6 @@
 # Vimfiles by Lucas Caton
 
-**Vimfiles** are configuration files for the Vim editor. It includes editor preferences, colorscheme and font definitions, plugins, custom functions and more.
+**Vimfiles** are configuration files for the Vim editor. It includes editor preferences, colorscheme, font definitions, plugins, custom functions and more.
 
 **This project is my personal Vimfiles**. Feel free to send me suggestions through the [issues page](https://github.com/lucascaton/vimfiles/issues/new) or to send me improvements through the [Pull Requests page](https://github.com/lucascaton/vimfiles/pulls).
 
@@ -61,46 +61,37 @@ These are my favorite fonts:
 | [Matchit.zip](https://github.com/vim-scripts/matchit.zip)          | Extended % matching for HTML, LaTeX, and many other languages.                                              |                                                                                                                                              |
 | [Vim Ruby Runner](https://github.com/henrik/vim-ruby-runner)       | Execute Ruby into an output buffer, similar to ⌘R in TextMate.                                              |                                                                                                                                              |
 | [Vim-rails](https://github.com/tpope/vim-rails)                    | Ruby on Rails power tools.                                                                                  |                                                                                                                                              |
-
 ## Vim in a GUI
 
-If you want to use Vim in a GUI, you can use gVim in Linux or MacVim for Mac. Download it from:
+If you want to use Vim in a GUI, you can use MacVim in Mac OSX or gVim in Linux. Download it from:
 
 * [Macvim](http://code.google.com/p/macvim/downloads/list) (Mac OSX)
 * [gVim](https://apps.ubuntu.com/cat/applications/vim-gnome/) (Ubuntu Linux)
-
-## Help Tags
-
-At first usage of Vim, type `:` while in **command mode** and execute:
-
-    Helptags
-
-This will make the plugins documentations available upon `:help` command.
 
 ## Learn Vim
 
 Visit the following sites to learn more about Vim:
 
+* [Screencast "17 tips for Vim" (in portuguese)](http://blog.lucascaton.com.br/?p=1081)
 * [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 * [Vim Adventures](http://vim-adventures.com/)
 * [Vimcasts](http://vimcasts.org)
-* [Screencast "17 tips for Vim" (in portuguese)](http://blog.lucascaton.com.br/?p=1081)
 * [Using Vim as a Complete Ruby on Rails IDE](http://biodegradablegeek.com/2007/12/using-vim-as-a-complete-ruby-on-rails-ide/)
 * [Why, oh WHY, do those #?@! nutheads use vi?](http://www.viemu.com/a-why-vi-vim.html)
 * [Byte of Vim](http://www.swaroopch.com/notes/Vim)
 
 ## Credits
 
-Created and maintained by [Lucas Caton](https://github.com/lucascaton):
+Created and maintained by [Lucas Caton](https://lucascaton.com.br).
 
-* [Lucas' blog](http://blog.lucascaton.com.br/)
-* [Lucas' twitter](http://twitter.com/lucascaton)
+* [My blog](http://blog.lucascaton.com.br/)
+* [My twitter](http://twitter.com/lucascaton)
 
 ## License
 
 **The MIT License (MIT)**
 
-**Copyright (c) 2010 - 2013 Lucas Caton**
+**Copyright (c) 2010 - 2014 Lucas Caton**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
