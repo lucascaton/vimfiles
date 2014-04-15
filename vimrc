@@ -32,7 +32,6 @@ Plugin 'mattn/gist-vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'msanders/snipmate.vim'
 Plugin 'nono/vim-handlebars'
-Plugin 'othree/html5.vim'
 Plugin 'rstacruz/sparkup'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
@@ -155,7 +154,7 @@ inoremap <Left> <nop>
 inoremap <Right> <nop>
 
 " Highlight long lines
-" let w:m2=matchadd('Search', '\%>80v.\+', -1)
+" let w:m2=matchadd('Search',   '\%>80v.\+', -1)
 " let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 
 " Relative line numbers in normal mode
