@@ -1,14 +1,60 @@
-"  /===================================\
-"  | VimFiles by Lucas Caton.          |
-"  | http://blog.lucascaton.com.br/    |
-"  | http://www.twitter.com/lucascaton |
-"  | Created at 2011, January.         |
-"  \===================================/
+" ┌───────────────────────────────────┐
+" │      VimFiles by Lucas Caton      │
+" ├───────────────────────────────────┤
+" │ http://lucascaton.com.br/         │
+" │ http://blog.lucascaton.com.br/    │
+" │ http://www.twitter.com/lucascaton │
+" └───────────────────────────────────┘
 
 
-" ---------------------------------
-" Plugins
-" ---------------------------------
+" ┌───────────────────────────────────┐
+" │              Vundle               │
+" └───────────────────────────────────┘
+
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Plugin 'gmarik/vundle'
+
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'bling/vim-airline'
+Plugin 'danro/rename.vim'
+Plugin 'dsawardekar/ember.vim'
+Plugin 'dsawardekar/portkey'
+Plugin 'godlygeek/tabular'
+Plugin 'henrik/vim-ruby-runner'
+Plugin 'int3/vim-extradite'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'kien/ctrlp.vim'
+Plugin 'mattn/gist-vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'msanders/snipmate.vim'
+Plugin 'nono/vim-handlebars'
+Plugin 'othree/html5.vim'
+Plugin 'rstacruz/sparkup'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rails'
+Plugin 'vim-scripts/matchit.zip'
+
+filetype plugin indent on
+
+" Brief help
+" :PluginList          - list configured plugins
+" :PluginInstall(!)    - install (update) plugins
+" :PluginSearch(!) foo - search (or refresh cache first) for foo
+" :PluginClean(!)      - confirm (or auto-approve) removal of unused plugins
+
+" ┌───────────────────────────────────┐
+" │       Plugins customizations      │
+" └───────────────────────────────────┘
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
@@ -50,9 +96,9 @@ let g:ctrlp_custom_ignore = {
 set laststatus=2
 let g:airline_powerline_fonts = 1
 
-" ---------------------------------
-" Settings
-" ---------------------------------
+" ┌───────────────────────────────────┐
+" │             Settings              │
+" └───────────────────────────────────┘
 
 " Completion
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
@@ -102,7 +148,7 @@ set incsearch
 set hlsearch
 
 " Plugin and indentation on
-filetype plugin indent on
+" filetype plugin indent on
 
 " Forcing the use of hjkl keys to navigate
 noremap <Up> <nop>
@@ -144,9 +190,9 @@ let g:syntastic_mode_map={ 'mode': 'active',
                          \ 'active_filetypes': ['ruby', 'javascript'],
                          \ 'passive_filetypes': ['html'] }
 
-" ---------------------------------
-" Theme
-" ---------------------------------
+" ┌───────────────────────────────────┐
+" │               Theme               │
+" └───────────────────────────────────┘
 
 " Fonts for Linux
 " set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
@@ -181,9 +227,9 @@ else
   let g:CSApprox_loaded = 0
 endif
 
-" ---------------------------------
-" Functions
-" ---------------------------------
+" ┌───────────────────────────────────┐
+" │             Functions             │
+" └───────────────────────────────────┘
 
 " Removes trailing spaces
 function TrimWhiteSpace()
@@ -296,9 +342,9 @@ augroup BWCCreateDir
   autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
 augroup END
 
-" ---------------------------------
-" Shortcuts
-" ---------------------------------
+" ┌───────────────────────────────────┐
+" │             Shortcuts             │
+" └───────────────────────────────────┘
 
 " Ctrl+R reloads the ~/.vimrc file
 nnoremap <F12> :source ~/.vimrc
@@ -322,9 +368,9 @@ vnoremap <D-k> :m '<-2<CR>gv=gv
 " This lets you use w!! to do that after you opened the file already:
 cmap w!! w !sudo tee % >/dev/null
 
-" ---------------------------------
-" Shortcuts for Linux (Gvim)
-" ---------------------------------
+" ┌───────────────────────────────────┐
+" │     Shortcuts for Linux (Gvim)    │
+" └───────────────────────────────────┘
 
 " Ctrl+C to copy and Ctrl+P to paste
 " vnoremap <C-C> "+y
@@ -341,9 +387,9 @@ nnoremap <C-T> :tabnew<cr>
 nnoremap <A-w> :q<cr>
 nnoremap <A-W> :q<cr>
 
-" ---------------------------------
-" Aliases
-" ---------------------------------
+" ┌───────────────────────────────────┐
+" │              Aliases              │
+" └───────────────────────────────────┘
 
 cab W w
 cab Q q
@@ -351,9 +397,9 @@ cab Wq wq
 cab wQ wq
 cab WQ wq
 
-" ---------------------------------
-" Syntax Highlighting
-" ---------------------------------
+" ┌───────────────────────────────────┐
+" │        Syntax Highlighting        │
+" └───────────────────────────────────┘
 
 au BufNewFile,BufRead *.thor       set filetype=ruby
 au BufNewFile,BufRead Guardfile    set filetype=ruby

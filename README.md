@@ -10,13 +10,15 @@ Clone this repository into your home directory as `~/.vim` and then install the 
 
     git clone git://github.com/lucascaton/vimfiles.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
-    cd ~/.vim
-    git submodule update --init
     cp fonts/Monaco+for+Powerline.otf ~/Library/Fonts/
 
 Install jshint, in order to review your javascript files:
 
     sudo npm install -g jshint
+
+In order to install / update the plugins, start vim and then run:
+
+    :PluginInstall
 
 ## Colorscheme
 
