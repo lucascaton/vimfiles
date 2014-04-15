@@ -144,9 +144,6 @@ set timeoutlen=250 " Time to wait after ESC (default causes an annoying delay)
 set incsearch
 set hlsearch
 
-" Plugin and indentation on
-" filetype plugin indent on
-
 " Forcing the use of hjkl keys to navigate
 noremap <Up> <nop>
 noremap <Down> <nop>
