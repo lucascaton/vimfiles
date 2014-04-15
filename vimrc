@@ -58,9 +58,6 @@ filetype plugin indent on
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
-" Pathogen
-call pathogen#infect()
-
 " Gist-vim
 let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
