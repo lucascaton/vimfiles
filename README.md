@@ -22,6 +22,7 @@ In order to install / update the plugins, start vim and then run:
 
 ## Colorscheme
 
+* base16-default *(my current one)*
 * ir_black
 
 ## Fonts
@@ -38,6 +39,7 @@ These are my favorite fonts:
 | Plugin                                                             | Description                                                                                                 | Interesting links                                                                                                                            |
 | :----------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Ack.vim](https://github.com/mileszs/ack.vim)                      | Perl module App::Ack. Ack can be used as a replacement for 99% of the uses of grep.                         |                                                                                                                                              |
+| [Base16](https://github.com/chriskempson/base16-vim)               |                                                                                                             |
 | [CtrlP](https://github.com/kien/ctrlp.vim)                         | Full path fuzzy file, buffer, mru and tag finder.                                                           |                                                                                                                                              |
 | [Extradite](https://github.com/int3/vim-extradite)                 | A git commit browser. Extends fugitive.vim.                                                                 |                                                                                                                                              |
 | [Fugitive](https://github.com/tpope/vim-fugitive)                  | A git wrapper so awesome, it should be illegal.                                                             |                                                                                                                                              |

@@ -21,6 +21,7 @@ Plugin 'gmarik/vundle'
 
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'bling/vim-airline'
+Plugin 'chriskempson/base16-vim'
 Plugin 'danro/rename.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'henrik/vim-ruby-runner'
@@ -207,7 +208,9 @@ endif
 
 if has("gui_running") || $TERM == "xterm-256color"
   set t_Co=256
-  colorscheme ir_black
+  set background=dark
+  " colorscheme ir_black
+  colorscheme base16-default
 else
   let g:CSApprox_loaded = 0
 endif
