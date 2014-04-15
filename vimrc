@@ -90,7 +90,6 @@ let g:airline_powerline_fonts = 1
 " └───────────────────────────────────┘
 
 " Completion
-                            set omnifunc=syntaxcomplete#Complete
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType python     set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
