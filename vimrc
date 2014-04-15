@@ -22,16 +22,14 @@ Plugin 'gmarik/vundle'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'bling/vim-airline'
 Plugin 'danro/rename.vim'
-Plugin 'dsawardekar/portkey'
 Plugin 'godlygeek/tabular'
 Plugin 'henrik/vim-ruby-runner'
 Plugin 'int3/vim-extradite'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
-Plugin 'mattn/gist-vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'msanders/snipmate.vim'
-Plugin 'nono/vim-handlebars'
+Plugin 'paradigm/vim-multicursor'
 Plugin 'rstacruz/sparkup'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
@@ -55,10 +53,6 @@ filetype plugin indent on
 " └───────────────────────────────────┘
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
-
-" Gist-vim
-let g:gist_detect_filetype = 1
-let g:gist_open_browser_after_post = 1
 
 " NERDTree
 nmap <F2> :NERDTreeToggle<CR>
