@@ -9,16 +9,19 @@
 Clone this repository into your home directory as `~/.vim` and then install the plugins. Such as:
 
     git clone git://github.com/lucascaton/vimfiles.git ~/.vim
+    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
     ln -s ~/.vim/vimrc ~/.vimrc
-    cp fonts/Monaco+for+Powerline.otf ~/Library/Fonts/
-
-Install jshint, in order to review your javascript files:
-
-    sudo npm install -g jshint
+    cp ~/.vim/fonts/Monaco+for+Powerline.otf ~/Library/Fonts/
 
 In order to install / update the plugins, start vim and then run:
 
     :PluginInstall
+
+**Optional**
+Install jshint, in order to review your javascript files:
+
+    sudo npm install -g jshint
+
 
 ## Colorscheme
 
