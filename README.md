@@ -17,7 +17,7 @@ In order to install / update the plugins, start vim and then run:
 
     :PluginInstall
 
-**Optional**
+**Optional:**
 
 Install jshint, in order to review your javascript files:
 
