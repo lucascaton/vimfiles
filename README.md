@@ -18,10 +18,10 @@ In order to install / update the plugins, start vim and then run:
     :PluginInstall
 
 **Optional**
+
 Install jshint, in order to review your javascript files:
 
     sudo npm install -g jshint
-
 
 ## Colorscheme
 
