@@ -247,6 +247,9 @@ map! <leader>- :call CollapseMultipleBlankLines()<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Bind \ (backward slash) to Ag shortcut
+nnoremap \ :Ag<SPACE>
+
 " Bind K to search for the word under cursor
 nnoremap K :Ag "\b<C-R><C-W>\b"<CR>:cw<CR>
 
