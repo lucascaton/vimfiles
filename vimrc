@@ -28,8 +28,8 @@ Plugin 'henrik/vim-ruby-runner'
 Plugin 'int3/vim-extradite'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
-Plugin 'mileszs/ack.vim'
 Plugin 'msanders/snipmate.vim'
+Plugin 'rking/ag.vim'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
@@ -51,8 +51,6 @@ filetype plugin indent on
 " ┌───────────────────────────────────┐
 " │       Plugins customizations      │
 " └───────────────────────────────────┘
-
-let g:ackprg = 'ag --nogroup --nocolor --column'
 
 " NERDTree
 nmap <F2> :NERDTreeToggle<CR>
