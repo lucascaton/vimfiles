@@ -247,6 +247,9 @@ map! <leader>- :call CollapseMultipleBlankLines()<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Bind K to search for the word under cursor
+nnoremap K :Ag "\b<C-R><C-W>\b"<CR>:cw<CR>
+
 " Auto complete
 let g:stop_autocomplete=0
 
