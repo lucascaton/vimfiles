@@ -405,3 +405,4 @@ au BufNewFile,BufRead Appraisals   set filetype=ruby
 au BufNewFile,BufRead .psqlrc      set filetype=sql
 au BufNewFile,BufRead *.less       set filetype=css
 au BufNewFile,BufRead bash_profile set filetype=sh
+au BufNewFile,BufRead Capfile      set filetype=ruby
