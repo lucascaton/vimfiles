@@ -28,6 +28,7 @@ Plugin 'henrik/vim-ruby-runner'
 Plugin 'int3/vim-extradite'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
+Plugin 'lilydjwg/colorizer'
 Plugin 'msanders/snipmate.vim'
 Plugin 'rking/ag.vim'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
