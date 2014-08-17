@@ -57,7 +57,7 @@ filetype plugin indent on
 nmap <F2> :NERDTreeToggle<CR>
 
 " Tabular
-inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
+inoremap <silent> <Bar> <Bar><Esc>:call <SID>align()<CR>a
 
 function! s:align()
   let p = '^\s*|\s.*\s|\s*$'
