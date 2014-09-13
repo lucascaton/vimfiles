@@ -323,6 +323,9 @@ command! -nargs=0 RemoveAllFocusTags call s:RemoveAllFocusTags()
 " Search and replace selected text (http://stackoverflow.com/questions/676600/vim-search-and-replace-selected-text)
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
+" Mapping Y to yank from current cursor position till end of line
+noremap Y y$
+
 " Creates parent directories on save
 function s:MkNonExDir(file, buf)
   if empty(getbufvar(a:buf, '&buftype')) && a:file!~#'\v^\w+\:\/'
