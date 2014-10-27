@@ -136,6 +136,10 @@ set timeoutlen=250 " Time to wait after ESC (default causes an annoying delay)
 set incsearch
 set hlsearch
 
+"" Vmap for maintain Visual Mode after shifting > and <
+vmap < <gv
+vmap > >gv
+
 " Forcing the use of hjkl keys to navigate
 noremap <Up> <nop>
 noremap <Down> <nop>
