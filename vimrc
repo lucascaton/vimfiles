@@ -240,6 +240,8 @@ function CollapseMultipleBlankLines()
   g/^\_$\n\_^$/d
   ''
 :endfunction
+map <leader>- :call CollapseMultipleBlankLines()<CR>
+map! <leader>- :call CollapseMultipleBlankLines()<CR>
 
 " Invert lines
 function InvertLines()
@@ -248,8 +250,6 @@ function InvertLines()
 :endfunction
 nnoremap <D-i> :call InvertLines()<cr>
 
-map <leader>- :call CollapseMultipleBlankLines()<CR>
-map! <leader>- :call CollapseMultipleBlankLines()<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
