@@ -1,4 +1,4 @@
-# Vimfiles by Lucas Caton
+# Vimfiles
 
 **Vimfiles** are configuration files for the Vim editor. It includes editor preferences, colorscheme, font definitions, plugins, custom functions and more.
 
@@ -23,9 +23,10 @@ Install jshint, in order to review your javascript files:
 
     sudo npm install -g jshint
 
-## Colorscheme
+## Color Schemes
 
-* base16-default *(my current one)*
+* base16-ocean *(current)*
+* base16-default
 * ir_black
 
 ## Fonts
