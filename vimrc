@@ -215,7 +215,8 @@ if has("gui_running") || $TERM == "xterm-256color"
   set background=dark
   let base16colorspace=256 " Access colors present in 256 colorspace
   " colorscheme ir_black
-  colorscheme base16-default
+  " colorscheme base16-default
+  colorscheme base16-ocean
 else
   let g:CSApprox_loaded = 0
 endif
