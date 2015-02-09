@@ -26,8 +26,7 @@ Install jshint, in order to review your javascript files:
 ## Color Schemes
 
 * base16-ocean *(current)*
-* base16-default
-* ir_black
+* Other ["base16" themes](http://chriskempson.github.io/base16/)
 
 ## Fonts
 
