@@ -330,6 +330,38 @@ endfunction
 :nnoremap <leader>d :RemoveAllFocusTags<CR>
 command! -nargs=0 RemoveAllFocusTags call s:RemoveAllFocusTags()
 
+function! OpenGemfile()
+  if filereadable("Gemfile")
+    execute ":tab drop Gemfile"
+  end
+endfunction
+map <Leader>g :call OpenGemfile()<CR>
+
+function! OpenRoutes()
+  if filereadable("config/routes.rb")
+    execute ":tab drop config/routes.rb"
+  end
+endfunction
+map <Leader>r :call OpenRoutes()<CR>
+
+function! OpenSpecHelper()
+  if filereadable("spec/spec_helper.rb")
+    execute ":tab drop spec/spec_helper.rb"
+  end
+endfunction
+map <Leader>s :call OpenSpecHelper()<CR>
+
+function! OpenFactoryFile()
+  if filereadable("spec/support/factories.rb")
+    execute ":tab drop spec/support/factories.rb"
+  else
+    if filereadable("spec/factories.rb")
+      execute ":tab drop spec/factories.rb"
+    end
+  end
+endfunction
+map <Leader>f :call OpenFactoryFile()<CR>
+
 " Search and replace selected text (http://stackoverflow.com/questions/676600/vim-search-and-replace-selected-text)
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
