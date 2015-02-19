@@ -321,16 +321,14 @@ endfunction
 function! s:AddFocusTag()
   call s:Preserve("normal! ^ / do\<cr>C, focus: true do\<esc>")
 endfunction
+:nnoremap <leader>a :AddFocusTag<CR>
+command! -nargs=0 AddFocusTag call s:AddFocusTag()
 
 function! s:RemoveAllFocusTags()
   call s:Preserve("%s/, focus: true//e")
 endfunction
-
-command! -nargs=0 AddFocusTag call s:AddFocusTag()
+:nnoremap <leader>d :RemoveAllFocusTags<CR>
 command! -nargs=0 RemoveAllFocusTags call s:RemoveAllFocusTags()
-
-:nnoremap <leader>t :AddFocusTag<CR>
-:nnoremap <leader>r :RemoveAllFocusTags<CR>
 
 " Search and replace selected text (http://stackoverflow.com/questions/676600/vim-search-and-replace-selected-text)
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
