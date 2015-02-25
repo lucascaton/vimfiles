@@ -438,6 +438,7 @@ cab wQ wq
 cab WQ wq
 cab tabe tab drop
 cab Tabe tab drop
+cab E e
 
 " ┌───────────────────────────────────┐
 " │        Syntax Highlighting        │
