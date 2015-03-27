@@ -67,16 +67,16 @@ These are my favorite fonts:
 
 ## Vim in a GUI
 
-If you want to use Vim in a GUI, you can use MacVim in Mac OSX or gVim in Linux. Download it from:
+If you want to use Vim in a GUI, you can use MacVim in Mac OS X or gVim in Linux. Download it from:
 
-* [Macvim](http://code.google.com/p/macvim/downloads/list) (Mac OSX)
+* [Macvim](http://code.google.com/p/macvim/downloads/list) (Mac OS X)
 * [gVim](https://apps.ubuntu.com/cat/applications/vim-gnome/) (Ubuntu Linux)
 
 ## Learn Vim
 
 Visit the following sites to learn more about Vim:
 
-* [Screencast "17 tips for Vim" (in portuguese)](http://blog.lucascaton.com.br/?p=1081)
+* [Screencast "17 tips for Vim" (in Portuguese)](http://blog.lucascaton.com.br/?p=1081)
 * [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 * [Vim Adventures](http://vim-adventures.com/)
 * [Vimcasts](http://vimcasts.org)
