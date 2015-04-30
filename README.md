@@ -17,10 +17,6 @@ In order to install / update the plugins, start vim and then run:
 
     :PluginInstall
 
-In order to get **YouCompleteMe** working properly, follow its documentation:
-
-[https://github.com/Valloric/YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
-
 **Optional:**
 
 Install jshint, in order to review your javascript files:
@@ -68,7 +64,6 @@ These are my favorite fonts:
 | [Vim Endwise](https://github.com/tpope/vim-endwise)                 | Wisely add "end" in ruby                                            |                                    |
 | [Vim Rails](https://github.com/tpope/vim-rails)                     | Ruby on Rails power tools                                           |                                    |
 | [Vim Ruby Runner](https://github.com/henrik/vim-ruby-runner)        | Execute Ruby into an output buffer                                  |                                    |
-| [YouCompleteMe](https://github.com/Valloric/)                       | Code-completion engine                                              |                                    |
 
 ## Vim in a GUI
 
