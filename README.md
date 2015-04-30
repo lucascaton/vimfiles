@@ -39,31 +39,31 @@ These are my favorite fonts:
 
 ## Plugins
 
-| Plugin                                                              | Description                                                                                                | Interesting links                                                                 |
-| :------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| [Ag.vim](https://github.com/rking/ag.vim)                           | Vim plugin for the_silver_searcher, 'ag', a replacement for the Perl module / CLI script 'ack'             |                                                                                   |
-| [Base16](https://github.com/chriskempson/base16-vim)                | Amazing colorschema                                                                                        |                                                                                   |
-| [Colorizer](https://github.com/lilydjwg/colorizer)                  | Colorize all text in the form #rrggbb or #rgb                                                              |                                                                                   |
-| [CtrlP](https://github.com/kien/ctrlp.vim)                          | Full path fuzzy file, buffer, mru and tag finder                                                           | [Website](http://kien.github.com/ctrlp.vim/)                                      |
-| [Extradite](https://github.com/int3/vim-extradite)                  | A git commit browser. Extends fugitive.vim                                                                 |                                                                                   |
-| [Fugitive](https://github.com/tpope/vim-fugitive)                   | A git wrapper so awesome, it should be illegal                                                             |                                                                                   |
-| [Matchit.zip](https://github.com/vim-scripts/matchit.zip)           | Extended % matching for HTML, LaTeX, and many other languages                                              |                                                                                   |
-| [Multiple Cursors](https://github.com/terryma/vim-multiple-cursors) | True Sublime Text style multiple selections                                                                |                                                                                   |
-| [Nerdtree](https://github.com/scrooloose/nerdtree)                  | A tree explorer plugin                                                                                     |                                                                                   |
-| [Rename](https://github.com/danro/rename.vim)                       | A command and function that basically does a ":saveas <newfile>" then removes the old filename on the disk |                                                                                   |
-| [Smartpairs](https://github.com/gorkunov/smartpairs.vim)            | Fantastic selection - allows you to forget about difficult keys combination like vi{ or va"                |                                                                                   |
-| [Snipmate](https://github.com/msanders/snipmate.vim)                | Aims to be a concise Vim script that implements some of TextMate's snippets features in Vim                |                                                                                   |
-| [Sparkup (Zen-coding)](https://github.com/rstacruz/sparkup)         | A parser for a condensed HTML format                                                                       | [Zzen coding](http://code.google.com/p/zen-coding/)                               |
-| [Syntastic](https://github.com/scrooloose/syntastic)                | Syntax checking hacks                                                                                      |                                                                                   |
-| [Tabular](https://github.com/godlygeek/tabular)                     | Text filtering and alignmentClone                                                                          |                                                                                   |
-| [Tcomment](https://github.com/tomtom/tcomment_vim)                  | An extensible & universal comment vim-plugin that also handles embedded filetypes                          |                                                                                   |
-| [Vim Abolish](https://github.com/tpope/vim-abolish)                 | Easily search for, substitute, and abbreviate multiple variants of a word                                  | [Vim Casts](http://vimcasts.org/episodes/supercharged-substitution-with-subvert/) |
-| [Vim Airline](https://github.com/bling/vim-airline)                 | Lean & mean status / tabline                                                                               |                                                                                   |
-| [Vim Coffee Script](https://github.com/kchmck/vim-coffee-script)    | CoffeeScript support for Vim                                                                               |                                                                                   |
-| [Vim Easymotion](https://github.com/Lokaltog/vim-easymotion/)       | It provides a much simpler way to use some motions in Vim                                                  |                                                                                   |
-| [Vim Endwise](https://github.com/tpope/vim-endwise)                 | Wisely add "end" in ruby, endfunction/endif/more in Vim script, etc                                        |                                                                                   |
-| [Vim Rails](https://github.com/tpope/vim-rails)                     | Ruby on Rails power tools                                                                                  |                                                                                   |
-| [Vim Ruby Runner](https://github.com/henrik/vim-ruby-runner)        | Execute Ruby into an output buffer, similar to ⌘R in TextMate                                              |                                                                                   |
+| Plugin                                                              | Description                                                         | Interesting links                   |
+| :------------------------------------------------------------------ | :------------------------------------------------------------------ | :---------------------------------- |
+| [Ag.vim](https://github.com/rking/ag.vim)                           | Plugin for ag (the_silver_searcher)                                 |                                     |
+| [Base16](https://github.com/chriskempson/base16-vim)                | Amazing colorschema                                                 |                                     |
+| [Colorizer](https://github.com/lilydjwg/colorizer)                  | Colorize all text in the form #rrggbb or #rgb                       |                                     |
+| [CtrlP](https://github.com/kien/ctrlp.vim)                          | Full path fuzzy file, buffer, mru and tag finder                    | [Website](http://goo.gl/nUQ1lA)     |
+| [Extradite](https://github.com/int3/vim-extradite)                  | A git commit browser. Extends fugitive.vim                          |                                     |
+| [Fugitive](https://github.com/tpope/vim-fugitive)                   | A git wrapper so awesome, it should be illegal                      |                                     |
+| [Matchit.zip](https://github.com/vim-scripts/matchit.zip)           | Extended % matching for HTML, LaTeX, and many other languages       |                                     |
+| [Multiple Cursors](https://github.com/terryma/vim-multiple-cursors) | True Sublime Text style multiple selections                         |                                     |
+| [Nerdtree](https://github.com/scrooloose/nerdtree)                  | A tree explorer plugin                                              |                                     |
+| [Rename](https://github.com/danro/rename.vim)                       | Basically does a ":saveas <newfile>" then removes the old filename  |                                     |
+| [Smartpairs](https://github.com/gorkunov/smartpairs.vim)            | Fantastic selection, replaces hard keys combination like vi{ or va" |                                     |
+| [Snipmate](https://github.com/msanders/snipmate.vim)                | Implements some of TextMate's snippets                              |                                     |
+| [Sparkup (Zen-coding)](https://github.com/rstacruz/sparkup)         | A parser for a condensed HTML format                                | [Zzen coding](http://goo.gl/E4BVWd) |
+| [Syntastic](https://github.com/scrooloose/syntastic)                | Syntax checking hacks                                               |                                     |
+| [Tabular](https://github.com/godlygeek/tabular)                     | Text filtering and alignmentClone                                   |                                     |
+| [Tcomment](https://github.com/tomtom/tcomment_vim)                  | An extensible & universal comment vim-plugin                        |                                     |
+| [Vim Abolish](https://github.com/tpope/vim-abolish)                 | Easily search for, substitute, and abbreviate variants of a word    | [Vim Casts](http://goo.gl/CsfUJ6)   |
+| [Vim Airline](https://github.com/bling/vim-airline)                 | Lean & mean status / tabline                                        |                                     |
+| [Vim Coffee Script](https://github.com/kchmck/vim-coffee-script)    | CoffeeScript support for Vim                                        |                                     |
+| [Vim Easymotion](https://github.com/Lokaltog/vim-easymotion/)       | It provides a much simpler way to use some motions in Vim           |                                     |
+| [Vim Endwise](https://github.com/tpope/vim-endwise)                 | Wisely add "end" in ruby                                            |                                     |
+| [Vim Rails](https://github.com/tpope/vim-rails)                     | Ruby on Rails power tools                                           |                                     |
+| [Vim Ruby Runner](https://github.com/henrik/vim-ruby-runner)        | Execute Ruby into an output buffer                                  |                                     |
 
 ## Vim in a GUI
 
