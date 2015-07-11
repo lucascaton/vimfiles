@@ -57,7 +57,6 @@ filetype plugin indent on
 
 " NERDTree
 nmap <F2> :NERDTreeToggle<CR>
-let NERDTreeShowHidden=1
 
 " Tabular
 inoremap <silent> <Bar> <Bar><Esc>:call <SID>align()<CR>a
