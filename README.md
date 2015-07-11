@@ -69,7 +69,7 @@ These are my favorite fonts:
 
 If you want to use Vim in a GUI, you can use MacVim in Mac OS X or gVim in Linux. Download it from:
 
-* [Macvim](http://code.google.com/p/macvim/downloads/list) (Mac OS X)
+* [Macvim](https://github.com/macvim-dev/macvim/releases) (Mac OS X)
 * [gVim](https://apps.ubuntu.com/cat/applications/vim-gnome/) (Ubuntu Linux)
 
 ## Learn Vim
