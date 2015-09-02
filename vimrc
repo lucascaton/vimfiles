@@ -187,6 +187,7 @@ let g:syntastic_mode_map={ 'mode': 'active',
 
 " Fonts for Mac
 set guifont=Monaco\ for\ Powerline:h15
+" set guifont=Hack:h15
 " set guifont=Anonymous\ Pro:h17
 " set guifont=Inconsolata-dz:h17
 
