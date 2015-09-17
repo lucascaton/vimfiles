@@ -71,6 +71,15 @@ function! s:align()
   endif
 endfunction
 
+if exists(":Tabularize")
+  nmap <Leader>a= :Tabularize /=<CR>
+  vmap <Leader>a= :Tabularize /=<CR>
+  nmap <Leader>a> :Tabularize /=><CR>
+  vmap <Leader>a> :Tabularize /=><CR>
+  nmap <Leader>a: :Tabularize /:\zs<CR>
+  vmap <Leader>a: :Tabularize /:\zs<CR>
+endif
+
 " CtrlP
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_working_path_mode = 2
