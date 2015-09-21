@@ -9,7 +9,7 @@
 " │              Vundle               │
 " └───────────────────────────────────┘
 
-set nocompatible " Unleash all VIM power
+set nocompatible " Unleash all Vim power
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
