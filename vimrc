@@ -18,6 +18,7 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/base16-vim'
 Plugin 'danro/rename.vim'
