@@ -395,6 +395,9 @@ augroup END
 " │             Shortcuts             │
 " └───────────────────────────────────┘
 
+"" Set working directory
+nnoremap <leader>. :lcd %:p:h<CR>
+
 " Ctrl+R reloads the ~/.vimrc file
 nnoremap <F12> :source ~/.vimrc
 
