@@ -347,6 +347,16 @@ endfunction
 :nnoremap <leader>d :RemoveAllFocusTags<CR>
 command! -nargs=0 RemoveAllFocusTags call s:RemoveAllFocusTags()
 
+function! UseSingleQuotes()
+  execute ":%s/\"/'/g"
+endfunction
+map <Leader>' :call UseSingleQuotes()<CR>
+
+function! UseDoubleQuotes()
+  execute ":%s/'/\"/g"
+endfunction
+map <Leader>" :call UseDoubleQuotes()<CR>
+
 function! OpenGemfile()
   if filereadable("Gemfile")
     execute ":tab drop Gemfile"
