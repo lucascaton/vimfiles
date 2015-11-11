@@ -57,8 +57,17 @@ filetype plugin indent on
 
 " NERDTree
 nmap <F2> :NERDTreeToggle<CR>
-let NERDTreeShowHidden=1
-let NERDTreeIgnore=['\.git$', '.routes', '.DS_Store', '.keep']
+let NERDTreeShowHidden = 1
+let NERDTreeIgnore = [
+  \'\.DS_Store$',
+  \'\.capistrano$',
+  \'\.git$',
+  \'\.keep$',
+  \'\.routes$',
+  \'\.sass-cache/$',
+  \'\.swo$',
+  \'\.swp$'
+\]
 
 " Tabular
 inoremap <silent> <Bar> <Bar><Esc>:call <SID>align()<CR>a
