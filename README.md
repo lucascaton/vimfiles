@@ -86,6 +86,10 @@ Visit the following sites to learn more about Vim:
 * [Why, oh WHY, do those #?@! nutheads use vi?](http://www.viemu.com/a-why-vi-vim.html)
 * [Byte of Vim](http://www.swaroopch.com/notes/Vim)
 
+## Other dotfiles
+
+You can find my dotfiles here: [lucascaton/dotfiles](https://github.com/lucascaton/dotfiles).
+
 ## Credits
 
 Created and maintained by [Lucas Caton](https://lucascaton.com.br).
