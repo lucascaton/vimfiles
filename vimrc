@@ -84,12 +84,12 @@ function! s:align()
 endfunction
 
 if exists(":Tabularize")
-  nmap <Leader>a= :Tabularize /=<CR>
-  vmap <Leader>a= :Tabularize /=<CR>
-  nmap <Leader>a> :Tabularize /=><CR>
-  vmap <Leader>a> :Tabularize /=><CR>
-  nmap <Leader>a: :Tabularize /:\zs<CR>
-  vmap <Leader>a: :Tabularize /:\zs<CR>
+  nmap <Leader>t= :Tabularize /=<CR>
+  vmap <Leader>t= :Tabularize /=<CR>
+  nmap <Leader>t> :Tabularize /=><CR>
+  vmap <Leader>t> :Tabularize /=><CR>
+  nmap <Leader>t: :Tabularize /:\zs<CR>
+  vmap <Leader>t: :Tabularize /:\zs<CR>
 endif
 
 " CtrlP
