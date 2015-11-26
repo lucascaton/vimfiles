@@ -230,6 +230,7 @@ syntax on
 if has("gui_running")
   set lines=57
   set columns=237
+  set colorcolumn=100
 
   " Highlight the line and the column of the current position of cursor
   set cursorline
