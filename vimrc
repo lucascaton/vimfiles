@@ -279,13 +279,16 @@ function InvertLines()
   g/^/m0
   ''
 :endfunction
+
 nnoremap <D-i> :call InvertLines()<cr>
 
-" Convert Ruby 1.8 to 1.9 Hash Syntax - http://robots.thoughtbot.com/convert-ruby-1-8-to-1-9-hash-syntax
+" Convert Ruby 1.8 to 1.9 Hash Syntax
+" http://robots.thoughtbot.com/convert-ruby-1-8-to-1-9-hash-syntax
 function ConvertRubyHashSyntax()
   %s/:\([^ ]*\)\(\s*\)=>/\1:/g
   ''
 :endfunction
+
 nnoremap <leader>h :call ConvertRubyHashSyntax()<cr>
 
 autocmd BufWritePre * :%s/\s\+$//e
