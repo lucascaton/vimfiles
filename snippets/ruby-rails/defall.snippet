@@ -16,21 +16,21 @@ ${5}
   end
 
   def create
-    @$2 = $1.new $2_params
+    @$2 = $1.new($2_params)
 
     if @$2.save
-      redirect_to @$2, notice: '$1 was successfully created.'
+      redirect_to @$2, notice: '$1 has been successfully created.'
     else
-      flash.now[:error] = @$2.errors.full_messages.join(', ')
+      flash.now[:error] = @$2.errors.full_messages.to_sentence
       render :new
     end
   end
 
   def update
-    if @$2.update $2_params
-      redirect_to @$2, notice: '$1 was successfully updated.'
+    if @$2.update($2_params)
+      redirect_to @$2, notice: '$1 has been successfully updated.'
     else
-      flash.now[:error] = @$2.errors.full_messages.join(', ')
+      flash.now[:error] = @$2.errors.full_messages.to_sentence
       render :edit
     end
   end
@@ -38,13 +38,13 @@ ${5}
   def destroy
     @$2.destroy
 
-    redirect_to $2s_path, notice: '$1 was successfully removed.'
+    redirect_to $2s_path, notice: '$1 has been successfully removed.'
   end
 
   private
 
   def set_$2
-    @$2 = $1.find params[:id]
+    @$2 = $1.find(params[:id])
   end
 
   def $2_params

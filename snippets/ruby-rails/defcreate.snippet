@@ -1,10 +1,10 @@
 def create
-  @${1:model_class_name} = ${2:ModelClassName}.new params[:$1]
+  @${1:model_class_name} = ${2:ModelClassName}.new(params[:$1])
 
   if @$1.save
-    redirect_to @$1, notice: '$2 was successfully created.'
+    redirect_to @$1, notice: '$2 has been successfully created.'
   else
-    flash.now[:error] = @$1.errors.full_messages.join(', ')
+    flash.now[:error] = @$1.errors.full_messages.to_sentence
     render :new
   end
 end
