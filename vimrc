@@ -500,3 +500,13 @@ au BufNewFile,BufRead .psqlrc      set filetype=sql
 au BufNewFile,BufRead *.less       set filetype=css
 au BufNewFile,BufRead bash_profile set filetype=sh
 au BufNewFile,BufRead *.hbs        set filetype=html
+
+" Git hooks
+au BufNewFile,BufRead applypatch-msg     set filetype=ruby
+au BufNewFile,BufRead commit-msg         set filetype=ruby
+au BufNewFile,BufRead post-update        set filetype=ruby
+au BufNewFile,BufRead pre-applypatch     set filetype=ruby
+au BufNewFile,BufRead pre-commit         set filetype=ruby
+au BufNewFile,BufRead pre-push           set filetype=ruby
+au BufNewFile,BufRead pre-rebase         set filetype=ruby
+au BufNewFile,BufRead prepare-commit-msg set filetype=ruby
