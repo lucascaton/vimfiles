@@ -60,13 +60,15 @@ nmap <F2> :NERDTreeToggle<CR>
 let NERDTreeShowHidden = 1
 let NERDTreeIgnore = [
   \'\.DS_Store$',
+  \'\.bundle$',
   \'\.capistrano$',
   \'\.git$',
   \'\.keep$',
   \'\.routes$',
   \'\.sass-cache/$',
   \'\.swo$',
-  \'\.swp$'
+  \'\.swp$',
+  \'tags$'
 \]
 
 " Tabular
