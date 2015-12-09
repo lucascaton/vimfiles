@@ -229,6 +229,8 @@ set guioptions-=T
 " Syntax on
 syntax on
 
+set list listchars=tab:»·,trail:·
+
 if has("gui_running")
   set lines=57
   set columns=237
@@ -259,8 +261,6 @@ function TrimWhiteSpace()
   %s/\s*$//
   ''
 :endfunction
-
-set list listchars=tab:»·,trail:·
 
 map <leader>= :call TrimWhiteSpace()<CR>
 map! <leader>= :call TrimWhiteSpace()<CR>
