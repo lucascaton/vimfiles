@@ -265,6 +265,16 @@ function TrimWhiteSpace()
 map  <leader>= :call TrimWhiteSpace()<CR>
 map! <leader>= :call TrimWhiteSpace()<CR>
 
+" Adds space between hash content and braces
+function AddsSpaceBetweenHashContentAndBraces()
+  silent! s/{\([^ ]\)/{ \1/
+  silent! s/\([^ ]\)}/\1 }/
+  ''
+:endfunction
+
+map  <leader>{ :call AddsSpaceBetweenHashContentAndBraces()<CR>
+map! <leader>{ :call AddsSpaceBetweenHashContentAndBraces()<CR>
+
 " Collapse multiple blank lines (regardless of quantity) into a single blank line.
 function CollapseMultipleBlankLines()
   g/^\_$\n\_^$/d
