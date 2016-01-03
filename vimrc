@@ -217,11 +217,12 @@ let g:syntastic_mode_map={ 'mode': 'active',
 " set guifont=Monospace\ 10
 
 " Fonts for Mac
-set guifont=Monaco\ for\ Powerline:h15
+" set guifont=Monaco\ for\ Powerline:h15
 " set guifont=Menlo\ Regular:h16
 " set guifont=Hack:h15
 " set guifont=Anonymous\ Pro:h17
 " set guifont=Inconsolata-dz:h17
+set guifont=Roboto\ Mono\ for\ Powerline:h15
 
 " Don't show the top bar
 set guioptions-=T
