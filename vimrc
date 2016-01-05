@@ -472,6 +472,9 @@ cmap w!! w !sudo tee % >/dev/null
 nnoremap Q @q
 vnoremap Q :norm @q<cr>
 
+" Adds a `puts` for code inspection (Ruby language)
+noremap <leader>p yypk^<Esc>iputs "#{'-' * `tput cols`.to_i}\n<Esc>$a: #{<Esc>Jx$a.inspect}\n#{'-' * `tput cols`.to_i}"<Esc>
+
 " ┌───────────────────────────────────┐
 " │     Shortcuts for Linux (Gvim)    │
 " └───────────────────────────────────┘
