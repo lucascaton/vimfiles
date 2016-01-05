@@ -468,6 +468,10 @@ vnoremap <D-k> :m '<-2<CR>gv=gv
 " This lets you use w!! to do that after you opened the file already:
 cmap w!! w !sudo tee % >/dev/null
 
+" Sets Q to apply @q macros
+nnoremap Q @q
+vnoremap Q :norm @q<cr>
+
 " ┌───────────────────────────────────┐
 " │     Shortcuts for Linux (Gvim)    │
 " └───────────────────────────────────┘
