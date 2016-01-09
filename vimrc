@@ -366,7 +366,7 @@ function! s:Preserve(command)
 endfunction
 
 function! s:AddFocusTag()
-  call s:Preserve("normal! ^ / do\<cr>C, focus: true do\<esc>")
+  call s:Preserve("normal! ^ / do$\<cr>C, focus: true do\<esc>")
 endfunction
 :nnoremap <leader>a :AddFocusTag<CR>
 command! -nargs=0 AddFocusTag call s:AddFocusTag()
