@@ -45,11 +45,8 @@ These are my favorite fonts:
 | [Base16](https://github.com/chriskempson/base16-vim)                | Amazing colorschema                                                 |                                    |
 | [Colorizer](https://github.com/lilydjwg/colorizer)                  | Colorize all text in the form #rrggbb or #rgb                       |                                    |
 | [CtrlP](https://github.com/kien/ctrlp.vim)                          | Full path fuzzy file, buffer, mru and tag finder                    | [Website](http://goo.gl/nUQ1lA)    |
-| [Dockerfile.vim](https://github.com/ekalinin/Dockerfile.vim)        | Vim syntax file & snippets for Docker's Dockerfile                  |                                    |
-| [Extradite](https://github.com/int3/vim-extradite)                  | A git commit browser. Extends fugitive.vim                          |                                    |
 | [Fugitive](https://github.com/tpope/vim-fugitive)                   | A git wrapper so awesome, it should be illegal                      |                                    |
 | [Matchit.zip](https://github.com/vim-scripts/matchit.zip)           | Extended % matching for HTML, LaTeX, and many other languages       |                                    |
-| [Multiple Cursors](https://github.com/terryma/vim-multiple-cursors) | True Sublime Text style multiple selections                         |                                    |
 | [Nerdtree](https://github.com/scrooloose/nerdtree)                  | A tree explorer plugin                                              |                                    |
 | [Rename](https://github.com/danro/rename.vim)                       | Basically does a ":saveas <newfile>" then removes the old filename  |                                    |
 | [Smartpairs](https://github.com/gorkunov/smartpairs.vim)            | Fantastic selection, replaces hard keys combination like vi{ or va" |                                    |
