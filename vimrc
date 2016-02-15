@@ -436,6 +436,10 @@ augroup BWCCreateDir
   autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
 augroup END
 
+" Comment out current line or selected text (maintaining visual mode after it)
+vmap <D-/> gcgv
+nmap <D-/> gcc
+
 " ┌───────────────────────────────────┐
 " │             Shortcuts             │
 " └───────────────────────────────────┘
