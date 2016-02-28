@@ -60,6 +60,7 @@ let NERDTreeIgnore = [
   \'\.bundle$',
   \'\.capistrano$',
   \'\.git$',
+  \'\.gitkeep$',
   \'\.keep$',
   \'\.routes$',
   \'\.sass-cache/$',
