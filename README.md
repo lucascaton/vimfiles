@@ -89,10 +89,11 @@ You can find my dotfiles here: [lucascaton/dotfiles](https://github.com/lucascat
 
 ## Credits
 
-Created and maintained by [Lucas Caton](https://lucascaton.com.br).
+Created and maintained by **Lucas Caton**:
 
-* [My blog](http://blog.lucascaton.com.br/)
-* [My twitter](http://twitter.com/lucascaton)
+* [Website](http://lucascaton.com.br)
+* [Blog](http://blog.lucascaton.com.br/)
+* [Twitter](http://twitter.com/lucascaton)
 
 ## License
 
