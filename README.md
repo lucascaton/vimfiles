@@ -22,6 +22,7 @@ Clone this repository into your home directory as `~/.vim` and then install the 
 Install jshint, in order to review your JavaScript code:
 
     sudo npm install -g jshint
+    sudo npm install -g coffeelint
 
 ## Color Schemes
 
