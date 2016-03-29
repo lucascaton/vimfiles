@@ -192,6 +192,11 @@ set splitbelow
 set nobackup
 set noswapfile
 
+" `.netrwhist` is a history file which maintains all the directories that were modified.
+" So whenever you modify the contents of ~/.vim it adds one entry in that file.
+" The following line prevents Vim from creating it - please use Git instead.
+let g:netrw_dirhistmax = 0
+
 " Syntastic configs
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
