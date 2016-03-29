@@ -214,9 +214,9 @@ let g:syntastic_coffee_checkers = ['coffeelint']
 let g:syntastic_html_tidy_exec = 'tidy5'
 let g:syntastic_html_tidy_ignore_errors = [" proprietary attribute \"ng-"]
 let g:syntastic_haml_checkers = ['haml_lint']
-let g:syntastic_mode_map = { 'mode': 'active',
-                           \ 'active_filetypes': ['ruby', 'javascript', 'coffee', 'haml'],
-                           \ 'passive_filetypes': ['html'] }
+" let g:syntastic_mode_map = { 'mode': 'active',
+"                            \ 'active_filetypes': ['ruby', 'javascript', 'coffee', 'haml'],
+"                            \ 'passive_filetypes': ['html'] }
 
 highlight link SyntasticErrorSign        SignColumn
 highlight link SyntasticWarningSign      SignColumn
