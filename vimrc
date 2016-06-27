@@ -28,7 +28,6 @@ Plugin 'henrik/vim-ruby-runner'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'lilydjwg/colorizer'
-Plugin 'msanders/snipmate.vim'
 Plugin 'rking/ag.vim'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'scrooloose/nerdtree'
@@ -557,7 +556,6 @@ au BufNewFile,BufRead *.less       set filetype=css
 au BufNewFile,BufRead bash_profile set filetype=sh
 au BufNewFile,BufRead *.hbs        set filetype=html
 au BufNewFile,BufRead *.yml.sample set filetype=yaml
-" au BufNewFile,BufRead *.snippet    set filetype=text
 
 " Git hooks
 au BufNewFile,BufRead applypatch-msg     set filetype=ruby

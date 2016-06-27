@@ -1,6 +1,0 @@
-def destroy
-  @${1:model_class_name} = ${2:ModelClassName}.find(params[:id])
-  @$1.destroy
-
-  redirect_to $1s_path, notice: '$2 has been successfully removed.'
-end
