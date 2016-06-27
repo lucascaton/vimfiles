@@ -410,6 +410,21 @@ function! OpenRoutes()
 endfunction
 map <Leader>r :call OpenRoutes()<CR>
 
+function! OpenReadme()
+  if filereadable("README.md")
+    execute ":tab drop README.md"
+  else
+    if filereadable("README.rdoc")
+      execute ":tab drop README.rdoc"
+    else
+      if filereadable("README")
+        execute ":tab drop README"
+      end
+    end
+  end
+endfunction
+map <Leader>R :call OpenReadme()<CR>
+
 function! OpenSpecHelper()
   if filereadable("spec/spec_helper.rb")
     execute ":tab drop spec/spec_helper.rb"
