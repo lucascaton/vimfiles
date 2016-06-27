@@ -1,0 +1,2 @@
+add_column :${1:table}, :${2:column}, :jsonb, null: false, default: '[]' # or default: '{}'
+add_index  :$1, :$2, using: :gin
