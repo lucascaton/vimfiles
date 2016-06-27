@@ -18,13 +18,17 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'SirVer/ultisnips'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/base16-vim'
 Plugin 'danro/rename.vim'
+Plugin 'ervandew/supertab'
 Plugin 'godlygeek/tabular'
 Plugin 'gorkunov/smartpairs.vim'
 Plugin 'henrik/vim-ruby-runner'
+Plugin 'honza/vim-snippets'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'lilydjwg/colorizer'
@@ -61,6 +65,18 @@ let NERDTreeIgnore = [
   \'\.swp$',
   \'tags$'
 \]
+
+" Snippets
+" YouCompleteMe and UltiSnips compatibility, with the helper of supertab
+" https://medium.com/brigade-engineering/sharpen-your-vim-with-snippets-767b693886db
+let g:SuperTabDefaultCompletionType    = '<C-n>'
+let g:SuperTabCrMapping                = 0
+let g:UltiSnipsExpandTrigger           = '<tab>'
+let g:UltiSnipsJumpForwardTrigger      = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
+let g:UltiSnipsEditSplit               = 'vertical'
+let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
 
 " Tabular
 inoremap <silent> <Bar> <Bar><Esc>:call <SID>align()<CR>a
