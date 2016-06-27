@@ -15,7 +15,7 @@ Clone this repository into your home directory as `~/.vim` and then install the 
 
 **Optional:**
 
-(OS X only) Copy the Monaco font:
+(macOS only) Copy the `Monaco` font:
 
     cp ~/.vim/fonts/Monaco+for+Powerline.otf ~/Library/Fonts/
 
@@ -67,9 +67,9 @@ These are my favorite fonts:
 
 ## Vim in a GUI
 
-If you want to use Vim in a GUI, you can use MacVim in Mac OS X or gVim in Linux. Download it from:
+If you want to use Vim in a GUI, you can use MacVim in macOS or gVim in Linux. Download it from:
 
-* [Macvim](https://github.com/macvim-dev/macvim/releases) (Mac OS X)
+* [Macvim](https://github.com/macvim-dev/macvim/releases) (macOS)
 * [gVim](https://apps.ubuntu.com/cat/applications/vim-gnome/) (Ubuntu Linux)
 
 ## Learn Vim
