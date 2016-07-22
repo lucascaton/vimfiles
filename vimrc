@@ -443,7 +443,7 @@ function! OpenFactoryFile()
 endfunction
 map <Leader>f :call OpenFactoryFile()<CR>
 
-map <Leader>v :tab drop ~/.vimrc<CR>
+map <Leader>v :tab drop $MYVIMRC<CR>
 
 " Search and replace selected text (http://stackoverflow.com/questions/676600/vim-search-and-replace-selected-text)
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
