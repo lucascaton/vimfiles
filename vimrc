@@ -556,6 +556,7 @@ au BufNewFile,BufRead *.less       set filetype=css
 au BufNewFile,BufRead bash_profile set filetype=sh
 au BufNewFile,BufRead *.hbs        set filetype=html
 au BufNewFile,BufRead *.yml.sample set filetype=yaml
+au BufNewFile,BufRead .env.*       set filetype=sh
 " au BufNewFile,BufRead *.snippet    set filetype=text
 
 " Git hooks
