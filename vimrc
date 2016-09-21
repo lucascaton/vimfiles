@@ -403,6 +403,13 @@ function! OpenGemfile()
 endfunction
 map <Leader>g :call OpenGemfile()<CR>
 
+function! OpenGemfileLock()
+  if filereadable("Gemfile.lock")
+    execute ":tab drop Gemfile.lock"
+  end
+endfunction
+map <Leader>G :call OpenGemfileLock()<CR>
+
 function! OpenRoutes()
   if filereadable("config/routes.rb")
     execute ":tab drop config/routes.rb"
