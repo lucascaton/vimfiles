@@ -43,6 +43,7 @@ These are my favorite fonts:
 | Plugin                                                              | Description                                                         | Interesting links                  |
 | :------------------------------------------------------------------ | :------------------------------------------------------------------ | :--------------------------------- |
 | [Ag.vim](https://github.com/rking/ag.vim)                           | Plugin for ag (the_silver_searcher)                                 |                                    |
+| [Auto Pairs](https://github.com/jiangmiao/auto-pairs)               | Insert or delete brackets, parens, quotes in pair                   |                                    |
 | [Base16](https://github.com/chriskempson/base16-vim)                | Amazing colorschema                                                 |                                    |
 | [Colorizer](https://github.com/lilydjwg/colorizer)                  | Colorize all text in the form #rrggbb or #rgb                       |                                    |
 | [CtrlP](https://github.com/kien/ctrlp.vim)                          | Full path fuzzy file, buffer, mru and tag finder                    | [Website](http://goo.gl/nUQ1lA)    |
