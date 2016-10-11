@@ -40,31 +40,31 @@ These are my favorite fonts:
 
 ## Plugins
 
-| Plugin                                                              | Description                                                         | Interesting links                  |
-| :------------------------------------------------------------------ | :------------------------------------------------------------------ | :--------------------------------- |
-| [Ag.vim](https://github.com/rking/ag.vim)                           | Plugin for ag (the_silver_searcher)                                 |                                    |
-| [Auto Pairs](https://github.com/jiangmiao/auto-pairs)               | Insert or delete brackets, parens, quotes in pair                   |                                    |
-| [Base16](https://github.com/chriskempson/base16-vim)                | Amazing colorschema                                                 |                                    |
-| [Colorizer](https://github.com/lilydjwg/colorizer)                  | Colorize all text in the form #rrggbb or #rgb                       |                                    |
-| [CtrlP](https://github.com/kien/ctrlp.vim)                          | Full path fuzzy file, buffer, mru and tag finder                    | [Website](http://goo.gl/nUQ1lA)    |
-| [Fugitive](https://github.com/tpope/vim-fugitive)                   | A git wrapper so awesome, it should be illegal                      |                                    |
-| [Matchit.zip](https://github.com/vim-scripts/matchit.zip)           | Extended % matching for HTML, LaTeX, and many other languages       |                                    |
-| [Nerdtree](https://github.com/scrooloose/nerdtree)                  | A tree explorer plugin                                              |                                    |
-| [Rename](https://github.com/danro/rename.vim)                       | Basically does a ":saveas <newfile>" then removes the old filename  |                                    |
-| [Smartpairs](https://github.com/gorkunov/smartpairs.vim)            | Fantastic selection, replaces hard keys combination like vi{ or va" |                                    |
-| [Snipmate](https://github.com/msanders/snipmate.vim)                | Implements some of TextMate's snippets                              |                                    |
-| [Sparkup (Zen-coding)](https://github.com/rstacruz/sparkup)         | A parser for a condensed HTML format                                | [Zen coding](http://goo.gl/E4BVWd) |
-| [Syntastic](https://github.com/scrooloose/syntastic)                | Syntax checking hacks                                               |                                    |
-| [Tabular](https://github.com/godlygeek/tabular)                     | Text filtering and alignmentClone                                   |                                    |
-| [Tcomment](https://github.com/tomtom/tcomment_vim)                  | An extensible & universal comment vim-plugin                        |                                    |
-| [Vim Abolish](https://github.com/tpope/vim-abolish)                 | Easily search for, substitute, and abbreviate variants of a word    | [Vim Casts](http://goo.gl/CsfUJ6)  |
-| [Vim Airline](https://github.com/bling/vim-airline)                 | Lean & mean status / tabline                                        |                                    |
-| [Vim Coffee Script](https://github.com/kchmck/vim-coffee-script)    | CoffeeScript support for Vim                                        |                                    |
-| [Vim Easymotion](https://github.com/Lokaltog/vim-easymotion/)       | It provides a much simpler way to use some motions in Vim           |                                    |
-| [Vim Endwise](https://github.com/tpope/vim-endwise)                 | Wisely add "end" in ruby                                            |                                    |
-| [Vim Gitgutter](https://github.com/airblade/vim-gitgutter)          | Shows a git diff in the gutter (sign column)                        |                                    |
-| [Vim Rails](https://github.com/tpope/vim-rails)                     | Ruby on Rails power tools                                           |                                    |
-| [Vim Ruby Runner](https://github.com/henrik/vim-ruby-runner)        | Execute Ruby into an output buffer                                  |                                    |
+| Plugin                                                           | Description                                                         | Interesting links                  |
+| :--------------------------------------------------------------- | :------------------------------------------------------------------ | :--------------------------------- |
+| [Ag.vim](https://github.com/rking/ag.vim)                        | Plugin for ag (the_silver_searcher)                                 |                                    |
+| [Auto Pairs](https://github.com/jiangmiao/auto-pairs)            | Insert or delete brackets, parens, quotes in pair                   |                                    |
+| [Base16](https://github.com/chriskempson/base16-vim)             | Amazing colorschema                                                 |                                    |
+| [Colorizer](https://github.com/lilydjwg/colorizer)               | Colorize all text in the form #rrggbb or #rgb                       |                                    |
+| [CtrlP](https://github.com/kien/ctrlp.vim)                       | Full path fuzzy file, buffer, mru and tag finder                    | [Website](http://goo.gl/nUQ1lA)    |
+| [Fugitive](https://github.com/tpope/vim-fugitive)                | A git wrapper so awesome, it should be illegal                      |                                    |
+| [Matchit.zip](https://github.com/vim-scripts/matchit.zip)        | Extended % matching for HTML, LaTeX, and many other languages       |                                    |
+| [Nerdtree](https://github.com/scrooloose/nerdtree)               | A tree explorer plugin                                              |                                    |
+| [Rename](https://github.com/danro/rename.vim)                    | Basically does a ":saveas <newfile>" then removes the old filename  |                                    |
+| [Smartpairs](https://github.com/gorkunov/smartpairs.vim)         | Fantastic selection, replaces hard keys combination like vi{ or va" |                                    |
+| [Snipmate](https://github.com/msanders/snipmate.vim)             | Implements some of TextMate's snippets                              |                                    |
+| [Sparkup (Zen-coding)](https://github.com/rstacruz/sparkup)      | A parser for a condensed HTML format                                | [Zen coding](http://goo.gl/E4BVWd) |
+| [Syntastic](https://github.com/scrooloose/syntastic)             | Syntax checking hacks                                               |                                    |
+| [Tabular](https://github.com/godlygeek/tabular)                  | Text filtering and alignmentClone                                   |                                    |
+| [Tcomment](https://github.com/tomtom/tcomment_vim)               | An extensible & universal comment vim-plugin                        |                                    |
+| [Vim Abolish](https://github.com/tpope/vim-abolish)              | Easily search for, substitute, and abbreviate variants of a word    | [Vim Casts](http://goo.gl/CsfUJ6)  |
+| [Vim Airline](https://github.com/bling/vim-airline)              | Lean & mean status / tabline                                        |                                    |
+| [Vim Coffee Script](https://github.com/kchmck/vim-coffee-script) | CoffeeScript support for Vim                                        |                                    |
+| [Vim Easymotion](https://github.com/Lokaltog/vim-easymotion/)    | It provides a much simpler way to use some motions in Vim           |                                    |
+| [Vim Endwise](https://github.com/tpope/vim-endwise)              | Wisely add "end" in ruby                                            |                                    |
+| [Vim Gitgutter](https://github.com/airblade/vim-gitgutter)       | Shows a git diff in the gutter (sign column)                        |                                    |
+| [Vim Rails](https://github.com/tpope/vim-rails)                  | Ruby on Rails power tools                                           |                                    |
+| [Vim Ruby Runner](https://github.com/henrik/vim-ruby-runner)     | Execute Ruby into an output buffer                                  |                                    |
 
 ## Vim in a GUI
 
