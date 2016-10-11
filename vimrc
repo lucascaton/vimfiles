@@ -121,6 +121,7 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 
 " Autoindent with two spaces, always expand tabs
+set autoindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
