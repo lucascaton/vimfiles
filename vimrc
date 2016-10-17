@@ -284,6 +284,7 @@ map  <leader><leader>j :set ft=javascript<CR>
 map  <leader><leader>h :set ft=html<CR>
 map  <leader><leader>y :set ft=yaml<CR>
 map  <leader><leader>s :set ft=sh<CR>
+map  <leader><leader>t :set ft=text<CR>
 
 " Adds space between hash content and braces
 function AddsSpaceBetweenHashContentAndBraces()
