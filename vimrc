@@ -210,7 +210,7 @@ let g:syntastic_style_warning_symbol = '💩'
 
 " let g:syntastic_ruby_checkers = ['rubocop', 'mri']
 let g:syntastic_ruby_checkers = ['mri']
-" let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_javascript_checkers = ['eslint']
 " let g:syntastic_coffee_checkers = ['coffeelint']
 let g:syntastic_html_tidy_exec = 'tidy5'
 let g:syntastic_html_tidy_ignore_errors = [" proprietary attribute \"ng-"]
