@@ -29,6 +29,8 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'lilydjwg/colorizer'
 Plugin 'msanders/snipmate.vim'
+Plugin 'mxw/vim-jsx'
+Plugin 'pangloss/vim-javascript'
 Plugin 'rking/ag.vim'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'scrooloose/nerdtree'
@@ -100,6 +102,9 @@ let g:ctrlp_custom_ignore = {
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#syntastic#enabled = 1
+
+" vim-jsx
+let g:jsx_ext_required = 0
 
 " ┌───────────────────────────────────┐
 " │             Settings              │
