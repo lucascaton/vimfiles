@@ -19,10 +19,10 @@ Clone this repository into your home directory as `~/.vim` and then install the 
 
     cp ~/.vim/fonts/Monaco+for+Powerline.otf ~/Library/Fonts/
 
-Install jshint, in order to review your JavaScript code:
+Install the following tools if you want to review your JavaScript code:
 
-    sudo npm install -g jshint
-    sudo npm install -g coffeelint
+    npm install -g eslint
+    npm install -g coffeelint
 
 ## Color Schemes
 
