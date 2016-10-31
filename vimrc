@@ -284,12 +284,12 @@ map  <leader>= :call TrimWhiteSpace()<CR>
 map! <leader>= :call TrimWhiteSpace()<CR>
 
 " Sets file types
-map  <leader><leader>r :set ft=ruby<CR>
-map  <leader><leader>j :set ft=javascript<CR>
 map  <leader><leader>h :set ft=html<CR>
-map  <leader><leader>y :set ft=yaml<CR>
+map  <leader><leader>j :set ft=javascript<CR>
+map  <leader><leader>r :set ft=ruby<CR>
 map  <leader><leader>s :set ft=sh<CR>
 map  <leader><leader>t :set ft=text<CR>
+map  <leader><leader>y :set ft=yaml<CR>
 
 " Adds space between hash content and braces
 function AddsSpaceBetweenHashContentAndBraces()
