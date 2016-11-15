@@ -58,6 +58,7 @@ let NERDTreeIgnore = [
   \'\.git$',
   \'\.gitkeep$',
   \'\.keep$',
+  \'\.localized$',
   \'\.routes$',
   \'\.sass-cache$',
   \'\.swo$',
