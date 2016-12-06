@@ -2,17 +2,16 @@ csv = []
 
 csv << [
   'Column 1',
-  'Column 2'
-].join(';')
+  'Column 2',
+  'Column 3',
+].map { |column| "\"#{column.strip}\"" }.join(',')
 
 [1, 2, 3].each do |element|
   row = [
     element
   ]
 
-  row << %w(a b c).join(' / ')
-
-  csv << row.join(';')
+  csv << row.map { |column| "\"#{column.strip}\"" }.join(',')
 end; nil
 
 File.open('report.csv', 'w') { |file| file.write(csv.join("\n")) }
