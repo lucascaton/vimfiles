@@ -557,6 +557,8 @@ cab Q q
 cab Wq wq
 cab wQ wq
 cab WQ wq
+cab t tab drop
+cab T tab drop
 cab tabe tab drop
 cab Tabe tab drop
 cab E e
