@@ -17,7 +17,7 @@ Clone this repository into your home directory as `~/.vim` and then install the 
 
 (macOS only) Copy the `Monaco` font:
 
-    cp ~/.vim/fonts/Monaco+for+Powerline.otf ~/Library/Fonts/
+    cp ~/.vim/fonts/Roboto\ Mono\ for\ Powerline.ttf ~/Library/Fonts/
 
 Install the following tools if you want to review your JavaScript code:
 
