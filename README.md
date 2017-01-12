@@ -42,7 +42,7 @@ These are my favorite fonts:
 
 | Plugin                                                           | Description                                                         | Interesting links                  |
 | :--------------------------------------------------------------- | :------------------------------------------------------------------ | :--------------------------------- |
-| [Ag.vim](https://github.com/rking/ag.vim)                        | Plugin for ag (the_silver_searcher)                                 |                                    |
+| [Ack.vim](https://github.com/mileszs/ack.vim)                    | Frontend for ack / ag (the_silver_searcher)                         |                                    |
 | [Base16](https://github.com/chriskempson/base16-vim)             | Amazing colorschema                                                 |                                    |
 | [Colorizer](https://github.com/lilydjwg/colorizer)               | Colorize all text in the form #rrggbb or #rgb                       |                                    |
 | [CtrlP](https://github.com/kien/ctrlp.vim)                       | Full path fuzzy file, buffer, mru and tag finder                    | [Website](http://goo.gl/nUQ1lA)    |

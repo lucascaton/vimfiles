@@ -28,10 +28,10 @@ Plugin 'henrik/vim-ruby-runner'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'lilydjwg/colorizer'
+Plugin 'mileszs/ack.vim'
 Plugin 'msanders/snipmate.vim'
 Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
-Plugin 'rking/ag.vim'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
@@ -65,6 +65,11 @@ let NERDTreeIgnore = [
   \'\.swp$',
   \'tags$'
 \]
+
+" Ack.vim
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
 " Tabular
 inoremap <silent> <Bar> <Bar><Esc>:call <SID>align()<CR>a
@@ -332,8 +337,8 @@ nnoremap <leader>h :call ConvertRubyHashSyntax()<cr>
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Bind \ (backward slash) to Ag shortcut
-nnoremap \ :Ag -i<SPACE>
-nnoremap \i :Ag<SPACE>
+nnoremap \ :Ack -i<SPACE>
+nnoremap \i :Ack<SPACE>
 
 " Bind K to search for the word under cursor
 nnoremap K :Ag "\b<C-R><C-W>\b"<CR>:cw<CR>
