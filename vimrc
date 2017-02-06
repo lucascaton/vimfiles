@@ -574,6 +574,7 @@ cab E e
 au BufNewFile,BufRead Guardfile    set filetype=ruby
 au BufNewFile,BufRead Vagrantfile  set filetype=ruby
 au BufNewFile,BufRead Capfile      set filetype=ruby
+au BufNewFile,BufRead Podfile      set filetype=ruby
 au BufNewFile,BufRead *.thor       set filetype=ruby
 au BufNewFile,BufRead .pryrc       set filetype=ruby
 au BufNewFile,BufRead pryrc        set filetype=ruby
