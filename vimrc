@@ -342,7 +342,7 @@ nnoremap \ :Ack -i<SPACE>
 nnoremap \i :Ack<SPACE>
 
 " Bind K to search for the word under cursor
-nnoremap K :Ag "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap K :Ack "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 " Auto complete
 let g:stop_autocomplete=0
