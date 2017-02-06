@@ -1,0 +1,22 @@
+// Promise ///////////
+'use strict';
+
+console.log('1 - Started (Sync code started)');
+
+new Promise(function(resolve, reject) {
+  let allGood = true;
+
+  if (allGood) {
+    setTimeout(function() { resolve(Math.random()) }, 1000); // We fulfill the promise!
+  } else {
+    reject('type the reason here');
+  }
+
+}).then(function(val) {
+  console.log('3 - Promise fulfilled (Async code terminated) ➙ ' + val);
+}).catch(function(reason) {
+  console.log('Handle rejected promise (' + reason + ') here.');
+});
+
+console.log('2 - Promise made (Sync code terminated)');
+//////////////////////

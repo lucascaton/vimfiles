@@ -1,0 +1,11 @@
+fetch('http://lvh.me:4000/api/users', {
+  method: 'post',
+  body: 'foo=bar&lorem=ipsum'
+})
+  .then((response) => response.json())
+  .then((responseJson) => {
+    console.log(responseJson);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
