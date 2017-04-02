@@ -292,6 +292,7 @@ map! <leader>= :call TrimWhiteSpace()<CR>
 map  <leader><leader>c :set ft=css<CR>
 map  <leader><leader>C :set ft=coffee<CR>
 map  <leader><leader>h :set ft=html<CR>
+map  <leader><leader>H :set ft=haml<CR>
 map  <leader><leader>j :set ft=javascript<CR>
 map  <leader><leader>m :set ft=markdown<CR>
 map  <leader><leader>r :set ft=ruby<CR>
