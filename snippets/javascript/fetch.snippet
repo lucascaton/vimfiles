@@ -1,8 +1,8 @@
-fetch('http://lvh.me:4000/api/users', {
+fetch('/api/users', {
   method: 'post',
   body: 'foo=bar&lorem=ipsum'
 })
-  .then((response) => response.json())
+  .then((response) => response.json()) // or response.text())
   .then((responseJson) => {
     console.log(responseJson);
   })
