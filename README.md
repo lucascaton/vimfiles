@@ -50,6 +50,7 @@ These are my favorite fonts:
 | [Matchit.zip](https://github.com/vim-scripts/matchit.zip)        | Extended % matching for HTML, LaTeX, and many other languages       |                                    |
 | [Nerdtree](https://github.com/scrooloose/nerdtree)               | A tree explorer plugin                                              |                                    |
 | [Rename](https://github.com/danro/rename.vim)                    | Basically does a ":saveas <newfile>" then removes the old filename  |                                    |
+| [Rhubarb.vim](https://github.com/tpope/vim-rhubarb)              | GitHub extension for fugitive.vim                                   |                                    |
 | [Smartpairs](https://github.com/gorkunov/smartpairs.vim)         | Fantastic selection, replaces hard keys combination like vi{ or va" |                                    |
 | [Snipmate](https://github.com/msanders/snipmate.vim)             | Implements some of TextMate's snippets                              |                                    |
 | [Sparkup (Zen-coding)](https://github.com/rstacruz/sparkup)      | A parser for a condensed HTML format                                | [Zen coding](http://goo.gl/E4BVWd) |
