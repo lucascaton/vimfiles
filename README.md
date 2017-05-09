@@ -60,7 +60,7 @@ These are my favorite fonts:
 | [Vim Abolish](https://github.com/tpope/vim-abolish)              | Easily search for, substitute, and abbreviate variants of a word    | [Vim Casts](http://goo.gl/CsfUJ6)  |
 | [Vim Airline](https://github.com/bling/vim-airline)              | Lean & mean status / tabline                                        |                                    |
 | [Vim Coffee Script](https://github.com/kchmck/vim-coffee-script) | CoffeeScript support for Vim                                        |                                    |
-| [Vim Easymotion](https://github.com/Lokaltog/vim-easymotion/)    | It provides a much simpler way to use some motions in Vim           |                                    |
+| [Vim Easymotion](https://github.com/easymotion/vim-easymotion)   | Provides a much simpler way to use some motions in Vim              |                                    |
 | [Vim Endwise](https://github.com/tpope/vim-endwise)              | Wisely add "end" in ruby                                            |                                    |
 | [Vim Gitgutter](https://github.com/airblade/vim-gitgutter)       | Shows a git diff in the gutter (sign column)                        |                                    |
 | [Vim Rails](https://github.com/tpope/vim-rails)                  | Ruby on Rails power tools                                           |                                    |

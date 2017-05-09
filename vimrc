@@ -17,11 +17,11 @@ call vundle#rc()
 
 Plugin 'gmarik/vundle'
 
-Plugin 'Lokaltog/vim-easymotion'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/base16-vim'
 Plugin 'danro/rename.vim'
+Plugin 'easymotion/vim-easymotion'
 Plugin 'godlygeek/tabular'
 Plugin 'gorkunov/smartpairs.vim'
 Plugin 'henrik/vim-ruby-runner'
