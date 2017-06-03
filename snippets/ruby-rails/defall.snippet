@@ -1,5 +1,5 @@
 class ${1:ModelClassName}sController < ApplicationController
-  before_action :set_${2:model_class_name}, only: [:show, :edit, :update, :destroy]
+  before_action :set_${2:model_class_name}, only: %i[show edit update destroy]
 ${5}
   def index
     @$2s = $1.all
