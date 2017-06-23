@@ -587,6 +587,7 @@ au BufNewFile,BufRead *.pp         set filetype=ruby
 au BufNewFile,BufRead *.prawn      set filetype=ruby
 au BufNewFile,BufRead Appraisals   set filetype=ruby
 au BufNewFile,BufRead *.rabl       set filetype=ruby
+au BufNewFile,BufRead *.cr         set filetype=ruby " Crystal
 au BufNewFile,BufRead .psqlrc      set filetype=sql
 au BufNewFile,BufRead psqlrc       set filetype=sql
 au BufNewFile,BufRead *.less       set filetype=css
