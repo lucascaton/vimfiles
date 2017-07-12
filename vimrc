@@ -519,6 +519,9 @@ nnoremap <C-L> :nohls<CR><C-L>
 nmap n nzz
 nmap N Nzz
 
+" Improve 'gf' command (go to file) - open in a new tab
+nmap gf <C-w>gf
+
 " Mappings to move lines: http://vim.wikia.com/wiki/Moving_lines_up_or_down
 nnoremap <D-j> :m .+1<CR>==
 nnoremap <D-k> :m .-2<CR>==
