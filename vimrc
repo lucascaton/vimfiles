@@ -96,12 +96,11 @@ if exists(":Tabularize")
 endif
 
 " CtrlP
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_working_path_mode = 2
+let g:ctrlp_use_caching = 1
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = {
-  \ 'dir': 'node_modules$',
-  \ 'file': '\v\.(exe|so|dll|DS_Store)$',
+  \ 'dir':  'node_modules$',
+  \ 'file': '\v\.(exe|so|dll|.DS_Store)$',
   \ }
 
 " vim-airline
