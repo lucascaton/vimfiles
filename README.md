@@ -15,7 +15,7 @@ Clone this repository into your home directory as `~/.vim` and then install the 
 
 **Optional:**
 
-(macOS only) Copy the `Monaco` font:
+[macOS only] Copy the `Roboto Mono` font:
 
     cp ~/.vim/fonts/Roboto\ Mono\ for\ Powerline.ttf ~/Library/Fonts/
 
