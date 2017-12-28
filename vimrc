@@ -606,3 +606,12 @@ au BufNewFile,BufRead pre-commit         set filetype=ruby
 au BufNewFile,BufRead pre-push           set filetype=ruby
 au BufNewFile,BufRead pre-rebase         set filetype=ruby
 au BufNewFile,BufRead prepare-commit-msg set filetype=ruby
+
+" ┌───────────────────────────────────┐
+" │   Project Specific .vimrc Files   │
+" └───────────────────────────────────┘
+
+" https://andrew.stwrt.ca/posts/project-specific-vimrc/
+
+set exrc
+set secure
