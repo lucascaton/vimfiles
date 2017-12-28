@@ -77,7 +77,7 @@ If you want to use Vim in a GUI, you can use MacVim in macOS or gVim in Linux. D
 
 Visit the following sites to learn more about Vim:
 
-* [Screencast "17 tips for Vim" (in Portuguese)](http://blog.lucascaton.com.br/?p=1081)
+* [Screencast "17 tips for Vim" (in Portuguese)](https://www.lucascaton.com.br/2011/12/13/screencast-1-17-dicas-para-o-vim/)
 * [Learn Vim Progressively](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
 * [Vim Adventures](http://vim-adventures.com/)
 * [Vimcasts](http://vimcasts.org)
@@ -93,15 +93,14 @@ You can find my dotfiles here: [lucascaton/dotfiles](https://github.com/lucascat
 
 Created and maintained by **Lucas Caton**:
 
-* [Website](http://lucascaton.com.br)
-* [Blog](http://blog.lucascaton.com.br/)
+* [Website / blog](https://www.lucascaton.com.br/)
 * [Twitter](http://twitter.com/lucascaton)
 
 ## License
 
 **The MIT License (MIT)**
 
-**Copyright (c) 2010 - 2017 Lucas Caton**
+**Copyright (c) 2010 - 2018 Lucas Caton**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
