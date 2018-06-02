@@ -239,7 +239,8 @@ highlight link SyntasticStyleWarningSign SignColumn
 
 " Fonts for Mac
 " set guifont=Monaco\ for\ Powerline:h15
-set guifont=Roboto\ Mono\ for\ Powerline:h15
+" set guifont=Roboto\ Mono\ for\ Powerline:h15
+set guifont=Hack\ Regular\ Nerd\ Font\ Complete:h15
 
 " Don't show the top bar
 set guioptions-=T

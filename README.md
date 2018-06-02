@@ -13,11 +13,13 @@ Clone this repository into your home directory as `~/.vim` and then install the 
     ln -s ~/.vim/vimrc ~/.vimrc
     vim +PluginInstall +qall
 
-**Optional:**
+Copy the `Hack` ([NerdFonts](https://nerdfonts.com/) compatible) font:
 
-[macOS only] Copy the `Roboto Mono` font:
+    # macOS
+    cp ~/.vim/fonts/Hack\ Regular\ Nerd\ Font\ Complete.ttf ~/Library/Fonts/
 
-    cp ~/.vim/fonts/Roboto\ Mono\ for\ Powerline.ttf ~/Library/Fonts/
+    # Linux
+    cp ~/.vim/fonts/Hack\ Regular\ Nerd\ Font\ Complete.ttf ~/.fonts
 
 Install the following tools if you want to review your JavaScript code:
 
@@ -31,12 +33,11 @@ Install the following tools if you want to review your JavaScript code:
 
 ## Fonts
 
-These are my favorite fonts:
+Included fonts:
 
-* Monaco *(my current one)*
-* Anonymous Pro
-* Inconsolata-dz
-* Bitstream Vera Sans Mono
+* Hack
+* Roboto Mono
+* Monaco
 
 ## Plugins
 
