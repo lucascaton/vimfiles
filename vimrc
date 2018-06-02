@@ -1,7 +1,7 @@
 " ┌─────────────────────────────────────────┐
 " │         VimFiles by Lucas Caton         │
 " ├─────────────────────────────────────────┤
-" │ http://lucascaton.com.br/               │
+" | https://www.lucascaton.com.br/          |
 " | https://github.com/lucascaton/vimfiles/ |
 " └─────────────────────────────────────────┘
 
