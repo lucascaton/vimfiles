@@ -46,7 +46,7 @@ Included fonts:
 | [Ack.vim](https://github.com/mileszs/ack.vim)                    | Frontend for ack / ag (the_silver_searcher)                         |                                    |
 | [Base16](https://github.com/chriskempson/base16-vim)             | Amazing colorschema                                                 |                                    |
 | [Colorizer](https://github.com/lilydjwg/colorizer)               | Colorize all text in the form #rrggbb or #rgb                       |                                    |
-| [CtrlP](https://github.com/kien/ctrlp.vim)                       | Full path fuzzy file, buffer, mru and tag finder                    | [Website](http://goo.gl/nUQ1lA)    |
+| [CtrlP](https://github.com/ctrlpvim/ctrlp.vim)                   | Fuzzy file, buffer, mru, tag, etc. finder                           |                                    |
 | [Fugitive](https://github.com/tpope/vim-fugitive)                | A git wrapper so awesome, it should be illegal                      |                                    |
 | [Matchit.zip](https://github.com/vim-scripts/matchit.zip)        | Extended % matching for HTML, LaTeX, and many other languages       |                                    |
 | [Nerdtree](https://github.com/scrooloose/nerdtree)               | A tree explorer plugin                                              |                                    |
