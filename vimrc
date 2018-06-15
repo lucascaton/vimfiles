@@ -507,8 +507,8 @@ nmap <D-/> gcc
 "" Set working directory
 nnoremap <leader>. :lcd %:p:h<CR>
 
-" Ctrl+R reloads the ~/.vimrc file
-nnoremap <F12> :source ~/.vimrc
+" Ctrl+R reloads the vimrc file
+nnoremap <F12> :source $MYVIMRC
 
 " Ctrl+L clear the highlight as well as redraw
 nnoremap <C-L> :nohls<CR><C-L>
