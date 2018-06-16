@@ -34,7 +34,6 @@ Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-endwise'
@@ -42,6 +41,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-rhubarb'
 Plugin 'vim-scripts/matchit.zip'
+Plugin 'w0rp/ale'
 
 filetype plugin indent on
 
@@ -197,37 +197,13 @@ set splitbelow
 set nobackup
 set noswapfile
 
-" Syntastic configs
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" ALE configs
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_loc_list_height = 5
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:ale_sign_error = '❌'
+let g:ale_sign_warning = '🤔'
 
-let g:syntastic_error_symbol = '❌'
-let g:syntastic_style_error_symbol = '🤔'
-let g:syntastic_warning_symbol = '😱'
-let g:syntastic_style_warning_symbol = '💩'
-
-" let g:syntastic_ruby_checkers = ['rubocop', 'mri']
-let g:syntastic_ruby_checkers = ['mri']
-let g:syntastic_javascript_checkers = ['eslint']
-" let g:syntastic_coffee_checkers = ['coffeelint']
-let g:syntastic_html_tidy_exec = 'tidy5'
-let g:syntastic_html_tidy_ignore_errors = [" proprietary attribute \"ng-"]
-let g:syntastic_haml_checkers = ['haml_lint']
-" let g:syntastic_mode_map = { 'mode': 'active',
-"                            \ 'active_filetypes': ['ruby', 'javascript', 'coffee', 'haml'],
-"                            \ 'passive_filetypes': ['html'] }
-
-highlight link SyntasticErrorSign        SignColumn
-highlight link SyntasticWarningSign      SignColumn
-highlight link SyntasticStyleErrorSign   SignColumn
-highlight link SyntasticStyleWarningSign SignColumn
+highlight clear ALEErrorSign
+highlight clear ALEWarningSign
 
 " ┌───────────────────────────────────┐
 " │               Theme               │

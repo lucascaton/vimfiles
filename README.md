@@ -43,6 +43,7 @@ Included fonts:
 
 | Plugin                                                           | Description                                                         | Interesting links                  |
 | :--------------------------------------------------------------- | :------------------------------------------------------------------ | :--------------------------------- |
+| [ALE](https://github.com/w0rp/ale)                               | Asynchronous Lint Engine                                            |                                    |
 | [Ack.vim](https://github.com/mileszs/ack.vim)                    | Frontend for ack / ag (the_silver_searcher)                         |                                    |
 | [Base16](https://github.com/chriskempson/base16-vim)             | Amazing colorschema                                                 |                                    |
 | [Colorizer](https://github.com/lilydjwg/colorizer)               | Colorize all text in the form #rrggbb or #rgb                       |                                    |
@@ -55,7 +56,6 @@ Included fonts:
 | [Smartpairs](https://github.com/gorkunov/smartpairs.vim)         | Fantastic selection, replaces hard keys combination like vi{ or va" |                                    |
 | [Snipmate](https://github.com/msanders/snipmate.vim)             | Implements some of TextMate's snippets                              |                                    |
 | [Sparkup (Zen-coding)](https://github.com/rstacruz/sparkup)      | A parser for a condensed HTML format                                | [Zen coding](http://goo.gl/E4BVWd) |
-| [Syntastic](https://github.com/scrooloose/syntastic)             | Syntax checking hacks                                               |                                    |
 | [Tabular](https://github.com/godlygeek/tabular)                  | Text filtering and alignmentClone                                   |                                    |
 | [Tcomment](https://github.com/tomtom/tcomment_vim)               | An extensible & universal comment vim-plugin                        |                                    |
 | [Vim Abolish](https://github.com/tpope/vim-abolish)              | Easily search for, substitute, and abbreviate variants of a word    | [Vim Casts](http://goo.gl/CsfUJ6)  |
