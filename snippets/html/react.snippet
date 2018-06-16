@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>React Test</title>
+
+    <script src='https://unpkg.com/react/umd/react.development.js'></script>
+    <script src='https://unpkg.com/react-dom/umd/react-dom.development.js'></script>
+    <script src='https://unpkg.com/babel-standalone/babel.min.js'></script>
+  </head>
+
+  <body>
+    <div id='root'></div>
+
+    <script type='text/babel'>
+      class App extends React.Component {
+        render() {
+          return (
+            <h1>Hello, world!${1}</h1>
+          );
+        }
+      }
+
+      ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+  </body>
+</html>
