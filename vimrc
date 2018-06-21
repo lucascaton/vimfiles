@@ -139,6 +139,9 @@ autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 
+" Disables balloonexpr - more info: https://github.com/w0rp/ale/issues/1669
+autocmd FileType ruby,eruby set noballooneval
+
 " Autoindent with two spaces, always expand tabs
 set autoindent
 set tabstop=2
