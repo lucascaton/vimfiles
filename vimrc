@@ -111,6 +111,14 @@ let g:airline#extensions#syntastic#enabled = 1
 " vim-jsx
 let g:jsx_ext_required = 0
 
+" ALE
+
+let g:ale_sign_error = '❌'
+let g:ale_sign_warning = '🤔'
+
+highlight clear ALEErrorSign
+highlight clear ALEWarningSign
+
 " ┌───────────────────────────────────┐
 " │             Settings              │
 " └───────────────────────────────────┘
@@ -196,14 +204,6 @@ set splitbelow
 " Use modern ways for tracking your changes (like git), for God’s sake
 set nobackup
 set noswapfile
-
-" ALE configs
-
-let g:ale_sign_error = '❌'
-let g:ale_sign_warning = '🤔'
-
-highlight clear ALEErrorSign
-highlight clear ALEWarningSign
 
 " ┌───────────────────────────────────┐
 " │               Theme               │
