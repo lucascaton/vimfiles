@@ -43,6 +43,8 @@ Plugin 'tpope/vim-rhubarb'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'w0rp/ale'
 
+" All of your Plugins must be added before the following line
+call vundle#end()
 filetype plugin indent on
 
 " ┌───────────────────────────────────┐
