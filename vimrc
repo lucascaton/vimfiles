@@ -581,6 +581,7 @@ au BufNewFile,BufRead *.yml.sample set filetype=yaml
 au BufNewFile,BufRead .env.*       set filetype=sh
 au BufNewFile,BufRead *.cson       set filetype=coffee " Same as JSON but for CoffeeScript objects
 au BufNewFile,BufRead .babelrc     set filetype=javascript
+au BufNewFile,BufRead *.js.snap    set filetype=jsx
 " au BufNewFile,BufRead *.snippet    set filetype=text
 
 " Git hooks
