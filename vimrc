@@ -278,6 +278,7 @@ map  <leader><leader>r :set ft=ruby<CR>
 map  <leader><leader>s :set ft=sh<CR>
 map  <leader><leader>S :set ft=sql<CR>
 map  <leader><leader>t :set ft=text<CR>
+map  <leader><leader>x :set ft=xml<CR>
 map  <leader><leader>y :set ft=yaml<CR>
 
 " Adds space between hash content and braces
