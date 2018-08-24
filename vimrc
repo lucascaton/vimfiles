@@ -266,6 +266,9 @@ function TrimWhiteSpace()
 map  <leader>= :call TrimWhiteSpace()<CR>
 map! <leader>= :call TrimWhiteSpace()<CR>
 
+" Removes trailing spaces before saving
+autocmd BufWritePre * :%s/\s\+$//e
+
 " Sets file types
 map  <leader><leader>c :set ft=css<CR>
 map  <leader><leader>C :set ft=coffee<CR>
@@ -316,8 +319,6 @@ function ConvertRubyHashSyntax()
 :endfunction
 
 nnoremap <leader>h :call ConvertRubyHashSyntax()<cr>
-
-autocmd BufWritePre * :%s/\s\+$//e
 
 " Bind \ (backward slash) to Ag shortcut
 nnoremap \ :Ack -i<SPACE>
