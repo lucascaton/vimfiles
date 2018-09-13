@@ -513,7 +513,8 @@ vnoremap <D-k> :m '<-2<CR>gv=gv
 
 " A trick for when you forgot to sudo before editing a file that requires root privileges (typically /etc/hosts).
 " This lets you use w!! to do that after you opened the file already:
-cmap w!! w !sudo tee % >/dev/null
+" More info: https://dev.to/jovica/the-vim-trick-which-will-save-your-time-and-nerves-45pg
+cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
 
 " Sets Q to apply @q macros
 nnoremap Q @q
