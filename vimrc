@@ -5,11 +5,12 @@
 " | https://github.com/lucascaton/vimfiles/ |
 " └─────────────────────────────────────────┘
 
+set nocompatible " Unleash all Vim power
+
 " ┌───────────────────────────────────┐
 " │              Vundle               │
 " └───────────────────────────────────┘
 
-set nocompatible " Unleash all Vim power
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
