@@ -43,7 +43,7 @@ Plug 'w0rp/ale'
 call plug#end()
 
 " ┌───────────────────────────────────┐
-" │       Plugins customizations      │
+" │      Plugins customizations       │
 " └───────────────────────────────────┘
 
 " NERDTree
@@ -101,7 +101,6 @@ let g:ctrlp_custom_ignore = {
   \ }
 
 " vim-airline
-set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#syntastic#enabled = 1
 
@@ -138,7 +137,6 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby set noballooneval
 
 " Autoindent with two spaces, always expand tabs
-set autoindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -147,25 +145,19 @@ set expandtab
 set nofoldenable
 
 set wildmode=list:longest " make cmdline tab completion similar to bash
-set wildmenu " enable ctrl-n and ctrl-p to scroll thru matches
 set wildignore=*.o,*.obj,*~ " stuff to ignore when tab completing
 
-" Vertical / horizontal scroll off settings
-set scrolloff=3
-set sidescrolloff=7
+" Horizontal scroll settings
+" FIXME: Remove it when this gets merged: https://github.com/tpope/vim-sensible/pull/124
 set sidescroll=1
 
 set cf " Enable error files & error jumping.
 set clipboard+=unnamed " Yanks go on clipboard instead.
-set history=256 " Number of things to remember in history.
 set autowrite " Writes on make/shell commands
-set ruler " Ruler on
 set nu " Line numbers on
 set wrap " Line wrapping on
-set timeoutlen=250 " Time to wait after ESC (default causes an annoying delay)
 
 " Highlight all search results
-set incsearch
 set hlsearch
 
 "" Vmap for maintain Visual Mode after shifting > and <
@@ -221,10 +213,7 @@ set guifont=Hack\ Regular\ Nerd\ Font\ Complete:h15
 " Don't show the top bar
 set guioptions-=T
 
-" Syntax on
-syntax on
-
-set list listchars=tab:»·,trail:·
+set listchars=tab:»·,trail:·,extends:>,precedes:<,nbsp:+
 
 if has("gui_running")
   set lines=57
@@ -487,9 +476,6 @@ nnoremap <leader>. :lcd %:p:h<CR>
 
 " Ctrl+R reloads the vimrc file
 nnoremap <F12> :source $MYVIMRC
-
-" Ctrl+L clear the highlight as well as redraw
-nnoremap <C-L> :nohls<CR><C-L>
 
 " Improve 'n' command (for searches)
 nmap n nzz
