@@ -25,7 +25,7 @@ Plug 'henrik/vim-ruby-runner', { 'for': 'ruby' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffeescript' }
 Plug 'lilydjwg/colorizer'
 Plug 'mileszs/ack.vim'
-" Plug 'msanders/snipmate.vim'
+Plug 'msanders/snipmate.vim'
 Plug 'mxw/vim-jsx', { 'for': 'jsx' }
 Plug 'pangloss/vim-javascript'
 Plug 'rstacruz/sparkup', { 'rtp': 'vim/' }
