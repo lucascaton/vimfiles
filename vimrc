@@ -8,45 +8,39 @@
 set nocompatible " Unleash all Vim power
 
 " ┌───────────────────────────────────┐
-" │              Vundle               │
+" │     vim-plug (plugin manager)     │
 " └───────────────────────────────────┘
 
-filetype off
+call plug#begin('~/.vim/plugged')
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+Plug 'airblade/vim-gitgutter'
+Plug 'bling/vim-airline'
+Plug 'chriskempson/base16-vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'danro/rename.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'godlygeek/tabular'
+Plug 'gorkunov/smartpairs.vim'
+Plug 'henrik/vim-ruby-runner', { 'for': 'ruby' }
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffeescript' }
+Plug 'lilydjwg/colorizer'
+Plug 'mileszs/ack.vim'
+" Plug 'msanders/snipmate.vim'
+Plug 'mxw/vim-jsx', { 'for': 'jsx' }
+Plug 'pangloss/vim-javascript'
+Plug 'rstacruz/sparkup', { 'rtp': 'vim/' }
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'tomtom/tcomment_vim'
+Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-rhubarb'
+Plug 'tpope/vim-sensible'
+" Plug 'vim-scripts/matchit.zip'
+Plug 'w0rp/ale'
 
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'airblade/vim-gitgutter'
-Plugin 'bling/vim-airline'
-Plugin 'chriskempson/base16-vim'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'danro/rename.vim'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'godlygeek/tabular'
-Plugin 'gorkunov/smartpairs.vim'
-Plugin 'henrik/vim-ruby-runner'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'lilydjwg/colorizer'
-Plugin 'mileszs/ack.vim'
-Plugin 'msanders/snipmate.vim'
-Plugin 'mxw/vim-jsx'
-Plugin 'pangloss/vim-javascript'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'scrooloose/nerdtree'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'tpope/vim-abolish'
-Plugin 'tpope/vim-endwise'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-rhubarb'
-Plugin 'vim-scripts/matchit.zip'
-Plugin 'w0rp/ale'
-
-" All of your Plugins must be added before the following line
-call vundle#end()
-filetype plugin indent on
+call plug#end()
 
 " ┌───────────────────────────────────┐
 " │       Plugins customizations      │

@@ -9,9 +9,8 @@
 Clone this repository into your home directory as `~/.vim` and then install the plugins. Such as:
 
     git clone https://github.com/lucascaton/vimfiles.git ~/.vim
-    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     ln -s ~/.vim/vimrc ~/.vimrc
-    vim +PluginInstall +qall
+    vim +PlugInstall +qall
 
 Copy the `Hack` ([NerdFonts](https://nerdfonts.com/) compatible) font:
 
