@@ -14,6 +14,7 @@ set nocompatible " Unleash all Vim power
 call plug#begin('~/.vim/plugged')
 
 Plug 'airblade/vim-gitgutter'
+Plug 'andymass/vim-matchup'
 Plug 'bling/vim-airline'
 Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -37,7 +38,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-sensible'
-" Plug 'vim-scripts/matchit.zip'
 Plug 'w0rp/ale'
 
 call plug#end()

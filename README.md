@@ -48,7 +48,6 @@ Included fonts:
 | [Colorizer](https://github.com/lilydjwg/colorizer)               | Colorize all text in the form #rrggbb or #rgb                       |                                    |
 | [CtrlP](https://github.com/ctrlpvim/ctrlp.vim)                   | Fuzzy file, buffer, mru, tag, etc. finder                           |                                    |
 | [Fugitive](https://github.com/tpope/vim-fugitive)                | A git wrapper so awesome, it should be illegal                      |                                    |
-| [Matchit.zip](https://github.com/vim-scripts/matchit.zip)        | Extended % matching for HTML, LaTeX, and many other languages       |                                    |
 | [Nerdtree](https://github.com/scrooloose/nerdtree)               | A tree explorer plugin                                              |                                    |
 | [Rename](https://github.com/danro/rename.vim)                    | Basically does a ":saveas <newfile>" then removes the old filename  |                                    |
 | [Rhubarb.vim](https://github.com/tpope/vim-rhubarb)              | GitHub extension for fugitive.vim                                   |                                    |
@@ -64,6 +63,7 @@ Included fonts:
 | [Vim Easymotion](https://github.com/easymotion/vim-easymotion)   | Provides a much simpler way to use some motions in Vim              |                                    |
 | [Vim Endwise](https://github.com/tpope/vim-endwise)              | Wisely add "end" in ruby                                            |                                    |
 | [Vim Gitgutter](https://github.com/airblade/vim-gitgutter)       | Shows a git diff in the gutter (sign column)                        |                                    |
+| [Vim Match-up](https://github.com/andymass/vim-matchup)          | Even better % - navigate and highlight matching words               |                                    |
 | [Vim Rails](https://github.com/tpope/vim-rails)                  | Ruby on Rails power tools                                           |                                    |
 | [Vim Ruby Runner](https://github.com/henrik/vim-ruby-runner)     | Execute Ruby into an output buffer                                  |                                    |
 
