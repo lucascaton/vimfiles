@@ -30,7 +30,7 @@ Plug 'msanders/snipmate.vim'
 Plug 'mxw/vim-jsx', { 'for': 'jsx' }
 Plug 'pangloss/vim-javascript'
 Plug 'rstacruz/sparkup', { 'rtp': 'vim/' }
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-endwise'
