@@ -304,9 +304,14 @@ function ConvertRubyHashSyntax()
 
 nnoremap <leader>h :call ConvertRubyHashSyntax()<cr>
 
-" Bind \ (backward slash) to Ag shortcut
-nnoremap \ :Ack -i<SPACE>
-nnoremap \i :Ack<SPACE>
+" Global Search (Ack/Ag) shortcut
+if has("macunix") " macOS
+  " Cmd + Shift + F
+  nnoremap <D-F> :Ack -i<SPACE>
+else
+  " Ctrl + Shift + F
+  nnoremap <C-F> :Ack -i<SPACE>
+endif
 
 " Bind K to search for the word under cursor
 nnoremap K :Ack "\b<C-R><C-W>\b"<CR>:cw<CR>
