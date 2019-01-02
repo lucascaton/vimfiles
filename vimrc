@@ -253,6 +253,14 @@ map! <leader>= :call TrimWhiteSpace()<CR>
 " Removes trailing spaces before saving
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Add `{:target='_blank'}` to MarkDown links
+function AddTargetBlankToMarkDownLiks()
+  %s/\(\[.\+\](.\{-})\)/\1{:target='_blank'}/gc
+  ''
+:endfunction
+
+map <leader>l :call AddTargetBlankToMarkDownLiks()<CR>
+
 " Sets file types
 map  <leader><leader>c :set ft=css<CR>
 map  <leader><leader>C :set ft=coffee<CR>
