@@ -145,6 +145,9 @@ autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 " Disables balloonexpr - more info: https://github.com/w0rp/ale/issues/1669
 autocmd FileType ruby,eruby set noballooneval
 
+" Set text width for MarkDown files
+autocmd FileType markdown set textwidth=80
+
 " Autoindent with two spaces, always expand tabs
 set tabstop=2
 set shiftwidth=2
