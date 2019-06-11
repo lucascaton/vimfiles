@@ -16,16 +16,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'andymass/vim-matchup'
 Plug 'bling/vim-airline'
-
-" Plug 'chriskempson/base16-vim'
-" 2019-02-19 - Temporarily use fork of base16-vim which fixes an issue with
-" Vim 8.1.0887 and newer. When a change is landed, then revert back to
-" canonical repo.
-"
-" Issue https://github.com/chriskempson/base16-vim/issues/197
-" Pull Request https://github.com/chriskempson/base16-vim/pull/198
-Plug 'danielwe/base16-vim'
-
+Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'danro/rename.vim'
 Plug 'easymotion/vim-easymotion'
